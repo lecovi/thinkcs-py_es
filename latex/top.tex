@@ -1,4 +1,7 @@
-% LaTeX source for the spanish traslation of the textbook ``How to think like a computer scientist''
+% !TEX TS-program = xelatex
+
+% LaTeX source for the spanish traslation of the textbook ``How to think like a 
+% computer scientist''
 % Copyright (c)  2001,2002  Allen B. Downey.
 % Traslation completed by
 % Andrés Becerra Sandoval
@@ -19,13 +22,33 @@
 % Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 %
 
-\documentclass[letter,10pt]{book}
-\usepackage[spanish]{babel}
+\documentclass[a4paper, 11pt]{book}
+%\usepackage[spanish]{babel}   % Not needed using polyglossia in lecv.tex
 \usepackage{fancyhdr}
-\usepackage{graphicx}
+%\usepackage{graphicx}         % Not needed, already loaded in lecv.tex
 \usepackage{makeidx}
 \usepackage{ucs}
-\usepackage[utf8x]{inputenc}
+%\usepackage[utf8x]{inputenc}  % Not needed with XeLaTeX
+
+\label{MY_PACKAGES}
+\input{sty/lecv}
+\input{sty/mintedopt}
+
+%\label{MY_VARS}
+%\def\AutorPrefijo{Prof.}
+%\def\AutorNombre{Leandro E.}
+%\def\AutorApellido{Colombo Viña}
+%\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
+%\def\AutorURL{http://leo.bitson.com.ar/}
+%\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
+%\def\AutorCargo{Profesor en Disciplinas Industriales - Técnico Superior en 
+%Informática Aplicada}
+%
+%\def\Title{Aprenda a pensar como un programador con Python}
+%\def\PDFSubject{Adaptación de la traducción de la 2da edición}
+%
+%\def\Fecha{13 de febrero de 2016}
+%\def\Lugar{Ciudad Autónoma de Buenos Aires}
 %\pssilent
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
