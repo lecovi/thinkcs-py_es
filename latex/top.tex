@@ -30,25 +30,25 @@
 \usepackage{ucs}
 %\usepackage[utf8x]{inputenc}  % Not needed with XeLaTeX
 
+\label{MY_VARS}
+\def\AutorPrefijo{Prof.}
+\def\AutorNombre{Leandro E.}
+\def\AutorApellido{Colombo Viña}
+\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
+\def\AutorURL{http://leo.bitson.com.ar/}
+\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
+\def\AutorCargo{Profesor en Disciplinas Industriales - Técnico Superior en 
+Informática Aplicada}
+
+\def\Title{Aprenda a pensar como un programador con Python 3}
+\def\PDFSubject{Adaptación de la traducción de la 2da edición}
+
+\def\Fecha{13 de febrero de 2016}
+\def\Lugar{Ciudad Autónoma de Buenos Aires}
+
 \label{MY_PACKAGES}
 \input{sty/lecv}
 \input{sty/mintedopt}
-
-%\label{MY_VARS}
-%\def\AutorPrefijo{Prof.}
-%\def\AutorNombre{Leandro E.}
-%\def\AutorApellido{Colombo Viña}
-%\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
-%\def\AutorURL{http://leo.bitson.com.ar/}
-%\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
-%\def\AutorCargo{Profesor en Disciplinas Industriales - Técnico Superior en 
-%Informática Aplicada}
-%
-%\def\Title{Aprenda a pensar como un programador con Python}
-%\def\PDFSubject{Adaptación de la traducción de la 2da edición}
-%
-%\def\Fecha{13 de febrero de 2016}
-%\def\Lugar{Ciudad Autónoma de Buenos Aires}
 %\pssilent
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,9 +140,9 @@
 
 \begin{flushright}
 \vspace*{2.5in}
-{\huge Como Pensar como un Científico de la Computación}
+{\huge Aprenda a pensar como un programador}
 \vspace{0.25in}
-{\LARGE con Python}
+{\LARGE con Python 3}
 \vfill
 \end{flushright}
 
@@ -158,9 +158,9 @@
 
 \begin{flushright}
 \vspace*{2.5in}
-{\huge Como Pensar como un Científico de la Computación}
+{\huge How to think like a computer scientist}
 \vspace{0.25in}
-{\LARGE con Python}
+{\LARGE with Python}
 \vspace{0.5in}
 \author{Allen Downey, Jeffrey Elkner y Chris Meyers}
 
@@ -173,13 +173,15 @@ Chris Meyers\\
 \vspace{.25in}
 
 {\small
-Traducido y adaptado por\\
+Adaptación y actualización a Python 3.5 por el\\
+\AutorNombreCompleto\\
+basado en el trabajo de traducción y adaptación de\\
 Andrés Becerra Sandoval \\
 }
 
 \vspace{0.5in}
-{\Large Pontificia Universidad Javeriana} \\
-{\small Santiago de Cali, Colombia}
+%{\Large Pontificia Universidad Javeriana} \\
+%{\small Santiago de Cali, Colombia}
 %\includegraphics{illustrations/logo1.eps,width=1in}
 \vfill
 \end{flushright}
@@ -190,16 +192,16 @@ Andrés Becerra Sandoval \\
 \thispagestyle{empty}
 Copyright \copyright ~2002 Allen Downey, Jeffrey Elkner, y Chris Meyers.
 \vspace{0.25in}
-%Corregido por Shannon Turlington y Lisa Cutler.
-%Diseño de la cubierta por Rebecca Gimenez.
+Corregido por Shannon Turlington y Lisa Cutler.
+Diseño de la cubierta por Rebecca Gimenez.
 
 \vspace{0.25in}
 
 \begin{flushleft}
-Pontificia Universidad Javeriana \\
-Calle 18 No. 118-250 \\
-A.A. No.  26239 \\
-Cali, Colombia \\
+%Pontificia Universidad Javeriana \\
+%Calle 18 No. 118-250 \\
+%A.A. No.  26239 \\
+%Cali, Colombia \\
 %Green Tea Press       \\
 %1 Grove St.           \\
 %P.O. Box 812901       \\
@@ -211,40 +213,40 @@ Cali, Colombia \\
 Se concede permiso para copiar, distribuir, y/o modificar este documento bajo
 los terminos de la GNU Free Documentation License, Versión 1.1 o cualquier
 versión posterior publicada por la Free Software Foundation; manteniendo 
-sin variaciones las secciones ``Prólogo,'' ``Prefacio,'' y ``Lista de contribuidores,''
-sin texto de cubierta, y sin texto de contracubierta. Una copia de la licencia
-está incluida en el apéndice titulado ``GNU Free Documentation License'' y una 
-traducción de ésta al español en el apéndice titulado Licencia de Documentación Libre de GNU
+sin variaciones las secciones ``Prólogo,'' ``Prefacio,'' y ``Lista de 
+contribuidores,''sin texto de cubierta, y sin texto de contracubierta. Una 
+copia de la licencia está incluida en el apéndice titulado ``GNU Free 
+Documentation License'' y una traducción de ésta al español en el apéndice 
+titulado Licencia de Documentación Libre de GNU
 
-La GNU Free Documentation License está disponible a través de \texttt{www.gnu.org}
+La GNU Free Documentation License está disponible a través de \url{www.gnu.org}
 o escribiendo a la Free Software Foundation, Inc., 59 Temple Place,
 Suite 330, Boston, MA 02111-1307, USA.
 
 La forma original de este libro es código fuente \LaTeX\  y compilarlo
-tiene el efecto de generar un libro de texto en una 
-repesentacion independiente del dispositivo que puede ser convertida a otros 
-formatos e imprimirse.
+tiene el efecto de generar un libro de texto en una repesentacion independiente 
+del dispositivo que puede ser convertida a otros formatos e imprimirse.
 
 El código  fuente \LaTeX\  para este libro y mas información sobre este proyecto
 se encuentra en:
 
-\begin{verbatim}
-      http://www.thinkpython.com
-\end{verbatim}
+\begin{center}
+      \url{http://www.thinkpython.com}
+\end{center}
 
 Este libro ha sido preparado utilizando \LaTeX\ y las figuras
-se han realizado con xfig.  Todos estos son programas de código
-abierto, gratuito.
+se han realizado con xfig.  Todos estos son programas de código abierto, 
+gratuito.
 
 \vspace{0.25in}
 
 Historia de la impresión:
 
-%\begin{description}
-%\item[Abril 2002:] Primera edición.
-%\end{description}
+\begin{description}
+\item[Abril 2002:] Primera edición.
+\end{description}
 
-%ISBN 0-9716775-0-6
+ISBN 0-9716775-0-6
 
 \begin{verbatim}
 

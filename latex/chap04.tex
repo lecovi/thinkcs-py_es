@@ -25,16 +25,17 @@ En Python este operador es un signo porcentaje ({\tt\%}).
 La sintaxis es la misma que para los otros operadores:
 
 \beforeverb
-\begin{verbatim}
+\begin{pyconcode}
 >>> cociente = 7 / 3
->>> print cociente
+>>> print(cociente)
 2
 >>> residuo = 7 % 3
->>> print residuo
+>>> print(residuo)
 1
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
+
 Así que 7 dividido por 3 da 2 con residuo 1.
 
 El operador residuo resulta ser sorprendentemente útil. Por ejemplo,
@@ -61,18 +62,18 @@ los computadores modernos.
 
 Sólo hay dos valores booleanos: True (cierto) y False (falso). Las mayúsculas importan, ya que true y false no son valores booleanos.
 
-
 El operador \texttt{==} compara dos valores y produce una expresión  booleana:
 
 \beforeverb
-\begin{verbatim}
+\begin{pyconcode}
 >>> 5 == 5
 True
 >>> 5 == 6
 False
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
+
 En la primera sentencia, los dos operandos son iguales, así que la expresión
 evalúa a True (cierto); en la segunda sentencia, 5 no es igual a 6, así que
 obtenemos False (falso).
@@ -90,6 +91,7 @@ otros son:
 \end{verbatim}
 \afterverb
 %
+
 Aunque estas operaciones probablemente son familiares para usted, los
 símbolos en Python difieren de los matemáticos. Un error común consiste
 en usar un solo signo igual (\texttt{=}) en lugar en un doble signo igual
@@ -102,10 +104,9 @@ no existen los signos \texttt{=<} o \texttt{=>}.
 \index{operadores lógicos}
 \index{operador!lógicos}
 
-Hay tres  {\bf operadores lógicos}: \texttt{and}, {\tt
-or} y \texttt{not}.  La semántica (el significado) de ellos es similar
-a su significado en inglés.  Por ejemplo,
-\texttt{x>0 and x<10} es cierto, sólo si  \texttt{x} es mayor a cero
+Hay tres  {\bf operadores lógicos}: \texttt{and}, {\tt or} y \texttt{not}.  La 
+semántica (el significado) de ellos es similar a su significado en inglés.  Por 
+ejemplo, \texttt{x>0 and x<10} es cierto, sólo si  \texttt{x} es mayor a cero
 {\em y} menor que 10.
 
 \texttt{n\%2 == 0 or n\%3 == 0} es cierto si {\em alguna} de las condiciones
@@ -120,19 +121,18 @@ expresiones booleanas, pero Python no es muy formal. Cualquier
 número diferente de cero se interpreta como ``cierto.''
 
 \beforeverb
-\begin{verbatim}
+\begin{pyconcode}
 >>>  x = 5
 >>>  x and 1
 1
 >>>  y = 0
 >>>  y and 1
 0
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
 En general, esto no se considera un buen estilo de programación.
 Si usted desea comparar un valor con cero, procure codificarlo explícitamente.
-
 
 \section{Ejecución condicional}
 \label{alternative execution}
@@ -145,12 +145,13 @@ consecuencia. Las {\bf sentencias condicionales} nos dan este poder. La
  más simple es la sentencia \texttt{if}:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if x > 0:
-  print "x es positivo"
-\end{verbatim}
+  print("x es positivo")
+\end{pythoncode}
 \afterverb
 %
+
 La expresión después de la sentencia \texttt{if} se denomina
 la {\bf condición}.  Si es cierta, la sentencia de abajo se
 ejecuta. Si no lo es, no pasa nada.
@@ -165,14 +166,15 @@ Como otras sentencias compuestas, la sentencia \texttt{if}
 comprende una cabecera y un bloque de sentencias:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 CABECERA:
   PRIMERA SENTENCIA
   ...
   ULTIMA SENTENCIA
-\end{verbatim}
+\end{pythoncode}
 \afterverb
 %
+
 La cabecera comienza en una nueva línea y termina con dos puntos
 seguidos (:).  Las sentencias sangradas o indentadas que
 vienen a continuación se denominan el {\bf bloque}.
@@ -198,17 +200,17 @@ usar la sentencia  \texttt{pass}, que no hace nada.
 \section{Ejecución alternativa}
 \label{alternative execution}
 
-Una segunda forma de sentencia  \texttt{if} es la ejecución alternativa
+Una segunda forma de sentencia \texttt{if} es la ejecución alternativa
 en la que hay dos posibilidades y la condición determina cual de ellas
 se ejecuta. La sintaxis luce así:
 
 \beforeverb
-\begin{verbatim}
-if x%2 == 0:
-  print x, "es par"
+\begin{pythoncode}
+if x % 2 == 0:
+  print(x, "es par")
 else:
-  print x, "es impar"
-\end{verbatim}
+  print(x, "es impar")
+\end{pythoncode}
 \afterverb
 %
 
@@ -226,55 +228,54 @@ Yéndonos ``por las ramas'', si usted necesita chequear la paridad
 el código anterior en una función:
 
 \beforeverb
-\begin{verbatim}
-def imprimirParidad(x):
-  if x%2 == 0:
-    print x, "es par"
+\begin{pythoncode}
+def imprimir_paridad(x):
+  if x % 2 == 0:
+    print(x, "es par")
   else:
-    print x, "es impar"
-\end{verbatim}
+    print(x, "es impar")
+\end{pythoncode}
 \afterverb
 %
-Para cualquier valor de \texttt{x}, \texttt{imprimirParidad} despliega
+
+Para cualquier valor de \texttt{x}, \texttt{imprimir\_paridad} despliega
 un mensaje apropiado. Cuando se llama la función, se le puede pasar
 cualquier expresión entera como argumento.
 
 \beforeverb
-\begin{verbatim}
->>> imprimirParidad(17)
->>> imprimirParidad(y+1)
-\end{verbatim}
+\begin{pyconcode}
+>>> imprimir_paridad(17)
+>>> imprimir_paridad(y + 1)
+\end{pyconcode}
 \afterverb
 %
-
 
 \section{Condicionales encadenados}
 \index{condicional encadenados}
 \index{condicional!encadenados}
 
 Algunas veces hay más de dos posibilidades y necesitamos más de dos 
-ramas. Una forma de expresar un cálculo así es un  {\bf
- condicional encadenado}:
+ramas. Una forma de expresar un cálculo así es un  {\bf condicional encadenado}:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if x < y:
-  print x, "es menor que", y
+  print(x, "es menor que", y)
 elif x > y:
-  print x, "es mayor que", y
+  print(x, "es mayor que", y)
 else:
-  print x, "y", y, "son iguales"
-\end{verbatim}
+  print(x, "y", y, "son iguales")
+\end{pythoncode}
 \afterverb
 %
-\texttt{elif} es una abreviatura de ``else if.''  De nuevo, exactamente
-una de las ramas se ejecutará. No hay límite en el número de 
- sentencias \texttt{elif}, pero la última rama tiene que ser una sentencia \texttt{else}:
 
+\texttt{elif} es una abreviatura de \textit{``else if''}. De nuevo, exactamente
+una de las ramas se ejecutará. No hay límite en el número de sentencias 
+\texttt{elif}, pero la última rama tiene que ser una sentencia \texttt{else}:
 
 \adjustpage{3}
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if eleccion == 'A':
   funcionA()
 elif eleccion == 'B':
@@ -283,9 +284,10 @@ elif eleccion == 'C':
   funcionC()
 else:
   print "Eleccion incorrecta."
-\end{verbatim}
+\end{pythoncode}
 \afterverb
 %
+
 Cada condición se chequea en orden. Si la primera es falsa,
 se chequea la siguiente, y así sucesivamente. Si una de ellas
 es cierta, se ejecuta la rama correspondiente y la sentencia
@@ -299,65 +301,68 @@ Un condicional también se puede anidar dentro de otro. La tricotomía
 anterior se puede escribir así:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if x == y:
-  print x, "y", y, "son iguales"
+  print(x, "y", y, "son iguales")
 else:
   if x < y:
-    print x, "es menor que", y
+    print(x, "es menor que", y)
   else:
-    print x, "es mayor que", y
-\end{verbatim}
+    print(x, "es mayor que", y)
+\end{pythoncode}
 \afterverb
 %
-El condicional externo contiene dos ramas: la primera 
-contiene una sentencia de salida sencilla, la segunda 
-contiene otra sentencia  \texttt{if}, que tiene dos ramas propias.
-Esas dos ramas son sentencias de impresión, aunque también podrían 
-ser sentencias condicionales.
 
-Aunque la indentación o sangrado de las sentencias sugiere la
-estructura, los condicionales anidados rápidamente se hacen difíciles de leer. 
- En general, es una buena idea evitarlos cada vez que se pueda.
+El condicional externo contiene dos ramas: la primera contiene una sentencia de 
+salida sencilla, la segunda contiene otra sentencia  \texttt{if}, que tiene dos 
+ramas propias.Esas dos ramas son sentencias de impresión, aunque también 
+podrían ser sentencias condicionales.
+
+Aunque la indentación o sangrado de las sentencias sugiere la estructura, los 
+condicionales anidados rápidamente se hacen difíciles de leer. En general, es 
+una buena idea evitarlos cada vez que se pueda.
 
 Los operadores lógicos proporcionan formas de simplificar las sentencias
 condicionales anidadas. Por ejemplo, podemos reescribir el siguiente
 código usando un solo condicional:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if 0 < x:
   if x < 10:
-    print "x es un digito positivo."
-\end{verbatim}
+    print("x es un digito positivo.")
+\end{pythoncode}
 \afterverb
 %
-La sentencia \texttt{print} se ejecuta solamente si
+
+La función \texttt{print} se ejecuta solamente si
 el flujo de ejecución ha pasado las dos condiciones, así que
 podemos usar el operador \texttt{and}:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if 0 < x and x < 10:
-  print "x es un digito positivo."
-\end{verbatim}
+  print("x es un digito positivo.")
+\end{pythoncode}
 \afterverb
 %
+
 Esta clase de condiciones es muy común, por esta razón Python proporciona
 una sintaxis alternativa que es similar a la notación matemática:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 if 0 < x < 10:
-  print "x es un digito positivo"
-\end{verbatim}
+  print("x es un digito positivo")
+\end{pythoncode}
 \afterverb
 %
+
 Desde el punto de vista semántico ésta condición es la misma
 que la expresión compuesta y que el condicional anidado.
 
 
-\section{La  sentencia \texttt{return} }
+\section{La  sentencia {\tt return} }
 \index{sentencia return}
 \index{sentencia!return}
 
@@ -366,20 +371,21 @@ antes de llegar al final. Una razón para usarla es reaccionar a una
 condición de error:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 import math
 
-def imprimirLogaritmo(x):
+def imprimir_logaritmo(x):
   if x <= 0:
     print "Numeros positivos solamente. Por favor"
     return
 
   result = math.log(x)
   print "El logaritmo de ",  x ," es ", result
-\end{verbatim}
+\end{pythoncode}
 \afterverb
 %
-La función \texttt{imprimirLogaritmo} toma un parámetro
+
+La función \texttt{imprimir\_logaritmo} toma un parámetro
 denominado \texttt{x}.  Lo primero que hace es chequear si 
 \texttt{x} es menor o igual a 0, caso en el que despliega un 
 mensaje de error y luego usa a \texttt{return} para salir de la función.
@@ -395,24 +401,26 @@ hay que importarlo previamente.
 \index{recursión}
 
 Hemos mencionado que es legal que una función llame a otra, y usted
- ha visto varios ejemplos así. Hemos olvidado mencionar el hecho de 
+ha visto varios ejemplos así. Hemos olvidado mencionar el hecho de 
 que una función también puede llamarse a sí misma. Al principio no parece
 algo útil, pero resulta ser una de las capacidades más interesantes y
 mágicas que un programa puede tener. Por ejemplo, observe la siguiente
 función:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 def conteo(n):
   if n == 0:
-    print "Despegue!"
+    print("Despegue!")
   else:
     print n
     conteo(n-1)
-\end{verbatim}
+\end{pythoncode}
 \afterverb
 %
-\texttt{conteo} espera que el parámetro \texttt{n} sea un número entero positivo.
+
+\texttt{conteo} espera que el parámetro \texttt{n} sea un número entero 
+positivo.
 Si  \texttt{n} es 0, despliega la cadena, ``Despegue!''.
 Si no lo es, despliega  \texttt{n} y luego llama a la función llamada
 \texttt{conteo}---ella misma---pasando a  \texttt{n-1} como argumento.
@@ -425,77 +433,81 @@ Analizemos lo que sucede si llamamos a esta función así:
 \end{verbatim}
 \afterverb
 %
-La ejecución de \texttt{conteo} comienza con \texttt{n=3}, y como
+La ejecución de \texttt{conteo} comienza con \texttt{n = 3}, y como
 \texttt{n} no es  0, despliega el valor 3, y se llama a sí misma ...
 
 \begin{quote}
-La ejecución de \texttt{conteo} comienza con \texttt{n=2}, y como
-\texttt{n} no es 0, despliega el valor 2, y se llama a si misma ...
-
-\begin{quote}
-La ejecución de \texttt{conteo} comienza con \texttt{n=1}, y como
-\texttt{n} no es 0, despliega el valor 1, y se llama a sí misma ...
-
-\begin{quote}
-La ejecución de \texttt{conteo} comienza con \texttt{n=0}, y como
-\texttt{n} es 0, despliega la cadena ``Despegue!'' y retorna (finaliza).
+	La ejecución de \texttt{conteo} comienza con \texttt{n = 2}, y como
+	\texttt{n} no es 0, despliega el valor 2, y se llama a si misma ...
+	
+	\begin{quote}
+		La ejecución de \texttt{conteo} comienza con \texttt{n = 1}, y como
+		\texttt{n} no es 0, despliega el valor 1, y se llama a sí misma ...
+		
+		\begin{quote}
+			La ejecución de \texttt{conteo} comienza con \texttt{n = 0}, y como
+			\texttt{n} es 0, despliega la cadena ``Despegue!'' y retorna 
+			(finaliza).
+		\end{quote}
+		
+		El  \texttt{conteo} que recibió \texttt{n = 1} retorna.
+	\end{quote}
+	
+	El \texttt{conteo} que recibió \texttt{n = 2} retorna.
 \end{quote}
 
-El  \texttt{conteo} que recibió \texttt{n=1} retorna.
-\end{quote}
-
-El  \texttt{conteo} que recibió \texttt{n=2} retorna.
-\end{quote}
-
-El  \texttt{conteo} que recibió \texttt{n=3} retorna.
+El \texttt{conteo} que recibió \texttt{n = 3} retorna.
 
 Y  el flujo de ejecución regresa a \texttt{\_\_main\_\_} (vaya viaje!).  Así que, la 
 salida total luce así:
 
 \beforeverb
-\begin{verbatim}
+\begin{pyconcode}
 3
 2
 1
 Despegue!
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
-Como otro ejemplo, utilizaremos nuevamente las funciones \texttt{nuevaLinea} y
-\texttt{tresLineas}:
+
+Como otro ejemplo, utilizaremos nuevamente las funciones \texttt{nueva\_linea} y
+\texttt{tres\_lineas}:
 
 \beforeverb
 \begin{verbatim}
-def nuevalinea():
-  print
+def nueva_linea():
+  print()
 
-def tresLineas():
-  nuevaLinea()
-  nuevaLinea()
-  nuevaLinea()
+def tres_lineas():
+  nueva_linea()
+  nueva_linea()
+  nueva_linea()
 \end{verbatim}
 \afterverb
 %
+
 Este trabajo no sería de mucha ayuda si quisiéramos desplegar 2 líneas o 106.
 Una mejor alternativa sería:
 
 \beforeverb
-\begin{verbatim}
-def nLineas(n):
+\begin{pythoncode}
+def n_lineas(n):
   if n > 0:
-    print
-    nLineas(n-1)
-\end{verbatim}
+    print()
+    n_lineas(n-1)
+\end{pythoncode}
 \afterverb
 %
+
 Esta función es similar a \texttt{conteo}; en tanto \texttt{n} sea 
 mayor a 0, despliega una nueva línea y luego se llama a sí misma
 para desplegar \texttt{n-1} líneas adicionales.  Así, el número total de
-nuevas líneas es \texttt{1 + (n - 1)} que, si usted verifica con álgebra, resulta
-ser \texttt{n}.
+nuevas líneas es \texttt{1 + (n - 1)} que, si usted verifica con álgebra, 
+resulta ser \texttt{n}.
 
-El proceso por el cual una función se llama a sí misma es la 
- {\bf recursión}, y se dice que estas funciones son recursivas.
+El proceso por el cual una función se llama a sí misma es la {\bf recursión}, y 
+se dice que estas funciones son recursivas.
 
 \index{recursión}
 \index{función!recursiva}
@@ -523,19 +535,15 @@ Este es el diagrama de pila para \texttt{conteo} llamado con \texttt{n = 3}:
 \afterfig
 
 Como siempre, el tope de la pila es el marco para \texttt{\_\_main\_\_}.
-Está vacío porque no creamos ninguna variable en {\tt
-\_\_main\_\_} ni le pasamos parámetros.
+Está vacío porque no creamos ninguna variable en {\tt \_\_main\_\_} ni le 
+pasamos parámetros.
 
 Los cuatro marcos de \texttt{conteo} tienen diferentes valores para
 el parámetro \texttt{n}. El fondo de la pila, donde  \texttt{n=0}, se denomina
-el {\bf caso base }.  Como no hace una llamada recursiva, no hay mas
-marcos.
-
-
+el {\bf caso base }.  Como no hace una llamada recursiva, no hay mas marcos.
 
 \index{case base}
 \index{recursión!caso base}
-
 
 \section{Recursión infinita}
 \index{recursión infinita}
@@ -544,37 +552,36 @@ marcos.
 \index{error!de tiempo de ejecución}
 \index{trazado inverso}
 
-Si una función recursiva nunca alcanza un caso base va a hacer llamados recursivos por
-siempre y el programa nunca termina. Esto se conoce como {\bf recursión infinita}, y, 
-generalmente, no se considera una buena idea. Aquí hay un programa minimalista
-con recursión infinita:
+Si una función recursiva nunca alcanza un caso base va a hacer llamados 
+recursivos por siempre y el programa nunca termina. Esto se conoce como {\bf 
+recursión infinita}, y, generalmente, no se considera una buena idea. Aquí hay 
+un programa minimalista con recursión infinita:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 def recurrir():
   recurrir()
-\end{verbatim}
+\end{pythoncode}
 \afterverb
 %
+
 En la mayoría de ambientes de programación un programa con recursión 
 infinita no corre realmente para siempre. Python reporta un mensaje de error
 cuando alcanza la máxima profundidad de recursión:
 
 \beforeverb
-\begin{verbatim}
+\begin{pyconcode}
   File "<stdin>", line 2, in recurrir
-  (98 repeticiones omitidas)
+  ...
   File "<stdin>", line 2, in recurrir
 RuntimeError: Maximum recursion depth exceeded
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
+
 Este trazado inverso es un poco más grande que el que vimos en el 
 capítulo anterior. Cuando se presenta el error, ¡hay más de
 100 marcos de \texttt{recurrir} en la pila!.
-
-
-
 
 \section{Entrada por el teclado}
 
@@ -582,173 +589,182 @@ Los programas que hemos escrito son un poco toscos ya que no aceptan
 entrada de un usuario. Sólo hacen la misma operación todo el tiempo.
 
 Python proporciona funciones primitivas que obtienen entrada desde el 
-teclado. La más sencilla se llama \texttt{raw\_input}. Cuando esta función
+teclado. La más sencilla se llama \texttt{input}. Cuando esta función
 se llama el programa se detiene y espera a que el usuario digite algo.
-Cuando el usuario digita la tecla Enter o Intro, el programa retoma
-la ejecución y \texttt{raw\_input} retorna lo que el usuario digitó
+Cuando el usuario digita la tecla \texttt{Enter}, el programa retoma
+la ejecución y la función \texttt{input} retorna lo que el usuario digitó
 como una cadena (\texttt{string}):
 
 \beforeverb
 \begin{verbatim}
->>> entrada = raw_input ()
+>>> entrada = input ()
 Que esta esperando?
->>> print entrada
+>>> print(entrada)
 Que esta esperando?
 \end{verbatim}
 \afterverb
 %
-Antes de llamar a  \texttt{raw\_input} es una muy buena idea desplegar
+
+Antes de llamar a  \texttt{input} es una muy buena idea desplegar
 un mensaje diciéndole al usuario qué digitar. Este mensaje se denomina
-indicador de entrada  ({\bf prompt}  en inglés).  
-Podemos dar un argumento prompt a  \texttt{raw\_input}:
+indicador de entrada ({\bf prompt} en inglés).  
+Podemos dar un argumento prompt a \texttt{input}:
 
 \index{prompt}
 
 \beforeverb
-\begin{verbatim}
->>> nombre = raw_input ("Cual es tu nombre? ")
+\begin{pyconcode}
+>>> nombre = input("Cual es tu nombre? ")
 Cual es tu nombre? Arturo, Rey de los Bretones!
->>> print nombre
+>>> print(nombre)
 Arturo, Rey de los Bretones!
-\end{verbatim}
+\end{pyconcode}
 \afterverb
 %
-Si esperamos que la respuesta sea un entero, podemos usar la función \texttt{input}:
+
+Si esperamos que la respuesta sea un entero, tenemos que usar la función 
+\texttt{int} para convertir explícitamente lo que nos devuelve \texttt{input}:
 
 \beforeverb
-\begin{verbatim}
+\begin{pythoncode}
 prompt = "¿Cual es la velocidad de una golondrina sin carga?\n"
-velocidad = input(prompt)
-\end{verbatim}
+velocidad = int(input(prompt))
+\end{pythoncode}
 \afterverb
 %
+
 Si el usuario digita una cadena de dígitos, éstos se convierten
-a un entero que se asigna a \texttt{velocidad}.  Desafortunadamente, si el usuario
-digita un carácter que no sea un dígito, el programa se aborta:
+a un entero que se asigna a \texttt{velocidad}.  Desafortunadamente, si el 
+usuario digita un carácter que no sea un dígito, el programa se aborta:
 
 \beforeverb
-\begin{verbatim}
->>> velocidad = input (prompt)
-prompt = "¿Cual es la velocidad una golondrina sin carga?\n"
+\begin{pyconcode}
+>>> prompt = "¿Cual es la velocidad una golondrina sin carga?\n"
+>>> velocidad = input(prompt)
+¿Cual es la velocidad una golondrina sin carga?
 ¿Que quiere decir, una golondria Africana o Europea?
-SyntaxError: invalid syntax
-\end{verbatim}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '¿Que quiere decir, una 
+golondria Africana o Europea?'
+\end{pyconcode}
 \afterverb
 %
-Para evitar este error, es una buena idea usar \texttt{raw\_input} para obtener
-una cadena y las funciones de  conversión para transformarla en otros tipos.
-
 
 \section{Glosario}
 
 \begin{description}
-
-\item[Operador residuo:]  operador que se denota con un  signo porcentaje
-(\texttt{\%}), y trabaja sobre enteros produciendo el residuo de un número al 
-dividirlo por otro.
-
-\item[Expresión booleana:]  expresión cierta o falsa.
-
-\item[Operador de comparación:] uno de los operadores que compara dos 
-valores: 
-\texttt{==}, \texttt{!=}, \texttt{>}, \texttt{<}, \texttt{>=}, y \texttt{<=}.
-
-\item[Operador lógico:] uno de los operadores que combina
-expresiones booleanas: \texttt{and}, \texttt{or}, y \texttt{not}.
-
-\item[Sentencia condicional:]  sentencia que controla el flujo
-de ejecución dependiendo de alguna  condición.
-
-\item[Condición:] la expresión booleana en una sentencia condicional 
-que determina que rama se ejecuta.
-
-\item[Sentencia compuesta:]  es la sentencia que comprende una
-cabecera y un cuerpo. La cabecera termina con dos puntos seguidos (:). 
-El cuerpo se sangra o indenta con respecto a la cabecera.
-
-\item[Bloque:] grupo de sentencias consecutivas con la misma
-indentación.
-
-\item[Cuerpo:] el bloque, en una sentencia compuesta, que va 
-después de la cabecera.
-
-\item[Anidamiento:]  situación en la que hay una estructura dentro de otra,
-tal como una sentencia  condicional dentro de una rama
-de otra sentencia condicional.
-
-\item[Recursión:]  es el proceso de llamar la función que se está
-ejecutando actualmente.
-
-\item[Caso base:]  corresponde a una rama de la sentencia  condicional dentro 
-de una función recursiva, que no hace un llamado recursivo.
-
-\item[Recursión infinita:]  función que se llama a sí misma
-recursivamente sin alcanzar nunca el caso base. En Python una 
-recursión infinita eventualmente causa un error en tiempo de
-ejecución.
-
-\item[Prompt (indicador de entrada):]  una pista visual que le indica al usuario que
-digite alguna información.
-
-\index{operador residuo}
-\index{expresión booleana}
-\index{expresión!booleana}
-\index{sentencia condicional }
-\index{sentencia!condicional}
-\index{condición}
-\index{sentencia compuesta}
-\index{rama}
-\index{cuerpo}
-\index{bloque}
-\index{anidamiento}
-\index{recursión}
-\index{caso base}
-\index{recursión infinita}
-\index{prompt}
-
+	\item[Operador residuo:]  operador que se denota con un  signo porcentaje
+	(\texttt{\%}), y trabaja sobre enteros produciendo el residuo de un número 
+	al 
+	dividirlo por otro.
+	
+	\item[Expresión booleana:]  expresión cierta o falsa.
+	
+	\item[Operador de comparación:] uno de los operadores que compara dos 
+	valores: 
+	\texttt{==}, \texttt{!=}, \texttt{>}, \texttt{<}, \texttt{>=}, y 
+	\texttt{<=}.
+	
+	\item[Operador lógico:] uno de los operadores que combina
+	expresiones booleanas: \texttt{and}, \texttt{or}, y \texttt{not}.
+	
+	\item[Sentencia condicional:]  sentencia que controla el flujo
+	de ejecución dependiendo de alguna  condición.
+	
+	\item[Condición:] la expresión booleana en una sentencia condicional 
+	que determina que rama se ejecuta.
+	
+	\item[Sentencia compuesta:]  es la sentencia que comprende una
+	cabecera y un cuerpo. La cabecera termina con dos puntos seguidos (:). 
+	El cuerpo se sangra o indenta con respecto a la cabecera.
+	
+	\item[Bloque:] grupo de sentencias consecutivas con la misma
+	indentación.
+	
+	\item[Cuerpo:] el bloque, en una sentencia compuesta, que va 
+	después de la cabecera.
+	
+	\item[Anidamiento:]  situación en la que hay una estructura dentro de otra,
+	tal como una sentencia  condicional dentro de una rama
+	de otra sentencia condicional.
+	
+	\item[Recursión:]  es el proceso de llamar la función que se está
+	ejecutando actualmente.
+	
+	\item[Caso base:]  corresponde a una rama de la sentencia  condicional 
+	dentro 
+	de una función recursiva, que no hace un llamado recursivo.
+	
+	\item[Recursión infinita:]  función que se llama a sí misma
+	recursivamente sin alcanzar nunca el caso base. En Python una 
+	recursión infinita eventualmente causa un error en tiempo de
+	ejecución.
+	
+	\item[Prompt (indicador de entrada):]  una pista visual que le indica al 
+	usuario que
+	digite alguna información.
+	
+	\index{operador residuo}
+	\index{expresión booleana}
+	\index{expresión!booleana}
+	\index{sentencia condicional }
+	\index{sentencia!condicional}
+	\index{condición}
+	\index{sentencia compuesta}
+	\index{rama}
+	\index{cuerpo}
+	\index{bloque}
+	\index{anidamiento}
+	\index{recursión}
+	\index{caso base}
+	\index{recursión infinita}
+	\index{prompt}
 \end{description}
 
 \section{Ejercicios}
 \begin{enumerate}
-
- \item Evalue la expresión \verb+7 % 0+. Explique lo que ocurre.
- 
- \item Envuelva el código que viene a continuación en una función llamada \verb+comparar(x, y)+. Llame a la función comparar tres veces: 
- una en la que el primer argumento sea menor que el segundo, otra en la que aquel sea mayor que éste, y 
- una tercera en la que los argumentos sean iguales.
- \begin{verbatim} 
- if x < y:
-    print x, "es menor que", y
- elif x > y:
-    print x, "es mayor que", y
- else:
-    print x, "y", y, "son iguales"
- \end{verbatim}
- 
- \item Copie este programa en un archivo llamado tabladeverdad.py:
- \begin{verbatim}
- def tabladeverdad(expresion):
-    print " p      q      %s"  % expresion
-    longitud = len( " p      q      %s"  % expresion)
-    print longitud*"="
+	\item Evalue la expresión \verb+7 % 0+. Explique lo que ocurre.
+	
+	\item Envuelva el código que viene a continuación en una función llamada 
+	\verb+comparar(x, y)+. Llame a la función comparar tres veces: 
+	una en la que el primer argumento sea menor que el segundo, otra en la que 
+	aquel sea mayor que éste, y 
+	una tercera en la que los argumentos sean iguales.
+	
+	\begin{pythoncode} 
+if x < y:
+    print(x, "es menor que", y)
+elif x > y:
+    print(x, "es mayor que", y)
+else:
+    print(x, "y", y, "son iguales")
+	\end{pythoncode}
+	
+	\item Copie este programa en un archivo llamado \texttt{tabladeverdad.py}:
+	\begin{pythoncode}
+def tabladeverdad(expresion):
+    print(" p      q      %s"  % expresion)
+    longitud = len(" p      q      %s"  % expresion)
+    print(longitud * "=")
 
     for p in True, False:
         for q in True, False:
-            print "%-7s %-7s %-7s" % (p, q, eval(expresion))
- 
- \end{verbatim}
- Pruébelo con el llamado \verb+tabladeverdad("p or q")+. Ahora ejecútelo con las siguientes expresiones:
- \begin{enumerate}
- \item "not(p or q)"
- \item "p and q"
- \item "not(p and q)"
- \item "not(p) or not(q)"
- \item "not(p) and not(q)"
- \end{enumerate}
- 
- ¿Cuales de estas expresiones tienen el mismo valor de verdad (son logicamente equivalentes)?
- 
- 
- 
+            print("%-7s %-7s %-7s" % (p, q, eval(expresion)))
+	
+	\end{pythoncode}
+	Pruébelo con el llamado \verb+tabladeverdad("p or q")+. Ahora ejecútelo con 
+	las siguientes expresiones:
+
+	\begin{enumerate}
+		\item \texttt{not(p or q)}
+		\item \texttt{p and q}
+		\item \texttt{not(p and q)}
+		\item \texttt{not(p) or not(q)}
+		\item \texttt{not(p) and not(q)}
+	\end{enumerate}
+	
+	¿Cuales de estas expresiones tienen el mismo valor de verdad (son 
+	logicamente equivalentes)?
 \end{enumerate}
 

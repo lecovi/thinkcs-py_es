@@ -109,42 +109,50 @@ de usar el intérprete: modo de comando y modo de guión. En modo
 de comando se escriben sentencias en el lenguaje Python y
 el intérprete muestra el resultado.
 
-\begin{verbatim}
-$ python
-Python 2.6.2 (r262:71600, Apr 30 2009, 20:29:58) 
-[GCC 4.3.3] on linux2
-Type "help", "copyright", "credits" or "license" for 
-more information.
->>>1 + 1
+\begin{pyconcode}
+leo@localhost: $ python
+Python 3.5.1 (default, Jan  8 2016, 00:31:22) 
+[GCC 4.9.2] on linux
+Type "help", "copyright", "credits" or "license" for more 
+information.
+>>> 1 + 1
 2
-\end{verbatim}
+>>> exit()
+leo@localhost: $
+\end{pyconcode} 
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Hacer explicación al margen sobre línea de comandos,
+% SHELL, prompt, etc...
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 La primera línea de este ejemplo es el comando que pone en marcha
-al intérprete de Python. Las dos líneas siguientes son mensajes
-del intérprete. La tercera línea comienza con {\verb+>>>+}, lo que
-indica que el intérprete está listo para recibir comandos.
-Escribimos \texttt{1+1} y el intérprete contestó \texttt{2}.
+al intérprete de Python. Las tres líneas siguientes son mensajes
+del intérprete. La quinta línea comienza con \texttt{>>>}, lo que
+indica que el intérprete de Python está listo para recibir comandos.
+Escribimos \texttt{1 + 1} y el intérprete contestó \texttt{2}.
 
-Alternativamente, se puede escribir el programa en un archivo y
+Alternativamente, se puede escribir el programa en un archivo de texto y
 usar el intérprete para ejecutar el contenido de dicho
-archivo. El archivo, en este caso, se denomina un {\bf guión (script)};
+archivo. El archivo, en este caso, se denomina un {\bf \textit{script} (guión)};
 por ejemplo, en un editor de texto se puede crear un archivo 
 \texttt{unomasuno.py} que contenga esta línea:
 
-\begin{verbatim}
-print 1 + 1
-\end{verbatim}
+\begin{pyconcode}
+print(1 + 1)
+\end{pyconcode}
 
-Por acuerdo unánime, los archivos que contienen programas de Python 
+Por convención, los archivos que contienen programas de Python 
 tienen nombres que terminan con \texttt{.py}.
 
 Para ejecutar el programa, se le tiene que indicar el nombre del
 guión a la interpretadora.
 
-\begin{verbatim}
-$ python unomasuno.py
+\begin{pyconcode}
+leo@localhost: $ python unomasuno.py
 2
-\end{verbatim}
+leo@localhost: $
+\end{pyconcode}
 
 En otros entornos de desarrollo, los detalles de la ejecución de
 programas diferirán. Además, la mayoría de programas son más
@@ -155,7 +163,7 @@ comandos. La línea de comandos es más conveniente para el desarrollo de
 programas y para pruebas rápidas, porque las instrucciones de Python 
 se pueden pasar a la máquina para ser ejecutadas inmediatamente. 
 Una vez que el programa está completo, se lo puede
-archivar en un guión para ejecutarlo o modificarlo en el futuro.
+archivar en un \textit{script} para ejecutarlo o modificarlo en el futuro.
 
 \section{¿Qué es un programa?}
 
@@ -173,21 +181,16 @@ diferente en lenguajes de programación diferentes, pero existen
 algunas funciones básicas que se presentan en casi todo lenguaje:
 
 \begin{description}
-
-\item[Entrada:] recibir datos del teclado, o de un archivo o de otro
-aparato.
-
-\item[Salida:] mostrar datos en el monitor o enviar datos a un
-archivo u otro aparato.
-
-\item[Matemáticas:] ejecutar operaciones básicas, como la adición y la multiplicación.
-
-\item[Operación condicional:] probar la veracidad de alguna
-condición y ejecutar una secuencia de instrucciones apropiada.
-
-\item[Repetición] ejecutar alguna acción repetidas veces,
-usualmente con alguna variación.
-
+	\item[Entrada:] recibir datos del teclado, o de un archivo o de otro
+	aparato.
+	\item[Salida:] mostrar datos en el monitor o enviar datos a un
+	archivo u otro aparato.
+	\item[Matemáticas:] ejecutar operaciones básicas, como la adición y la 
+	multiplicación.
+	\item[Operación condicional:] probar la veracidad de alguna
+	condición y ejecutar una secuencia de instrucciones apropiada.
+	\item[Repetición] ejecutar alguna acción repetidas veces,
+	usualmente con alguna variación.
 \end{description}
 
 Aunque sea difícil de creer, todos los programas en existencia son
@@ -377,26 +380,23 @@ la sintáctica y la semántica--- también existen muchas diferencias.
 \index{Literalidad}
 
 \begin{description}
-\item[Ambigüedad:] los lenguajes naturales tienen muchísimas 
-ambigüedades que se superan usando claves contextuales e información
-adicional.
-Los lenguajes formales son diseñados para estar completamente libres de
-ambigüedades o, tanto como sea posible, lo que quiere decir que 
-cualquier sentencia tiene sólo un significado sin importar el contexto
-en el que se encuentra.
-
-\item[Redundancia:] para reducir la ambigüedad y los malentendidos,
-los lenguajes naturales utilizan bastante redundancia. Como resultado
-tienen una abundancia de posibilidades para expresarse. Los lenguajes 
-formales son menos redundantes y mas concisos.
-
-\item[Literalidad:] los lenguajes naturales tienen muchas metáforas
-y frases comunes. El significado de un dicho, por ejemplo: ``Estirar
-la pata'', es diferente al significado de sus sustantivos y
-verbos. En este ejemplo, la oración no tiene nada que ver con una
-pata y significa 'morirse'. En los lenguajes formales solo existe el 
-significado literal.
-
+	\item[Ambigüedad:] los lenguajes naturales tienen muchísimas 
+	ambigüedades que se superan usando claves contextuales e información
+	adicional.
+	Los lenguajes formales son diseñados para estar completamente libres de
+	ambigüedades o, tanto como sea posible, lo que quiere decir que 
+	cualquier sentencia tiene sólo un significado sin importar el contexto
+	en el que se encuentra.
+	\item[Redundancia:] para reducir la ambigüedad y los malentendidos,
+	los lenguajes naturales utilizan bastante redundancia. Como resultado
+	tienen una abundancia de posibilidades para expresarse. Los lenguajes 
+	formales son menos redundantes y mas concisos.
+	\item[Literalidad:] los lenguajes naturales tienen muchas metáforas
+	y frases comunes. El significado de un dicho, por ejemplo: ``Estirar
+	la pata'', es diferente al significado de sus sustantivos y
+	verbos. En este ejemplo, la oración no tiene nada que ver con una
+	pata y significa 'morirse'. En los lenguajes formales solo existe el 
+	significado literal.
 \end{description}
 
 Los que aprenden a hablar un lenguaje natural---es decir todo el 
@@ -410,20 +410,16 @@ a la diferencia entre la prosa y la poesía:
 \index{Prosa}
 
 \begin{description}
-
-\item[Poesía:] se utiliza una palabra por su cualidad auditiva
-tanto como por su significado. El poema, en su totalidad, produce
-un efecto o reacción emocional. La ambigüedad no es sólo común, sino
-utilizada a propósito.
-
-\item[Prosa:] el significado literal de la palabra es más importante
-y la estructura contribuye más al significado. La prosa se presta
-más al análisis que la poesía, pero todavía contiene ambigüedad.
-
-\item[Programa:] el significado de un programa es inequívoco y
-literal, y es entendido en su totalidad analizando las unidades y
-la estructura.
-
+	\item[Poesía:] se utiliza una palabra por su cualidad auditiva
+	tanto como por su significado. El poema, en su totalidad, produce
+	un efecto o reacción emocional. La ambigüedad no es sólo común, sino
+	utilizada a propósito.
+	\item[Prosa:] el significado literal de la palabra es más importante
+	y la estructura contribuye más al significado. La prosa se presta
+	más al análisis que la poesía, pero todavía contiene ambigüedad.
+	\item[Programa:] el significado de un programa es inequívoco y
+	literal, y es entendido en su totalidad analizando las unidades y
+	la estructura.
 \end{description}
 
 He aquí unas sugerencias para la lectura de un programa (y de otros
@@ -441,18 +437,22 @@ sus programas.
 \label{hello}
 \label{hello world}
 
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Nota al margen de la historia del HOLA MUNDO
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 Tradicionalmente el primer programa en un lenguaje nuevo se llama
 ``Hola todo el mundo!'' (en inglés, Hello world!) porque sólo muestra las
 palabras ``Hola todo el mundo'' . En el lenguaje Python es así:
 
 \beforeverb
-\begin{verbatim}
-print "Hola todo el mundo!"
-\end{verbatim}
+\begin{pythoncode}
+print("Hola todo el mundo!")
+\end{pythoncode}
 \afterverb
 %
 
-Este es un ejemplo de una sentencia {\em print}, la cual no
+Este es un ejemplo de la función  \texttt{print}, la cual no
 imprime nada en papel, más bien muestra un valor. En este caso,
 el resultado es mostrar en pantalla las palabras:
 
@@ -475,186 +475,195 @@ ese criterio, Python cumple con esta meta.
 \section{Glosario}
 
 \begin{description}
-
-\item[Solución de problemas:]  el proceso de formular un problema,
-hallar la solución y expresarla.
-
-\item[Lenguaje de alto nivel:]  un lenguaje como Python que es diseñado
-para ser fácil de leer y escribir por la gente.
-
-\item[Lenguaje de bajo nivel:]  un lenguaje de programación que es
-diseñado para ser fácil de ejecutar para una computadora; también
-se lo llama ``lenguaje de máquina'' o ``lenguaje ensamblador''.
-
-\item[Portabilidad:]  la cualidad de un programa que puede ser 
-ejecutado
-en más de un tipo de computadora.
-
-\item[Interpretar:]  ejecutar un programa escrito en un lenguaje de
-alto nivel traduciéndolo línea por línea.
-
-\item[Compilar:]  traducir un programa escrito en un lenguaje
-de alto nivel a un lenguaje de bajo nivel de una vez,
-en preparación para la ejecución posterior.
-
-\item[Código fuente:]  un programa escrito en un lenguaje de alto
-nivel antes de ser compilado.
-
-\item[Código objeto:]  la salida del compilador una vez que
-el programa ha sido traducido.
-
-\item[Programa ejecutable:]  otro nombre para el código de objeto
-que está listo para ser ejecutado.
-
-\item[Guión (script):] un programa archivado (que va a ser interpretado).
-
-\item[Programa:] un grupo de instrucciones que especifica un cómputo.
-
-\item[Algoritmo:]  un proceso general para resolver una
-clase completa de problemas.
-
-\item[Error (bug):]  un error en un programa.
-
-\item[Depuración:]  el proceso de hallazgo y eliminación de los
-tres tipos de errores de programación.
-
-\item[Sintaxis:]  la estructura de un programa.
-
-\item[Error sintáctico:]  un error estructural que hace que un
-programa sea imposible de analizar sintácticamente (e imposible de
-interpretar).
-
-\item[Error en tiempo de ejecución:]  un error que no ocurre hasta
-que el programa ha comenzado a ejecutar e impide que el programa
-continúe.
-
-\item[Excepción:]  otro nombre para un error en tiempo de ejecución.
-
-\item[Error semántico:]   un error en un programa que hace que ejecute
-algo que no era lo deseado.
-
-\item[Semántica:]  el significado de un programa.
-
-\item[Lenguaje natural:]  cualquier lenguaje hablado que evolucionó
-de forma natural.
-
-\item[Lenguaje formal:]  cualquier lenguaje diseñado que tiene un
-propósito específico, como la representación de ideas matemáticas
-o programas de computadoras; todos los lenguajes de programación
-son lenguajes formales.
-
-\item[Unidad:]  uno de los elementos básicos de la estructura
-sintáctica de un programa, análogo a una palabra en un lenguaje
-natural.
-
-\item[Análisis sintáctico:]  la revisión de un programa y el
-análisis de su estructura sintáctica.
-
-\item[Sentencia print:]  una instrucción que causa que el
-intérprete de Python muestre un valor en el monitor.
-
-
-\index{programa}
-\index{solución de problemas}
-\index{lenguaje de alto nivel}
-\index{lenguaje de bajo nivel}
-\index{portabilidad}
-\index{interpretar}
-\index{compilar}
-\index{código de fuente}
-\index{código de objeto}
-\index{código ejecutable}
-\index{algoritmo}
-\index{error(bug)}
-\index{depuración}
-\index{sintaxis}
-\index{semántica}
-\index{error sintáctico}
-\index{error en tiempo de ejecución}
-\index{excepción}
-\index{error semántico}
-\index{lenguaje formal}
-\index{lenguaje natural}
-\index{análisis sintáctico}
-\index{unidad}
-\index{guión}
-\index{sentencia print}
-\index{print!sentencia}
-
+	\item[Solución de problemas:]  el proceso de formular un problema,
+	hallar la solución y expresarla.
+	
+	\item[Lenguaje de alto nivel:]  un lenguaje como Python que es diseñado
+	para ser fácil de leer y escribir por la gente.
+	
+	\item[Lenguaje de bajo nivel:]  un lenguaje de programación que es
+	diseñado para ser fácil de ejecutar para una computadora; también
+	se lo llama ``lenguaje de máquina'' o ``lenguaje ensamblador''.
+	
+	\item[Portabilidad:]  la cualidad de un programa que puede ser 
+	ejecutado
+	en más de un tipo de computadora.
+	
+	\item[Interpretar:]  ejecutar un programa escrito en un lenguaje de
+	alto nivel traduciéndolo línea por línea.
+	
+	\item[Compilar:]  traducir un programa escrito en un lenguaje
+	de alto nivel a un lenguaje de bajo nivel de una vez,
+	en preparación para la ejecución posterior.
+	
+	\item[Código fuente:]  un programa escrito en un lenguaje de alto
+	nivel antes de ser compilado.
+	
+	\item[Código objeto:]  la salida del compilador una vez que
+	el programa ha sido traducido.
+	
+	\item[Programa ejecutable:]  otro nombre para el código de objeto
+	que está listo para ser ejecutado.
+	
+	\item[Guión (script):] un programa archivado (que va a ser interpretado).
+	
+	\item[Programa:] un grupo de instrucciones que especifica un cómputo.
+	
+	\item[Algoritmo:]  un proceso general para resolver una
+	clase completa de problemas.
+	
+	\item[Error (bug):]  un error en un programa.
+	
+	\item[Depuración:]  el proceso de hallazgo y eliminación de los
+	tres tipos de errores de programación.
+	
+	\item[Sintaxis:]  la estructura de un programa.
+	
+	\item[Error sintáctico:]  un error estructural que hace que un
+	programa sea imposible de analizar sintácticamente (e imposible de
+	interpretar).
+	
+	\item[Error en tiempo de ejecución:]  un error que no ocurre hasta
+	que el programa ha comenzado a ejecutar e impide que el programa
+	continúe.
+	
+	\item[Excepción:]  otro nombre para un error en tiempo de ejecución.
+	
+	\item[Error semántico:]   un error en un programa que hace que ejecute
+	algo que no era lo deseado.
+	
+	\item[Semántica:]  el significado de un programa.
+	
+	\item[Lenguaje natural:]  cualquier lenguaje hablado que evolucionó
+	de forma natural.
+	
+	\item[Lenguaje formal:]  cualquier lenguaje diseñado que tiene un
+	propósito específico, como la representación de ideas matemáticas
+	o programas de computadoras; todos los lenguajes de programación
+	son lenguajes formales.
+	
+	\item[Unidad:]  uno de los elementos básicos de la estructura
+	sintáctica de un programa, análogo a una palabra en un lenguaje
+	natural.
+	
+	\item[Análisis sintáctico:]  la revisión de un programa y el
+	análisis de su estructura sintáctica.
+	
+	\item[Sentencia print:]  una instrucción que causa que el
+	intérprete de Python muestre un valor en el monitor.
+	
+	
+	\index{programa}
+	\index{solución de problemas}
+	\index{lenguaje de alto nivel}
+	\index{lenguaje de bajo nivel}
+	\index{portabilidad}
+	\index{interpretar}
+	\index{compilar}
+	\index{código de fuente}
+	\index{código de objeto}
+	\index{código ejecutable}
+	\index{algoritmo}
+	\index{error(bug)}
+	\index{depuración}
+	\index{sintaxis}
+	\index{semántica}
+	\index{error sintáctico}
+	\index{error en tiempo de ejecución}
+	\index{excepción}
+	\index{error semántico}
+	\index{lenguaje formal}
+	\index{lenguaje natural}
+	\index{análisis sintáctico}
+	\index{unidad}
+	\index{guión}
+	\index{sentencia print}
+	\index{print!sentencia}
 \end{description}
 
 
 \section{Ejercicios}
 
-
-En los ejercicios 1,2,3 y 4 escriba una oración en español:\\ \\
+En los ejercicios 1, 2, 3 y 4 escriba una oración en español:
 
 \begin{enumerate}
 
-
 \item Con estructura válida pero compuesta de unidades irreconocibles.
 
-\item Con unidades aceptables pero con estructura no válida.
+	\item Con unidades aceptables pero con estructura no válida.
+	
+	\item Semánticamente comprensible pero sintácticamente incorrecta. 
+	
+	\item Sintácticamente correcta pero que contenga errores semánticos.
+	
+	\item Inicie la terminal de Python. Escriba \texttt{1 + 2} y luego presione 
+	la tecla \texttt{Enter}. 
+	Python evalúa esta expresión, presenta el resultado, y enseguida muestra
+	otro intérprete.
+	 
+	Considerando que el símbolo \texttt{*} es el signo de multiplicación y el
+	doble símbolo \texttt{**} es el signo de potenciación, realice dos
+	ejercicios adicionales escribiendo diferentes expresiones 
+	y reportando lo mostrado por el intérprete de Python. 
+	
+	\item ¿Qué sucede si utiliza el signo de división (\texttt{/})? 
+	¿Son los resultados obtenidos los esperados? Explique.
+	
+	\item Escriba \texttt{1 2} y presione la tecla \texttt{Enter}. Python trata
+	de evaluar esta expresión, pero no puede, porque la expresión es 
+	sintácticamente incorrecta. Así, Python responde 
+	con el siguiente mensaje de error:
 
-\item Semánticamente comprensible pero sintácticamente incorrecta. 
-
-\item Sintácticamente correcta pero que contenga errores semánticos.
-
-\item Inicie la terminal de Python. Escriba 1 + 2 y luego presione la tecla Entrar. 
-Python evalúa esta expresión, presenta el resultado, y enseguida muestra otro intérprete. 
-Considerando que el símbolo * es el signo de multiplicación y el doble símbolo ** es el 
-signo de potenciación, realice dos ejercicios adicionales escribiendo diferentes expresiones 
-y reportando lo mostrado por el intérprete de Python. 
-
-\item ¿Qué sucede si utiliza el signo de división (/)? 
-¿Son los resultados obtenidos los esperados? Explique.
-
-\item Escriba 1 2 y presione la tecla Entrar. Python trata de evaluar esta expresión, 
-pero no puede, porque la expresión es sintácticamente incorrecta. Así, Python responde 
-con el siguiente mensaje de error:
-
-\begin{verbatim}
-  File "<stdin>", line 1
-    1 2
-      ^
+	\begin{pyconcode}
+File "<stdin>", line 1
+ 1 2
+   ^
 SyntaxError: invalid syntax
-\end{verbatim}
+	\end{pyconcode}
 
-Muchas veces Python indica la ubicación del error de sintaxis, sin embargo, no siempre es 
-precisa, por lo que no proporciona suficiente información sobre cuál es el problema. De 
-esta manera, el mejor antídoto es que usted aprenda la sintaxis de Python. En este caso, 
-Python protesta porque no encuentra signo de operación alguno entre los 
-números.
+	Muchas veces Python indica la ubicación del error de sintaxis, sin embargo, 
+	no siempre es precisa, por lo que no proporciona suficiente información
+	sobre cuál es el problema. De esta manera, el mejor antídoto es que usted
+	aprenda la sintaxis de Python. 
+	En este caso, Python protesta porque no encuentra signo de operación alguno
+	entre los números.
 
-Escriba una entrada que produzca un mensaje de error cuando se 
-introduzca en el intérprete de Python. Explique por qué no tiene una sintaxis 
-válida.
+	Escriba una entrada que produzca un mensaje de error cuando se 
+	introduzca en el intérprete de Python. Explique por qué no tiene una 
+	sintaxis válida.
 
-
-\item Escriba \verb+print 'hola'+. Python ejecuta esta sentencia que muestra las letras h-o-l-a. 
-Nótese que las comillas simples en los extremos de la cadena no son parte de la salida mostrada. 
-Ahora escriba  \verb+print '"hola"'+ y describa y explique el resultado.
-
-\item Escriba \verb+print queso+ sin comillas. ¿Que sucede?
-
-
-\item Escriba \verb+'Esta es una prueba...'+ en el intérprete de Python y presione la tecla Entrar. 
-Observe lo que pasa. 
-
-\item Ahora cree un guión de Python con el nombre prueba1.py que contenga lo siguiente 
-(asegúrese de guardar el archivo antes de intentar ejecutarlo):
-'Esta es una prueba...'
-
-¿Qué pasa cuando ejecuta este guión? 
-
-\item Ahora cambie el contenido del guión a: \verb+print 'Esta es una prueba...'+ y ejecutelo de nuevo.
-
-¿Qué pasó esta vez?
-
-Cuando se escribe una expresión en el intérprete de Python, ésta es evaluada y el 
-resultado es mostrado en la línea siguiente. 'Esta es una prueba...' es una expresión, que se 
-evalúa a 'Esta es una prueba...' (de la misma manera que 42 se evalúa a 42). Sin embargo, la 
-evaluación de expresiones en un guión no se envía a la salida del programa, por lo que es necesario 
-mostrarla explícitamente.
+	\item Escriba \verb+print('hola')+. Python ejecuta esta sentencia que 
+	muestra las letras \texttt{h}-\texttt{o}-\texttt{l}-\texttt{a}. 
+	
+	Nótese que las comillas simples en los extremos de la cadena no son parte 
+	de la salida mostrada. Ahora escriba \verb+print('"hola"')+ y describa y
+	explique el resultado.
+	
+	\item Escriba \verb+print(queso)+ sin comillas. ¿Qué sucede?
+	
+	
+	\item Escriba \verb+'Esta es una prueba...'+ en el intérprete de Python y 
+	presione la tecla \texttt{Enter}. 
+	Observe lo que pasa. 
+	
+	\item Ahora cree un script de Python con el nombre \texttt{prueba1.py} que
+	contenga lo siguiente {\small (asegúrese de guardar el archivo antes de 
+	intentar ejecutarlo)}:
+	\texttt{'Esta es una prueba...'}
+	
+	¿Qué pasa cuando ejecuta este script? 
+	
+	\item Ahora cambie el contenido del script a: 
+	\verb+print('Esta es una prueba...')+ y ejecutelo de nuevo.
+	
+	¿Qué pasó esta vez?
+	
+	Cuando se escribe una expresión en el intérprete de Python, ésta es 
+	evaluada y el resultado es mostrado en la línea siguiente. 
+	\texttt{'Esta es una prueba...'} es una expresión, que se 
+	evalúa a \texttt{'Esta es una prueba...'} (de la misma manera que
+	\texttt{42} se evalúa a \texttt{42}). Sin embargo, la evaluación de
+	expresiones en un guión no se envía a la salida del programa, por lo que 
+	es necesario mostrarla explícitamente.
 \end{enumerate}
 
