@@ -156,18 +156,18 @@ menudo se usa en nombres con múltiples palabras, tales como \texttt{mi\_nombre}
 
 Si usted le da un nombre ilegal a una variable obtendrá un error sintáctico:
 
-\begin{lstlisting}
+\begin{pyconcode}
 >>> 76trombones = "gran desfile"
 SyntaxError: invalid syntax
->>> mas$ = 1000000
+>>> mas& = 1000000
 SyntaxError: invalid syntax
->>> class = "introducción a la programación"
+>>> class= 8
 SyntaxError: invalid syntax
-\end{lstlisting}
+\end{pyconcode}
 
 \texttt{76trombones} es ilegal porque no empieza con una letra.\\
-\texttt{mas\$} es ilegal porque contiene un carácter ilegal, el símbolo
-\$.\\
+\texttt{mas\&} es ilegal porque contiene un carácter ilegal, el símbolo
+\&.\\
 ¿Qué sucede con \texttt{class}?
 
 Resulta que \texttt{class} es una de las \textbf{palabras reservadas
@@ -216,10 +216,10 @@ x = 2
 print(x)
 \end{pythoncode}
  produce la salida:
-\begin{verbatim}
+\begin{pyconcode}
 1
 2
-\end{verbatim}
+\end{pyconcode}
 Observe nuevamente que la sentencia de asignación no produce salida.
 
 \section{Evaluando expresiones}
@@ -288,12 +288,10 @@ Los siguientes son expresiones válidas en Python, cuyo significado
 es más o menos claro: 
 
 \begin{pythoncode}
-20+32       hora-1   hora*60+minuto   
-minuto/60   5**2     (5+9)*(15-7)
+20+32        minuto/60             hora-1
+5**2        hora*60+minuto        (5+9)*(15-7)
 \end{pythoncode}
-\begin{verbatim}
 
-\end{verbatim}
 Los símbolos \texttt{+}, \texttt{-}, y \texttt{/}, y los paréntesis
 para agrupar, significan en Python lo mismo que en la matemática.
 El asterisco (\texttt{{*}}) es el símbolo para la multiplicación,
@@ -366,7 +364,7 @@ operaciones son ilegales (asumiendo que \texttt{mensaje} tiene el
 tipo \texttt{cadena}):
 
 \begin{pythoncode}
- mensaje-1   "Hola"/123   mensaje*"Hola"   "15"+2
+mensaje-1       "Hola"/123       mensaje*"Hola"      "15"+2
 \end{pythoncode}
 
 Sin embargo, el operador \texttt{+} funciona con cadenas, aunque no
