@@ -1,4 +1,3 @@
-% !TEX TS-program = xelatex
 %% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[10pt,letterpaper,spanish,usenames,dvipsnames]{book}
@@ -130,16 +129,15 @@
   morecomment=[s][\color{green}]{"""}{"""},
   upquote=true,                      % requires textcomp
   showspaces=false,
-  showstringspaces=false,
-  extendedchars=true,
+  showstringspaces=false  
 }
 
 \lstset{style=python-idle-code}
 
 \makeatother
 
-%\usepackage{listings}
-\renewcommand{\lstlistingname}{Listado de cÃ³digo}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{\inputencoding{latin9}Listado de código}
 
 \begin{document}
 \frontmatter
