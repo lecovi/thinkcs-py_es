@@ -6,21 +6,21 @@
 \section{Hora}
 
 Como otro ejemplo de tipo de dato definido por el usuario definiremos
-una clase llamada \texttt{Hora}:\inputencoding{latin9}
+una clase llamada \texttt{Hora}:
 \begin{lstlisting}
 class Hora:
   pass
 \end{lstlisting}
-\inputencoding{utf8}
+
 Ahora podemos crear un nuevo objeto \texttt{Hora} y asignarle atributos
-para las horas, minutos y segundos:\inputencoding{latin9}
+para las horas, minutos y segundos:
 \begin{lstlisting}
 tiempo = Hora()
 tiempo.hora = 11
 tiempo.minutos = 59
 tiempo.segundos = 30
 \end{lstlisting}
-\inputencoding{utf8}
+
 El diagrama para el objeto \texttt{Hora} luce así:
 
 \beforefig \centerline{\includegraphics{illustrations/time}} \afterfig
@@ -35,7 +35,7 @@ Esto demostrará dos clases de funciones: las puras y los modificadores.
 
 La siguiente es una versión de \texttt{sumarHoras}:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def sumarHoras(t1, t2):
   sum = Hora()
   sum.hora = t1.hora + t2.hora
@@ -43,7 +43,7 @@ def sumarHoras(t1, t2):
   sum.segundos = t1.segundos + t2.segundos
   return sum
 \end{lstlisting}
-\inputencoding{utf8} La función crea un nuevo objeto \texttt{Hora}, inicializa sus atributos
+ La función crea un nuevo objeto \texttt{Hora}, inicializa sus atributos
 y retorna una referencia hacia el nuevo objeto. Esto se denomina \textbf{función
 pura}, porque no modifica ninguno de los objetos que se le pasaron
 como parámetro ni tiene efectos laterales, como desplegar un valor
@@ -56,7 +56,7 @@ actual. Luego usaremos \texttt{sumarHoras} para averiguar a qué hora
 estará listo el pan. Si no ha terminado la función \texttt{imprimirHora}
 aún, adelántese a la Sección \ref{printTime} antes de intentar esto:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> horaActual = Hora()
 >>> horaActual.hora = 9
 >>> horaActual.minutos = 14
@@ -70,7 +70,7 @@ aún, adelántese a la Sección \ref{printTime} antes de intentar esto:
 >>> horaComer = sumarHoras(horaActual, horaPan)
 >>> imprimirHora(horaComer)
 \end{lstlisting}
-\inputencoding{utf8} La salida de este programa es \texttt{12:49:30}, que está correcta.
+ La salida de este programa es \texttt{12:49:30}, que está correcta.
 Por otro lado, hay casos en los que no funciona bien. ¿Puede pensar
 en uno?
 
@@ -79,7 +79,7 @@ el número de segundos o minutos suman más de sesenta. Cuando eso ocurre
 tenemos que ``acarrear'' los segundos extra a la columna de minutos.
 También puede pasar lo mismo con los minutos.
 
-Aquí hay una versión correcta:\inputencoding{latin9}
+Aquí hay una versión correcta:
 \begin{lstlisting}
 def sumarHoras(t1, t2):
   sum = Hora()
@@ -97,7 +97,7 @@ def sumarHoras(t1, t2):
 
   return sum
 \end{lstlisting}
-\inputencoding{utf8}
+
 Aunque ahora ha quedado correcta, ha empezado a agrandarse. Más adelante
 sugeriremos un enfoque alternativo que produce un código más corto.
 
@@ -114,7 +114,7 @@ evidenciado por dicho código. Este tipo de funciones se denominan
 
 \texttt{incrementar}, que agrega un número de segundos a un objeto
 \texttt{Hora}, se escribiría más naturalmente como función modificadora.
-Un primer acercamiento a la función luciría así:\inputencoding{latin9}
+Un primer acercamiento a la función luciría así:
 \begin{lstlisting}
 def incrementar(h, segundos):
   h.segundos = h.segundos + segundos
@@ -129,7 +129,7 @@ def incrementar(h, segundos):
 
   return h
 \end{lstlisting}
-\inputencoding{utf8}
+
 La primera línea ejecuta la operación básica, las siguientes consideran
 los casos especiales que ya habíamos visto.
 
@@ -137,7 +137,7 @@ los casos especiales que ya habíamos visto.
 es mucho más grande que sesenta? En ese caso, no sólo es suficiente
 añadir uno, tenemos que sumar de uno en uno hasta que \texttt{segundos}
 sea menor que sesenta. Una solución consiste en reemplazar las sentencias
-\texttt{if} por sentencias \texttt{while}:\inputencoding{latin9}
+\texttt{if} por sentencias \texttt{while}:
 \begin{lstlisting}
 def incrementar(hora, segundos):
   hora.segundos = hora.segundos + segundos
@@ -154,7 +154,7 @@ def incrementar(hora, segundos):
 
   time.segundos = time.segundos + segundos
 \end{lstlisting}
-\inputencoding{utf8}
+
 Ahora, la función sí es correcta, aunque no sigue el proceso más eficiente.
 
 \section{¿Cual es el mejor estilo?}
@@ -205,16 +205,16 @@ que efectuar un acarreo de una columna a la siguiente.
 Esta observación sugiere otro enfoque al problema—podemos convertir
 un objeto \texttt{Hora} en un número único y aprovecharnos del hecho
 de que el computador sabe realizar aritmética. La siguiente función
-convierte un objeto \texttt{Hora} en un entero:\inputencoding{latin9}
+convierte un objeto \texttt{Hora} en un entero:
 \begin{lstlisting}
 def convertirASegundos(t):
   minutos = t.hora * 60 + t.minutos
   segundos = minutos * 60 + t.segundos
   return segundos
 \end{lstlisting}
-\inputencoding{utf8}
+
 Ahora necesitamos una forma de convertir desde entero a un objeto
-\texttt{Hora}:\inputencoding{latin9}
+\texttt{Hora}:
 \begin{lstlisting}
 def crearHora(segundos):
   h = Hora()
@@ -225,18 +225,18 @@ def crearHora(segundos):
   h.segundos = segundos
   return h
 \end{lstlisting}
-\inputencoding{utf8}
+
 Usted debe pensar unos minutos para convencerse de que esta técnica
 sí convierte, de una base a otra, correctamente. Asumiendo que ya
 está convencido, se pueden usar las funciones anteriores para reescribir
 \texttt{sumarHoras}:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def sumarHoras(t1, t2):
   segundos = convertirASegundos(t1) + convertirASegundos(t2)
   return crearHora(segundos)
 \end{lstlisting}
-\inputencoding{utf8} Esta versión es mucho más corta que la original, y es mucho más fácil
+ Esta versión es mucho más corta que la original, y es mucho más fácil
 de demostrar que es correcta (asumiendo, como de costumbre, que las
 funciones que llama son correctas).
 

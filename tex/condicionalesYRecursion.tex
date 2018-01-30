@@ -10,7 +10,7 @@ calculando el residuo del primer operando cuando se divide por el
 segundo. En Python este operador es un signo porcentaje (\texttt{\%}).
 La sintaxis es la misma que para los otros operadores:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> cociente = 7 // 3
 >>> print(cociente)
 2
@@ -18,7 +18,7 @@ La sintaxis es la misma que para los otros operadores:
 >>> print(residuo)
 1
 \end{lstlisting}
-\inputencoding{utf8}
+
 Así que 7 dividido por 3 da 2 con residuo 1.
 
 El operador residuo resulta ser sorprendentemente útil. Por ejemplo,
@@ -46,18 +46,18 @@ mayúsculas importan, ya que true y false no son valores booleanos.
 El operador \texttt{==} compara dos valores y produce una expresión
 booleana:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> 5 == 5
 True
 >>> 5 == 6
 False
 \end{lstlisting}
-\inputencoding{utf8} En la primera sentencia, los dos operandos son iguales, así que la
+ En la primera sentencia, los dos operandos son iguales, así que la
 expresión evalúa a True (cierto); en la segunda sentencia, 5 no es
 igual a 6, así que obtenemos False (falso).
 
 El operador \texttt{==} es uno de los \textbf{operadores de comparación};
-los otros son:\inputencoding{latin9}
+los otros son:
 \begin{lstlisting}
       x != y               # x no es igual y
       x > y                # x es mayor que y
@@ -65,7 +65,7 @@ los otros son:\inputencoding{latin9}
       x >= y               # x es mayor o igual a y
       x <= y               # x es menor o igual a y
 \end{lstlisting}
-\inputencoding{utf8}
+
 Aunque estas operaciones probablemente son familiares para usted,
 los símbolos en Python difieren de los matemáticos. Un error común
 consiste en usar un solo signo igual (\texttt{=}) en lugar en un doble
@@ -92,7 +92,7 @@ es, si \texttt{x} es menor o igual a \texttt{y}.
 
 Formalmente, los operandos de los operadores lógicos deben ser expresiones
 booleanas, pero Python no es muy formal. Cualquier número diferente
-de cero se interpreta como ``cierto.''\inputencoding{latin9}
+de cero se interpreta como ``cierto.''
 \begin{lstlisting}
 >>>  x = 5
 >>>  x and 1
@@ -101,7 +101,7 @@ de cero se interpreta como ``cierto.''\inputencoding{latin9}
 >>>  y and 1
 0
 \end{lstlisting}
-\inputencoding{utf8}
+
 En general, esto no se considera un buen estilo de programación. Si
 usted desea comparar un valor con cero, procure codificarlo explícitamente.
 
@@ -113,12 +113,12 @@ usted desea comparar un valor con cero, procure codificarlo explícitamente.
 A fin de escribir programas útiles, casi siempre necesitamos la capacidad
 de chequear condiciones y cambiar el comportamiento del programa en
 consecuencia. Las \textbf{sentencias condicionales} nos dan este poder.
-La más simple es la sentencia \texttt{if}: \inputencoding{latin9}
+La más simple es la sentencia \texttt{if}: 
 \begin{lstlisting}
 if x > 0:
   print("x es positivo")
 \end{lstlisting}
-\inputencoding{utf8}
+
 La expresión después de la sentencia \texttt{if} se denomina la \textbf{condición}.
 Si es cierta, la sentencia de abajo se ejecuta. Si no lo es, no pasa
 nada.
@@ -157,14 +157,14 @@ sentencia \texttt{pass}, que no hace nada.
 
 Una segunda forma de sentencia \texttt{if} es la ejecución alternativa
 en la que hay dos posibilidades y la condición determina cual de ellas
-se ejecuta. La sintaxis luce así:\inputencoding{latin9}
+se ejecuta. La sintaxis luce así:
 \begin{lstlisting}
 if x%2 == 0:
   print(x, "es par")
 else:
   print(x, "es impar")
 \end{lstlisting}
-\inputencoding{utf8}
+
 Si el residuo de dividir \texttt{x} por 2 es 0, entonces sabemos que
 \texttt{x} es par, y el programa despliega un mensaje anunciando esto.
 Si la condición es falsa, la segunda sentencia se ejecuta. Como la
@@ -177,7 +177,7 @@ de ejecución.
 
 Yéndonos ``por las ramas'', si usted necesita chequear la paridad
 (si un número es par o impar) a menudo, se podría ``envolver'' el
-código anterior en una función:\inputencoding{latin9}
+código anterior en una función:
 \begin{lstlisting}
 def imprimirParidad(x):
   if x%2 == 0:
@@ -185,15 +185,15 @@ def imprimirParidad(x):
   else:
     print(x, "es impar")
 \end{lstlisting}
-\inputencoding{utf8}
+
 Para cualquier valor de \texttt{x}, \texttt{imprimirParidad} despliega
 un mensaje apropiado. Cuando se llama la función, se le puede pasar
-cualquier expresión entera como argumento.\inputencoding{latin9}
+cualquier expresión entera como argumento.
 \begin{lstlisting}
 >>> imprimirParidad(17)
 >>> imprimirParidad(y+1)
 \end{lstlisting}
-\inputencoding{utf8}
+
 \section{Condicionales encadenados}
 
 \index{condicional encadenados} \index{condicional!encadenados}
@@ -202,7 +202,7 @@ Algunas veces hay más de dos posibilidades y necesitamos más de dos
 ramas. Una forma de expresar un cálculo así es un \textbf{condicional
 encadenado}:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 if x < y:
   print(x, "es menor que", y)
 elif x > y:
@@ -210,10 +210,10 @@ elif x > y:
 else:
   print(x, "y", y, "son iguales")
 \end{lstlisting}
-\inputencoding{utf8}
+
 \texttt{elif} es una abreviatura de ``else if.'' De nuevo, exactamente
 una de las ramas se ejecutará. No hay límite en el número de sentencias
-\texttt{elif}, pero la última rama tiene que ser una sentencia \texttt{else}:\inputencoding{latin9}
+\texttt{elif}, pero la última rama tiene que ser una sentencia \texttt{else}:
 \begin{lstlisting}
 if eleccion == 'A':
   funcionA()
@@ -224,7 +224,7 @@ elif eleccion == 'C':
 else:
   print("Eleccion incorrecta.")
 \end{lstlisting}
-\inputencoding{utf8}
+
 Cada condición se chequea en orden. Si la primera es falsa, se chequea
 la siguiente, y así sucesivamente. Si una de ellas es cierta, se ejecuta
 la rama correspondiente y la sentencia termina. Si hay más de una
@@ -235,7 +235,7 @@ condición cierta, sólo la primera rama que evalúa a cierto se ejecuta.
 Un condicional también se puede anidar dentro de otro. La tricotomía
 anterior se puede escribir así:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 if x == y:
   print(x, "y", y, "son iguales")
 else:
@@ -244,7 +244,7 @@ else:
   else:
     print(x, "es mayor que", y)
 \end{lstlisting}
-\inputencoding{utf8} El condicional externo contiene dos ramas: la primera contiene una
+ El condicional externo contiene dos ramas: la primera contiene una
 sentencia de salida sencilla, la segunda contiene otra sentencia \texttt{if},
 que tiene dos ramas propias. Esas dos ramas son sentencias de impresión,
 aunque también podrían ser sentencias condicionales.
@@ -255,27 +255,27 @@ En general, es una buena idea evitarlos cada vez que se pueda.
 
 Los operadores lógicos proporcionan formas de simplificar las sentencias
 condicionales anidadas. Por ejemplo, podemos reescribir el siguiente
-código usando un solo condicional:\inputencoding{latin9}
+código usando un solo condicional:
 \begin{lstlisting}
 if 0 < x:
   if x < 10:
     print("x es un digito positivo.")
 \end{lstlisting}
-\inputencoding{utf8}
+
 La sentencia \texttt{print} se ejecuta solamente si el flujo de ejecución
-ha pasado las dos condiciones, así que podemos usar el operador \texttt{and}:\inputencoding{latin9}
+ha pasado las dos condiciones, así que podemos usar el operador \texttt{and}:
 \begin{lstlisting}
 if 0 < x and x < 10:
   print("x es un digito positivo.")
 \end{lstlisting}
-\inputencoding{utf8}
+
 Esta clase de condiciones es muy común, por esta razón Python proporciona
-una sintaxis alternativa que es similar a la notación matemática:\inputencoding{latin9}
+una sintaxis alternativa que es similar a la notación matemática:
 \begin{lstlisting}
 if 0 < x < 10:
   print("x es un digito positivo")
 \end{lstlisting}
-\inputencoding{utf8}
+
 Desde el punto de vista semántico ésta condición es la misma que la
 expresión compuesta y que el condicional anidado.
 
@@ -287,7 +287,7 @@ La sentencia \texttt{return} permite terminar la ejecución de una
 función antes de llegar al final. Una razón para usarla es reaccionar
 a una condición de error:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 import math
 
 def imprimirLogaritmo(x):
@@ -298,7 +298,7 @@ def imprimirLogaritmo(x):
   result = math.log(x)
   print("El logaritmo de ",  x ," es ", result)
 \end{lstlisting}
-\inputencoding{utf8} La función \texttt{imprimirLogaritmo} toma un parámetro denominado
+ La función \texttt{imprimirLogaritmo} toma un parámetro denominado
 \texttt{x}. Lo primero que hace es chequear si \texttt{x} es menor
 o igual a 0, caso en el que despliega un mensaje de error y luego
 usa a \texttt{return} para salir de la función. El flujo de ejecución
@@ -321,7 +321,7 @@ función:
 
 \pagebreak{}
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def conteo(n):
   if n == 0:
     print("Despegue!")
@@ -329,17 +329,17 @@ def conteo(n):
     print(n)
     conteo(n-1)
 \end{lstlisting}
-\inputencoding{utf8}
+
 \texttt{conteo} espera que el parámetro \texttt{n} sea un número entero
 positivo. Si \texttt{n} es 0, despliega la cadena, ``Despegue!''.
 Si no lo es, despliega \texttt{n} y luego llama a la función llamada
 \texttt{conteo}—ella misma—pasando a \texttt{n-1} como argumento.
 
-Analicemos lo que sucede si llamamos a esta función así:\inputencoding{latin9}
+Analicemos lo que sucede si llamamos a esta función así:
 \begin{lstlisting}
 >>> conteo(3)
 \end{lstlisting}
-\inputencoding{utf8}
+
 La ejecución de \texttt{conteo} comienza con \texttt{n=3}, y como
 \texttt{n} no es 0, despliega el valor 3, y se llama a sí misma ...
 \begin{quote}
@@ -371,7 +371,7 @@ Despegue!
 Como otro ejemplo, utilizaremos nuevamente las funciones \texttt{nuevaLinea}
 y \texttt{tresLineas}:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def nuevalinea():
   print()
 
@@ -380,17 +380,17 @@ def tresLineas():
   nuevaLinea()
   nuevaLinea()
 \end{lstlisting}
-\inputencoding{utf8}
+
 Este trabajo no sería de mucha ayuda si quisiéramos desplegar 2 líneas
 o 106. Una mejor alternativa sería:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def nLineas(n):
   if n > 0:
     print()
     nLineas(n-1)
 \end{lstlisting}
-\inputencoding{utf8} Esta función es similar a \texttt{conteo}; en tanto \texttt{n} sea
+ Esta función es similar a \texttt{conteo}; en tanto \texttt{n} sea
 mayor a 0, despliega una nueva línea y luego se llama a sí misma para
 desplegar \texttt{n-1} líneas adicionales. Así, el número total de
 nuevas líneas es \texttt{1 + (n - 1)} que, si usted verifica con álgebra,
@@ -442,11 +442,11 @@ recursivos por siempre y el programa nunca termina. Esto se conoce
 como \textbf{recursión infinita}, y, generalmente, no se considera
 una buena idea. Aquí hay un programa minimalista con recursión infinita:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 def recurrir():
   recurrir()
 \end{lstlisting}
-\inputencoding{utf8} En la mayoría de ambientes de programación un programa con recursión
+ En la mayoría de ambientes de programación un programa con recursión
 infinita no corre realmente para siempre. Python reporta un mensaje
 de error cuando alcanza la máxima profundidad de recursión:
 \begin{verbatim}
@@ -471,39 +471,39 @@ digite algo. Cuando el usuario digita la tecla Enter o Intro, el programa
 retoma la ejecución y \texttt{input} retorna lo que el usuario
 digitó como una cadena (\texttt{string}):
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> entrada = input()
 Que esta esperando?
 >>> print(entrada)
 Que esta esperando?
 \end{lstlisting}
-\inputencoding{utf8} Antes de llamar a \texttt{input} es una muy buena idea desplegar
+ Antes de llamar a \texttt{input} es una muy buena idea desplegar
 un mensaje diciéndole al usuario qué digitar. Este mensaje se denomina
 indicador de entrada (\textbf{prompt} en inglés). Podemos dar un argumento
 prompt a \texttt{input}:
 
 \index{prompt}
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> nombre = input("Cual es tu nombre? ")
 Cual es tu nombre? Arturo, Rey de los Bretones!
 >>> print(nombre)
 Arturo, Rey de los Bretones!
 \end{lstlisting}
-\inputencoding{utf8}
+
 Si esperamos que la respuesta sea un entero, podemos usar la función
 \texttt{input}:
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 prompt = "�Cual es la velocidad de una golondrina sin carga?\n"
 velocidad = input(prompt)
 \end{lstlisting}
-\inputencoding{utf8} Si el usuario digita una cadena de dígitos, éstos se convierten a
+ Si el usuario digita una cadena de dígitos, éstos se convierten a
 un entero que se asigna a \texttt{velocidad}. Desafortunadamente,
 si el usuario digita una entrada que no representa un dígito, velocidad
 almacenará una cadena de texto.
 
-\inputencoding{latin9}\begin{lstlisting}
+\begin{lstlisting}
 >>> prompt = "�Cual es la velocidad una golondrina sin carga?\n"
 >>> velocidad = input(prompt)
 �Cual es la velocidad una golondrina sin carga?
@@ -512,7 +512,7 @@ Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 ValueError: invalid literal for int() with base 10: '�Que quiere decir, una golondria Africana o Europea?'
 \end{lstlisting}
-\inputencoding{utf8}
+
 
 Si la función \texttt{int} no puede convertir el valor ingresado, entonces lanzará un error.
 %Para evitar este error, es una buena idea usar \texttt{input}
@@ -567,7 +567,7 @@ al usuario que digite alguna información.
 \verb+comparar(x, y)+. Llame a la función comparar tres veces: una
 en la que el primer argumento sea menor que el segundo, otra en la
 que aquel sea mayor que éste, y una tercera en la que los argumentos
-sean iguales. \inputencoding{latin9}
+sean iguales. 
 \begin{lstlisting}
  if x < y:
     print(x, "es menor que", y)
@@ -576,7 +576,7 @@ sean iguales. \inputencoding{latin9}
  else:
     print(x, "y", y, "son iguales")
 \end{lstlisting}
-\inputencoding{utf8}\item Copie este programa en un archivo llamado tabladeverdad.py: \inputencoding{latin9}
+\item Copie este programa en un archivo llamado tabladeverdad.py: 
 \begin{lstlisting}
 def tabladeverdad(expresion):
     print(" p      q      %s"  % expresion)
@@ -587,7 +587,7 @@ def tabladeverdad(expresion):
         for q in True, False:
             print("%-7s %-7s %-7s" % (p, q, eval(expresion)))
 \end{lstlisting}
-\inputencoding{utf8}
+
 \begin{verbatim}
  
 \end{verbatim}
