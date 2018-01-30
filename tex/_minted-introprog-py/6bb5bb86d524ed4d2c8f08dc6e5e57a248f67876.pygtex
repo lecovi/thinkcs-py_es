@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{ancho} \PYG{o}{=} \PYG{l+m+mf}{1.0} \PYG{o}{/} \PYG{n}{numRegiones}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{numRegiones}\PYG{p}{):}
+  \PYG{n}{inf} \PYG{o}{=} \PYG{n}{i} \PYG{o}{*} \PYG{n}{ancho}
+  \PYG{n}{sup} \PYG{o}{=} \PYG{n}{inf} \PYG{o}{+} \PYG{n}{ancho}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{inf}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{} hasta \PYGZdq{}}\PYG{p}{,} \PYG{n}{sup}\PYG{p}{)}
+\end{Verbatim}

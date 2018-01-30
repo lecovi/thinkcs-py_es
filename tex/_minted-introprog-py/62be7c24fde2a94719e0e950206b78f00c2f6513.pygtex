@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui0.py}
+\PYG{k}{def} \PYG{n+nf}{crear}\PYG{p}{():}
+    \PYG{n}{m} \PYG{o}{=}  \PYG{p}{[} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{],}
+           \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{],}
+           \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{]} \PYG{p}{]}
+    \PYG{k}{return} \PYG{n}{m}
+
+
+\PYG{k}{def} \PYG{n+nf}{imprimir}\PYG{p}{(}\PYG{n}{tablero}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+        \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}|\PYGZdq{}}\PYG{p}{),}
+        \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+            \PYG{k}{print}\PYG{p}{(}\PYG{n}{tablero}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]),}
+        \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}|\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{triqui} \PYG{o}{=} \PYG{n}{crear}\PYG{p}{()}
+\PYG{n}{imprimir}\PYG{p}{(}\PYG{n}{triqui}\PYG{p}{)}
+\end{Verbatim}

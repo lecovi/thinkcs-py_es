@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{tabladeverdad}\PYG{p}{(}\PYG{n}{expresion}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} p      q      }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s2}{\PYGZdq{}}  \PYG{o}{\PYGZpc{}} \PYG{n}{expresion}\PYG{p}{)}
+    \PYG{n}{longitud} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(} \PYG{l+s+s2}{\PYGZdq{} p      q      }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s2}{\PYGZdq{}}  \PYG{o}{\PYGZpc{}} \PYG{n}{expresion}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{longitud}\PYG{o}{*}\PYG{l+s+s2}{\PYGZdq{}=\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{for} \PYG{n}{p} \PYG{o+ow}{in} \PYG{n+nb+bp}{True}\PYG{p}{,} \PYG{n+nb+bp}{False}\PYG{p}{:}
+        \PYG{k}{for} \PYG{n}{q} \PYG{o+ow}{in} \PYG{n+nb+bp}{True}\PYG{p}{,} \PYG{n+nb+bp}{False}\PYG{p}{:}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZpc{}\PYGZhy{}7s}\PYG{l+s+s2}{ }\PYG{l+s+si}{\PYGZpc{}\PYGZhy{}7s}\PYG{l+s+s2}{ }\PYG{l+s+si}{\PYGZpc{}\PYGZhy{}7s}\PYG{l+s+s2}{\PYGZdq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{q}\PYG{p}{,} \PYG{n+nb}{eval}\PYG{p}{(}\PYG{n}{expresion}\PYG{p}{)))}
+\end{Verbatim}

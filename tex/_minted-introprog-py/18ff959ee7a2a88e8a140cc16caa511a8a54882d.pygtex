@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{sumarHoras}\PYG{p}{(}\PYG{n}{t1}\PYG{p}{,} \PYG{n}{t2}\PYG{p}{):}
+  \PYG{n+nb}{sum} \PYG{o}{=} \PYG{n}{Hora}\PYG{p}{()}
+  \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{n}{t1}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{+} \PYG{n}{t2}\PYG{o}{.}\PYG{n}{hora}
+  \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n}{t1}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{+} \PYG{n}{t2}\PYG{o}{.}\PYG{n}{minutos}
+  \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n}{t1}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{+} \PYG{n}{t2}\PYG{o}{.}\PYG{n}{segundos}
+
+  \PYG{k}{if} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+    \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+    \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+  \PYG{k}{if} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+    \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+    \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+  \PYG{k}{return} \PYG{n+nb}{sum}
+\end{Verbatim}

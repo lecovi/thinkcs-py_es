@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{esDivisible}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{x} \PYG{o}{\PYGZpc{}} \PYG{n}{y} \PYG{o}{==} \PYG{l+m+mi}{0}
+\end{Verbatim}

@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mazo}\PYG{p}{:}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{repartir}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{manos}\PYG{p}{,} \PYG{n}{nCartas}\PYG{o}{=}\PYG{l+m+mi}{999}\PYG{p}{):}
+    \PYG{n}{nManos} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{manos}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{nCartas}\PYG{p}{):}
+      \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{estaVacia}\PYG{p}{():}
+            \PYG{k}{break}    \PYG{c+c1}{\PYGZsh{} se detiene si no hay cartas}
+      \PYG{c+c1}{\PYGZsh{} toma la carta en el tope}
+      \PYG{n}{carta} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eliminarCarta}\PYG{p}{()}
+      \PYG{c+c1}{\PYGZsh{} siguiente turno!}
+      \PYG{n}{mano} \PYG{o}{=} \PYG{n}{manos}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZpc{}} \PYG{n}{nManos}\PYG{p}{]}
+      \PYG{c+c1}{\PYGZsh{} agrega la carta a la mano}
+      \PYG{n}{mano}\PYG{o}{.}\PYG{n}{agregarCarta}\PYG{p}{(}\PYG{n}{carta}\PYG{p}{)}
+\end{Verbatim}

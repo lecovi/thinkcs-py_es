@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{concatenarDoble}\PYG{p}{(}\PYG{n}{parte1}\PYG{p}{,} \PYG{n}{parte2}\PYG{p}{):}
+  \PYG{n}{cat} \PYG{o}{=} \PYG{n}{parte1} \PYG{o}{+} \PYG{n}{parte2}
+  \PYG{n}{imprimaDoble}\PYG{p}{(}\PYG{n}{cat}\PYG{p}{)}
+\end{Verbatim}

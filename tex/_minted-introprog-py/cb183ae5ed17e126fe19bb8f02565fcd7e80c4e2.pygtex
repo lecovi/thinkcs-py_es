@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{esDivisible}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}x es divisible por y\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}x no es divisible por y\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

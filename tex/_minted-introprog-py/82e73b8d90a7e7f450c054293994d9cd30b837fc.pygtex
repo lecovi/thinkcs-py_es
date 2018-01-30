@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui8.py}
+  \PYG{k}{def} \PYG{n+nf}{revisar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{gana}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno}\PYG{p}{,}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero}\PYG{p}{):}
+            \PYG{n}{mensaje} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Gana el jugador \PYGZdq{}}\PYG{o}{+}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}.\PYGZdq{}}
+            \PYG{n}{MostrarMensaje}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Fin\PYGZdq{}}\PYG{p}{,} \PYG{n}{mensaje}\PYG{p}{)}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{()}
+        \PYG{k}{elif} \PYG{n}{empate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero}\PYG{p}{):}
+            \PYG{n}{MostrarMensaje}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Fin\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Empate!\PYGZdq{}}\PYG{p}{)}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{()}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{otro}\PYG{p}{()}
+\end{Verbatim}

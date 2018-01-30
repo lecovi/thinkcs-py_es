@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui6.py}
+    \PYG{k}{def} \PYG{n+nf}{boton\PYGZus{}presionado}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{w}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} Todo lo anterior igual}
+        \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{w}\PYG{o}{.}\PYG{n}{text} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}X\PYGZsq{}}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}O\PYGZsq{}}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{botones\PYGZus{}a\PYGZus{}matriz}\PYG{p}{()}
+                \PYG{k}{if} \PYG{n}{gana}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}X\PYGZdq{}}\PYG{p}{,}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero}\PYG{p}{):}
+                    \PYG{n}{MostrarMensaje}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Fin\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Gana el jugador X\PYGZdq{}}\PYG{p}{)}
+                    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{()}
+\end{Verbatim}

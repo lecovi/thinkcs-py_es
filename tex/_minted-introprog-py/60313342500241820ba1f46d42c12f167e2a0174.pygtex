@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+      \PYG{n}{x} \PYG{o}{!=} \PYG{n}{y}               \PYG{c+c1}{\PYGZsh{} x no es igual y}
+      \PYG{n}{x} \PYG{o}{\PYGZgt{}} \PYG{n}{y}                \PYG{c+c1}{\PYGZsh{} x es mayor que y}
+      \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{n}{y}                \PYG{c+c1}{\PYGZsh{} x es menor que y}
+      \PYG{n}{x} \PYG{o}{\PYGZgt{}=} \PYG{n}{y}               \PYG{c+c1}{\PYGZsh{} x es mayor o igual a y}
+      \PYG{n}{x} \PYG{o}{\PYGZlt{}=} \PYG{n}{y}               \PYG{c+c1}{\PYGZsh{} x es menor o igual a y}
+\end{Verbatim}

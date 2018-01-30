@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{cabeza}\PYG{p}{(}\PYG{n}{lista}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{lista}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\end{Verbatim}

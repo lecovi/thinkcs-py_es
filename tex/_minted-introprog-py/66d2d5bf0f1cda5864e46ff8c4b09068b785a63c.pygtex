@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{elimina\PYGZus{}letra}\PYG{p}{(}\PYG{n}{letra}\PYG{p}{,} \PYG{n}{cadena}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}letra(\PYGZsq{}a\PYGZsq{}, \PYGZsq{}manzana\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}mnzn\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}letra(\PYGZsq{}a\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}bnn\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}letra(\PYGZsq{}z\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}banana\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}letra(\PYGZsq{}i\PYGZsq{}, \PYGZsq{}Mississippi\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}Msssspp\PYGZsq{}}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

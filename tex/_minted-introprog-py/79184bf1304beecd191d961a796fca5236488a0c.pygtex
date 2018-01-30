@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui4.py}
+
+\PYG{k+kn}{from} \PYG{n+nn}{validar} \PYG{k+kn}{import} \PYG{o}{*}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{):}
+        \PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{Triqui}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cols} \PYG{o}{=} \PYG{l+m+mi}{3}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows} \PYG{o}{=} \PYG{l+m+mi}{3}
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+            \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{add\PYGZus{}widget}\PYG{p}{(}\PYG{n}{Boton}\PYG{p}{(}\PYG{n}{on\PYGZus{}press}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{boton\PYGZus{}presionado}\PYG{p}{,}\PYGZbs{}
+                       \PYG{n}{fila}\PYG{o}{=}\PYG{n}{i}\PYG{p}{,}\PYG{n}{columna}\PYG{o}{=}\PYG{n}{j}\PYG{p}{))}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}O\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero} \PYG{o}{=} \PYG{n}{crear}\PYG{p}{()}
+\end{Verbatim}

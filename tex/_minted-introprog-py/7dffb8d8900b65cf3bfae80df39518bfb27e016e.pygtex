@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui4.py}
+
+\PYG{k}{def} \PYG{n+nf}{ganaHorizontal}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{ganaFila}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{):}
+            \PYG{k}{return} \PYG{n+nb+bp}{True}
+    \PYG{k}{return} \PYG{n+nb+bp}{False}
+\end{Verbatim}

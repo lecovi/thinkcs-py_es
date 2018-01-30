@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{,} \PYG{l+m+mi}{30}\PYG{p}{,} \PYG{l+m+mi}{40}\PYG{p}{]}
+\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}correo\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}lapiz\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}carro\PYGZdq{}}\PYG{p}{]}
+\end{Verbatim}

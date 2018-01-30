@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{combatiente} \PYG{o+ow}{in} \PYG{n}{combatientes}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{combatiente}\PYG{p}{)}
+\end{Verbatim}

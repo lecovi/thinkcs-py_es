@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{j}\PYG{p}{],} \PYGZbs{}
+                                 \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+\end{Verbatim}

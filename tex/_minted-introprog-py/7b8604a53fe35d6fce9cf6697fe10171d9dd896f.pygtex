@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{numRegiones} \PYG{o}{=} \PYG{l+m+mi}{8}
+\PYG{n}{Regiones} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{*} \PYG{n}{numRegiones}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n}{lista}\PYG{p}{:}
+  \PYG{n}{ind} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{i} \PYG{o}{*} \PYG{n}{numRegiones}\PYG{p}{)}
+  \PYG{n}{Regiones}\PYG{p}{[}\PYG{n}{ind}\PYG{p}{]} \PYG{o}{=} \PYG{n}{Regiones}\PYG{p}{[}\PYG{n}{ind}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}
+\end{Verbatim}

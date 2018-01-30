@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{palabra} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}banana\PYGZdq{}}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}No hay bananas!\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

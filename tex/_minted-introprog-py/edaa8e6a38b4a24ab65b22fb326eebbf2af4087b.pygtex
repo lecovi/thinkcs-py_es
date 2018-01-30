@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mano}\PYG{p}{(}\PYG{n}{Mazo}\PYG{p}{)}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{n}{s} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Mano \PYGZdq{}} \PYG{o}{+} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nombre}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{estaVacia}\PYG{p}{():}
+      \PYG{n}{s} \PYG{o}{=} \PYG{n}{s} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{} esta vacia}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{k}{else}\PYG{p}{:}
+      \PYG{n}{s} \PYG{o}{=} \PYG{n}{s} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{} contiene}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{s} \PYG{o}{+} \PYG{n}{Mazo}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
+\end{Verbatim}

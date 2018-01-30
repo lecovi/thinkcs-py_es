@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{reflejar}\PYG{p}{(}\PYG{n}{s}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} reflejar(\PYGZdq{}bien\PYGZdq{})}
+\PYG{l+s+sd}{      \PYGZsq{}bienneib\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} reflejar(\PYGZdq{}sí\PYGZdq{})}
+\PYG{l+s+sd}{      \PYGZsq{}síís\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} reflejar(\PYGZsq{}Python\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}PythonnohtyP\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} reflejar(\PYGZdq{}\PYGZdq{})}
+\PYG{l+s+sd}{      \PYGZsq{}\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} reflejar(\PYGZdq{}a\PYGZdq{})}
+\PYG{l+s+sd}{      \PYGZsq{}aa\PYGZsq{}}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

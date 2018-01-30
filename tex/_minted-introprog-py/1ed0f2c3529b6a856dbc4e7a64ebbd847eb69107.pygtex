@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{minuto} \PYG{o}{=} \PYG{l+m+mi}{59}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{minuto} \PYG{o}{/} \PYG{l+m+mf}{60.0}
+\PYG{g+go}{0.983333333333}
+\end{Verbatim}

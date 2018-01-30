@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(} \PYG{l+s+s2}{\PYGZdq{}La rana que canta\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}an\PYGZdq{}}\PYG{p}{)}
+\PYG{g+go}{[\PYGZsq{}La r\PYGZsq{}, \PYGZsq{}a que c\PYGZsq{}, \PYGZsq{}ta\PYGZsq{}]}
+\end{Verbatim}

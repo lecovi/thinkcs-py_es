@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k+kn}{from} \PYG{n+nn}{Fraccion} \PYG{k+kn}{import} \PYG{n}{Fraccion}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{s} \PYG{o}{=} \PYG{n}{Fraccion}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}La fraccion es\PYGZdq{}}\PYG{p}{,} \PYG{n}{s}\PYG{p}{)}
+\PYG{n}{La} \PYG{n}{fraccion} \PYG{n}{es} \PYG{l+m+mi}{5}\PYG{o}{/}\PYG{l+m+mi}{6}
+\end{Verbatim}

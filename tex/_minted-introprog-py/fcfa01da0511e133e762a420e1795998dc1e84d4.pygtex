@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Hora}\PYG{p}{:}
+  \PYG{k}{pass}
+
+\PYG{k}{def} \PYG{n+nf}{imprimirHora}\PYG{p}{(}\PYG{n}{h}\PYG{p}{):}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{h}\PYG{o}{.}\PYG{n}{hora}\PYG{p}{)} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}:\PYGZdq{}} \PYG{o}{+}
+        \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos}\PYG{p}{)} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}:\PYGZdq{}} \PYG{o}{+}
+        \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos}\PYG{p}{))}
+\end{Verbatim}

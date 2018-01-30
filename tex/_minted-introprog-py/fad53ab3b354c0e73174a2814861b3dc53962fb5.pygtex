@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{s} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Pedro, Pablo, y Maria\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{s}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{5}\PYG{p}{])}
+\PYG{g+go}{Pedro}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{s}\PYG{p}{[}\PYG{l+m+mi}{7}\PYG{p}{:}\PYG{l+m+mi}{12}\PYG{p}{])}
+\PYG{g+go}{Pablo}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{s}\PYG{p}{[}\PYG{l+m+mi}{16}\PYG{p}{:}\PYG{l+m+mi}{21}\PYG{p}{])}
+\PYG{g+go}{Maria}
+\end{Verbatim}

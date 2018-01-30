@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }  \PYG{n}{p} \PYG{o}{=} \PYG{n}{Punto}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }  \PYG{n}{derechoyAlReves}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}
+\PYG{g+go}{(3, 4)(4, 3)}
+\end{Verbatim}

@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{mazo} \PYG{o}{=} \PYG{n}{Mazo}\PYG{p}{()}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k}{print}\PYG{p}{(}\PYG{n}{mazo}\PYG{p}{)}
+\PYG{n}{As} \PYG{n}{de} \PYG{n}{Picas}
+ \PYG{l+m+mi}{2} \PYG{n}{de} \PYG{n}{Picas}
+  \PYG{l+m+mi}{3} \PYG{n}{de} \PYG{n}{Picas}
+   \PYG{l+m+mi}{4} \PYG{n}{de} \PYG{n}{Picas}
+    \PYG{l+m+mi}{5} \PYG{n}{de} \PYG{n}{Picas}
+     \PYG{l+m+mi}{6} \PYG{n}{de} \PYG{n}{Picas}
+      \PYG{l+m+mi}{7} \PYG{n}{de} \PYG{n}{Picas}
+       \PYG{l+m+mi}{8} \PYG{n}{de} \PYG{n}{Picas}
+        \PYG{l+m+mi}{9} \PYG{n}{de} \PYG{n}{Picas}
+         \PYG{l+m+mi}{10} \PYG{n}{de} \PYG{n}{Picas}
+          \PYG{n}{J} \PYG{n}{de} \PYG{n}{Picas}
+           \PYG{n}{Reina} \PYG{n}{de} \PYG{n}{Picas}
+            \PYG{n}{Rey} \PYG{n}{de} \PYG{n}{Picas}
+             \PYG{n}{As} \PYG{n}{de} \PYG{n}{Diamantes}
+\end{Verbatim}

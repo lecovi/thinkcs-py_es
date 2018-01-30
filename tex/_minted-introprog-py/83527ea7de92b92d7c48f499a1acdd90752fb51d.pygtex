@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{esquina} \PYG{o}{=} \PYG{n}{Punto}\PYG{p}{()}
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{esquina}\PYG{o}{.}\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{esquina}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{l+m+mf}{0.0}\PYG{p}{;}
+\end{Verbatim}

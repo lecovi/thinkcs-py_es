@@ -1,18 +1,20 @@
+% !TEX TS-program = xelatex
+
 %% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[10pt,letterpaper,spanish,usenames,dvipsnames]{book}
+\documentclass[10pt,letterpaper,usenames,dvipsnames]{book}
 \renewcommand{\rmdefault}{ppl}
 \renewcommand{\sfdefault}{kurier}
 \renewcommand{\ttdefault}{cmtt}
 \renewcommand{\familydefault}{\rmdefault}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{1}
 \synctex=-1
 \usepackage{color}
-\usepackage{babel}
-\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+%\usepackage{babel}
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
 \usepackage{calc}
 \usepackage{textcomp}
@@ -136,8 +138,25 @@
 
 \makeatother
 
-\usepackage{listings}
-\renewcommand{\lstlistingname}{\inputencoding{latin9}Listado de c骴igo}
+%\usepackage{listings}
+%\renewcommand{\pythoncodename}{Listado de c锟絛igo}
+
+\label{MY_VARS}
+\def\AutorPrefijo{Prof.}
+\def\AutorNombre{Leandro E.}
+\def\AutorApellido{Colombo Vi帽a}
+\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
+\def\AutorURL{http://leo.bitson.com.ar/}
+\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
+\def\AutorCargo{Profesor en Disciplinas Industriales - T茅cnico Superior en Inform谩tica Aplicada}
+\def\Title{Aprenda a pensar como un programador con Python 3}
+\def\PDFSubject{Adaptaci贸n de la traducci贸n de la 2da edici贸n}
+\def\Fecha{24 de enero de 2018}
+\def\Lugar{Ciudad Aut贸noma de Buenos Aires}
+
+\label{MY_PACKAGES}
+\input{lecv}
+\input{mintedopt}
 
 \begin{document}
 \frontmatter

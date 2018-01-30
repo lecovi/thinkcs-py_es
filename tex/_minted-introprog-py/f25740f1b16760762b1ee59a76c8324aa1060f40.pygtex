@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}(\PYGZsq{}} \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{limpio}\PYG{o}{.}\PYG{n}{x}\PYG{p}{)} \PYG{o}{+} \PYG{l+s+s1}{\PYGZsq{}, \PYGZsq{}} \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{limpio}\PYG{o}{.}\PYG{n}{y}\PYG{p}{)} \PYG{o}{+} \PYG{l+s+s1}{\PYGZsq{})\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{distanciaAlCuadrado} \PYG{o}{=} \PYG{n}{limpio}\PYG{o}{.}\PYG{n}{x} \PYG{o}{*} \PYG{n}{limpio}\PYG{o}{.}\PYG{n}{x} \PYG{o}{+}
+                      \PYG{n}{limpio}\PYG{o}{.}\PYG{n}{y} \PYG{o}{*} \PYG{n}{limpio}\PYG{o}{.}\PYG{n}{y}
+\end{Verbatim}

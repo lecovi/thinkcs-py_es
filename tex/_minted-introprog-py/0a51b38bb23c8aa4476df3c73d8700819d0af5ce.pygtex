@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{ing\PYGZus{}a\PYGZus{}esp}\PYG{p}{)}
+\PYG{g+go}{\PYGZob{}\PYGZsq{}one\PYGZsq{}: \PYGZsq{}uno\PYGZsq{}, \PYGZsq{}three\PYGZsq{}: \PYGZsq{}tres\PYGZsq{}, \PYGZsq{}two\PYGZsq{}: \PYGZsq{}dos\PYGZsq{}\PYGZcb{}}
+\end{Verbatim}

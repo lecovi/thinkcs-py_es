@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{esMinuscula}\PYG{p}{(}\PYG{n}{c}\PYG{p}{):}
+  \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}} \PYG{o}{\PYGZlt{}=} \PYG{n}{c} \PYG{o}{\PYGZlt{}=} \PYG{l+s+s1}{\PYGZsq{}z\PYGZsq{}}
+\end{Verbatim}

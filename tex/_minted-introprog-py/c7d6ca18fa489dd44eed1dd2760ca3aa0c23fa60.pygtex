@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{inventario} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}manzanas\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mi}{430}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}bananas\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mi}{312}\PYG{p}{,}
+\PYG{g+go}{       \PYGZsq{}naranjas\PYGZsq{}: 525,   \PYGZsq{}peras\PYGZsq{}: 217\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{inventario}\PYG{p}{)}
+\PYG{g+go}{\PYGZob{}\PYGZsq{}naranjas\PYGZsq{}: 525, \PYGZsq{}manzanas\PYGZsq{}: 430, \PYGZsq{}peras\PYGZsq{}: 217,}
+\PYG{g+go}{ \PYGZsq{}bananas\PYGZsq{}: 312\PYGZcb{}}
+\end{Verbatim}

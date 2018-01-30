@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{esMinuscula}\PYG{p}{(}\PYG{n}{c}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{c} \PYG{o+ow}{in} \PYG{n}{string}\PYG{o}{.}\PYG{n}{ascii\PYGZus{}lowercase}
+\end{Verbatim}

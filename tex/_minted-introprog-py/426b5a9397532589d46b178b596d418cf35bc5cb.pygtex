@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui9.py}
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZsq{}}\PYG{p}{:}
+    \PYG{n}{triqui} \PYG{o}{=} \PYG{n}{crear}\PYG{p}{()}
+    \PYG{n}{imprimir}\PYG{p}{(}\PYG{n}{triqui}\PYG{p}{)}
+
+    \PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+        \PYG{n}{jugar}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}O\PYGZdq{}}\PYG{p}{,}\PYG{n}{triqui}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{gana}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}O\PYGZdq{}}\PYG{p}{,}\PYG{n}{triqui}\PYG{p}{):}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Gana el jugador O !!!!\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{break}
+        \PYG{k}{if} \PYG{n}{empate}\PYG{p}{(}\PYG{n}{triqui}\PYG{p}{):}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Empate !!!\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{break}
+        \PYG{n}{jugar}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}X\PYGZdq{}}\PYG{p}{,}\PYG{n}{triqui}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{gana}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}X\PYGZdq{}}\PYG{p}{,}\PYG{n}{triqui}\PYG{p}{):}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Gana el jugador X !!!!\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{break}
+        \PYG{k}{if} \PYG{n}{empate}\PYG{p}{(}\PYG{n}{triqui}\PYG{p}{):}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Empate !!!\PYGZdq{}}\PYG{p}{)}
+            \PYG{k}{break}
+\end{Verbatim}

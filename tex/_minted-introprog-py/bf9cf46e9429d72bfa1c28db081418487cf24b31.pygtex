@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{numeros}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{]}
+\PYG{g+go}{5}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{numeros}\PYG{p}{[}\PYG{l+m+mf}{1.0}\PYG{p}{]}
+\PYG{g+go}{TypeError: sequence index must be integer}
+\end{Verbatim}

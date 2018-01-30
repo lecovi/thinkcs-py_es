@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mo}{000}\PYG{p}{,}\PYG{l+m+mo}{000}\PYG{p}{)}
+\PYG{g+go}{1 0 0}
+\end{Verbatim}

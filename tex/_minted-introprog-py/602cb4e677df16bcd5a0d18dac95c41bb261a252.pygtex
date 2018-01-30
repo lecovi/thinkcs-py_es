@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k}{print}\PYG{p}{(}\PYG{l+m+mi}{4} \PYG{o}{*} \PYG{n}{Fraccion}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{))}
+\PYG{l+m+mi}{20}\PYG{o}{/}\PYG{l+m+mi}{6}
+\end{Verbatim}

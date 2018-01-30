@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{reverse}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+  \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x} \PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}
+\end{Verbatim}

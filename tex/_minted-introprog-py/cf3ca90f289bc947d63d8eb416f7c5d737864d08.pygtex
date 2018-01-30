@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui8.py}
+\PYG{k}{def} \PYG{n+nf}{jugar}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{):}
+    \PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+        \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Juegue jugador \PYGZdq{}}\PYG{p}{,} \PYG{n}{jugador}\PYG{p}{)}
+        \PYG{n}{f} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}fila? \PYGZdq{}}\PYG{p}{))}
+        \PYG{n}{c} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}columna? \PYGZdq{}}\PYG{p}{))}
+        \PYG{k}{if} \PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}\PYG{o}{==}\PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{c}\PYG{p}{)}\PYG{o}{==}\PYG{n+nb}{type}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o+ow}{and} \PYG{n}{valido}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}
+           \PYG{o+ow}{and} \PYG{n}{valido}\PYG{p}{(}\PYG{n}{c}\PYG{p}{)} \PYG{o+ow}{and} \PYG{n}{tablero}\PYG{p}{[}\PYG{n}{f}\PYG{p}{][}\PYG{n}{c}\PYG{p}{]}\PYG{o}{==}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{tablero}\PYG{p}{[}\PYG{n}{f}\PYG{p}{][}\PYG{n}{c}\PYG{p}{]} \PYG{o}{=} \PYG{n}{jugador}
+            \PYG{k}{break}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Posici�n inv�lida!\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{n}{imprimir}\PYG{p}{(}\PYG{n}{triqui}\PYG{p}{)}
+    \PYG{n}{diag} \PYG{o}{=} \PYG{n}{ganaDiagonal1}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)} \PYG{o+ow}{or} \PYGZbs{}
+           \PYG{n}{ganaDiagonal2}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)}
+    \PYG{n}{linea} \PYG{o}{=} \PYG{n}{ganaHorizontal}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)} \PYG{o+ow}{or} \PYGZbs{}
+            \PYG{n}{ganaVertical}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)}
+    \PYG{k}{return}  \PYG{n}{diag} \PYG{o+ow}{or} \PYG{n}{linea}
+\end{Verbatim}

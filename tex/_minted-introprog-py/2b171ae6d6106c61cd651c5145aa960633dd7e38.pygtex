@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area}\PYG{p}{(}\PYG{n}{radio}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{math}\PYG{o}{.}\PYG{n}{pi} \PYG{o}{*} \PYG{n}{radio}\PYG{o}{**}\PYG{l+m+mi}{2}
+\end{Verbatim}

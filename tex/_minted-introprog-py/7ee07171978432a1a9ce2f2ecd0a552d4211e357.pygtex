@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{horaComer}\PYG{o}{.}\PYG{n}{despues}\PYG{p}{(}\PYG{n}{horaActual}\PYG{p}{):}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}El pan estará listo para comer en un momento.\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}e\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}f\PYGZsq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}x\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}y\PYGZsq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{lista}\PYG{p}{)}
+\PYG{g+go}{[\PYGZsq{}a\PYGZsq{}, \PYGZsq{}x\PYGZsq{}, \PYGZsq{}y\PYGZsq{}, \PYGZsq{}d\PYGZsq{}, \PYGZsq{}e\PYGZsq{}, \PYGZsq{}f\PYGZsq{}]}
+\end{Verbatim}

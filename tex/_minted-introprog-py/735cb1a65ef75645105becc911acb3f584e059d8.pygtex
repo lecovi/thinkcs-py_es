@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{caracter} \PYG{o+ow}{in} \PYG{n}{fruta}\PYG{p}{:}
+   \PYG{k}{print}\PYG{p}{(}\PYG{n}{caracter}\PYG{p}{)}
+\end{Verbatim}

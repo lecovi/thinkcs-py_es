@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{ing\PYGZus{}a\PYGZus{}esp} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{ing\PYGZus{}a\PYGZus{}esp}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}one\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}uno\PYGZsq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{ing\PYGZus{}a\PYGZus{}esp}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}two\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}dos\PYGZsq{}}
+\end{Verbatim}

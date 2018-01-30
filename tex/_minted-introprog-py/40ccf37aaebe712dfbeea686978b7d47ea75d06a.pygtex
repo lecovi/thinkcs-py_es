@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{anteriores} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{1}\PYG{p}{\PYGZcb{}}
+
+\PYG{k}{def} \PYG{n+nf}{fibonacci}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+  \PYG{k}{if} \PYG{n}{anteriores}\PYG{o}{.}\PYG{n}{has\PYGZus{}key}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{anteriores}\PYG{p}{[}\PYG{n}{n}\PYG{p}{]}
+  \PYG{k}{else}\PYG{p}{:}
+    \PYG{n}{nuevoValor} \PYG{o}{=} \PYG{n}{fibonacci}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{+} \PYG{n}{fibonacci}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{anteriores}\PYG{p}{[}\PYG{n}{n}\PYG{p}{]} \PYG{o}{=} \PYG{n}{nuevoValor}
+    \PYG{k}{return} \PYG{n}{nuevoValor}
+\end{Verbatim}

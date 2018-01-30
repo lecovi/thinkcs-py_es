@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{valorAbsoluto}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+  \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{n}{x}
+  \PYG{k}{else}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n}{x}
+\end{Verbatim}

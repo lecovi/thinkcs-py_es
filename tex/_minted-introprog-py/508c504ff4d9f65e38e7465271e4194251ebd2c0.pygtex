@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}cmp\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{otro}\PYG{p}{):}
+  \PYG{c+c1}{\PYGZsh{} chequea las figuras}
+  \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{figura} \PYG{o}{\PYGZgt{}} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{figura}\PYG{p}{:} \PYG{k}{return} \PYG{l+m+mi}{1}
+  \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{figura} \PYG{o}{\PYGZlt{}} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{figura}\PYG{p}{:} \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+  \PYG{c+c1}{\PYGZsh{} Si tienen la misma figura...}
+  \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{valor} \PYG{o}{\PYGZgt{}} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{valor}\PYG{p}{:} \PYG{k}{return} \PYG{l+m+mi}{1}
+  \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{valor} \PYG{o}{\PYGZlt{}} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{valor}\PYG{p}{:} \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+  \PYG{c+c1}{\PYGZsh{} si los valores son iguales... hay un empate}
+  \PYG{k}{return} \PYG{l+m+mi}{0}
+\end{Verbatim}

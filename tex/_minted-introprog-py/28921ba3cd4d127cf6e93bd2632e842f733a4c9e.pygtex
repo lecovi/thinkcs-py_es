@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{intercambiar}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{y}\PYG{p}{,} \PYG{n}{x}
+\end{Verbatim}

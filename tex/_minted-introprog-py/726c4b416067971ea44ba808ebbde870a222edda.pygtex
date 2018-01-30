@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{informe} \PYG{p}{(}\PYG{n}{tarifas}\PYG{p}{)} \PYG{p}{:}
+  \PYG{n}{estudiantes} \PYG{o}{=} \PYG{n}{tarifas}\PYG{o}{.}\PYG{n}{keys}\PYG{p}{()}
+  \PYG{n}{estudiantes}\PYG{o}{.}\PYG{n}{sort}\PYG{p}{()}
+  \PYG{k}{for} \PYG{n}{estudiante} \PYG{o+ow}{in} \PYG{n}{estudiantes} \PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZpc{}\PYGZhy{}20s}\PYG{l+s+s2}{ }\PYG{l+s+si}{\PYGZpc{}12.02f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{\PYGZpc{}}\PYG{p}{(}\PYG{n}{estudiante}\PYG{p}{,} \PYG{n}{tarifas}\PYG{p}{[}\PYG{n}{estudiante}\PYG{p}{]))}
+\end{Verbatim}

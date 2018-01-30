@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}mul\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{otro}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x} \PYG{o}{*} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{x} \PYG{o}{+} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{*} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{y}
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{y} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0} \PYG{p}{:}
+  \PYG{c+c1}{\PYGZsh{} hace algo con x}
+  \PYG{c+c1}{\PYGZsh{} hace algo con y}
+
+  \PYG{k}{print}\PYG{p}{(} \PYG{l+s+s2}{\PYGZdq{}x: \PYGZdq{}}\PYG{p}{,} \PYG{n}{x} \PYG{p}{)}
+  \PYG{k}{print}\PYG{p}{(} \PYG{l+s+s2}{\PYGZdq{}y: \PYGZdq{}}\PYG{p}{,} \PYG{n}{y} \PYG{p}{)}
+  \PYG{k}{print}\PYG{p}{(} \PYG{l+s+s2}{\PYGZdq{}condicion: \PYGZdq{}}\PYG{p}{,} \PYG{p}{(}\PYG{n}{x} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{y} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{))}
+\end{Verbatim}

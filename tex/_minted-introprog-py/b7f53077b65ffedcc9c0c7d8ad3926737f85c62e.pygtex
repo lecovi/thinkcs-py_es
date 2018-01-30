@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k}{print}\PYG{p}{(}\PYG{n}{Fraccion}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mi}{4}\PYG{p}{)}
+\PYG{l+m+mi}{20}\PYG{o}{/}\PYG{l+m+mi}{6}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{k}{print}\PYG{p}{(}\PYG{l+m+mi}{4} \PYG{o}{*} \PYG{n}{Fraccion}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{))}
+\PYG{n+ne}{TypeError}\PYG{p}{:} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}mul\PYGZus{}\PYGZus{}} \PYG{n}{nor} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}rmul\PYGZus{}\PYGZus{}} \PYG{n}{defined} \PYG{k}{for} \PYG{n}{these} \PYG{n}{operands}
+\end{Verbatim}

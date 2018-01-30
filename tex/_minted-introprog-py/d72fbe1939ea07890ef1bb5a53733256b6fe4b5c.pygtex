@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{m} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}La\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}vida\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}es\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}un\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}ratico\PYGZsq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+s+s2}{\PYGZdq{} \PYGZdq{}}\PYG{o}{.}\PYG{n}{join}\PYG{p}{(}\PYG{n}{m}\PYG{p}{)}
+\PYG{g+go}{\PYGZsq{}La vida es un ratico\PYGZsq{}}
+\end{Verbatim}

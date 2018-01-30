@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{math}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{1.0}
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{10.0}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{math}\PYG{o}{.}\PYG{n}{log}\PYG{p}{(}\PYG{n}{x}\PYG{p}{))}
+  \PYG{n}{x} \PYG{o}{=} \PYG{n}{x} \PYG{o}{+} \PYG{l+m+mf}{1.0}
+\end{Verbatim}

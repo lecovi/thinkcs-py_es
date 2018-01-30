@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Hora}\PYG{p}{:}
+  \PYG{c+c1}{\PYGZsh{} Las definiciones anteriores van aqui...}
+
+  \PYG{k}{def} \PYG{n+nf}{despues}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{hora2}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{\PYGZgt{}} \PYG{n}{hora2}\PYG{o}{.}\PYG{n}{hora}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{True}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{\PYGZlt{}} \PYG{n}{hora2}\PYG{o}{.}\PYG{n}{hora}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{False}
+
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZgt{}} \PYG{n}{hora2}\PYG{o}{.}\PYG{n}{minutos}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{True}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZlt{}} \PYG{n}{hora2}\PYG{o}{.}\PYG{n}{minutos}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{False}
+
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZgt{}} \PYG{n}{hora2}\PYG{o}{.}\PYG{n}{segundos}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{True}
+    \PYG{k}{return} \PYG{n+nb+bp}{False}
+\end{Verbatim}

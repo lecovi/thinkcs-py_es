@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{5}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{a}    \PYG{c+c1}{\PYGZsh{} a y b ahora son iguales}
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{3}    \PYG{c+c1}{\PYGZsh{} a y b no son iguales ahora}
+\end{Verbatim}

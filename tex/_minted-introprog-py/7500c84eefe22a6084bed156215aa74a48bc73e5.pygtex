@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui9.py}
+\PYG{k}{def} \PYG{n+nf}{gana}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{} Analiza si el jugador gana la partida \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{diag} \PYG{o}{=} \PYG{n}{ganaDiagonal1}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)} \PYG{o+ow}{or} \PYGZbs{}
+           \PYG{n}{ganaDiagonal2}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)}
+    \PYG{n}{linea} \PYG{o}{=} \PYG{n}{ganaHorizontal}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)} \PYG{o+ow}{or} \PYGZbs{}
+            \PYG{n}{ganaVertical}\PYG{p}{(}\PYG{n}{jugador}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{)}
+    \PYG{k}{return}  \PYG{n}{diag} \PYG{o+ow}{or} \PYG{n}{linea}
+\end{Verbatim}

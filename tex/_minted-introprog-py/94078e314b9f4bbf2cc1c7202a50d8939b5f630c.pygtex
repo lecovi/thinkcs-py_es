@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{nombreArch} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Introduce un nombre de archivo: \PYGZsq{}}\PYG{p}{)}
+\PYG{k}{try}\PYG{p}{:}
+  \PYG{n}{f} \PYG{o}{=} \PYG{n+nb}{open} \PYG{p}{(}\PYG{n}{nombreArch}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}r\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{except}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}No hay ningún archivo que se llame\PYGZsq{}}\PYG{p}{,} \PYG{n}{nombreArch}\PYG{p}{)}
+\end{Verbatim}

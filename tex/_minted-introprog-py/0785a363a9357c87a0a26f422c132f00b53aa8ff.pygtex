@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{f}\PYG{o}{.}\PYG{n}{readline}\PYG{p}{())}
+
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{f}\PYG{o}{.}\PYG{n}{readlines}\PYG{p}{())}
+\PYG{g+go}{[]}
+\end{Verbatim}

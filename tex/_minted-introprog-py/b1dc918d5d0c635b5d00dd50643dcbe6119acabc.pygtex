@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{opuestos} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}arriba\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}abajo\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}derecho\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}torcido\PYGZsq{}}\PYG{p}{,}
+\PYG{g+go}{  \PYGZsq{}verdadero\PYGZsq{}: \PYGZsq{}falso\PYGZsq{}\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{alias} \PYG{o}{=} \PYG{n}{opuestos}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{copia} \PYG{o}{=} \PYG{n}{opuestos}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+\end{Verbatim}

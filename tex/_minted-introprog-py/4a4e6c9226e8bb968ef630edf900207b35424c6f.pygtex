@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{sumarHoras}\PYG{p}{(}\PYG{n}{t1}\PYG{p}{,} \PYG{n}{t2}\PYG{p}{):}
+  \PYG{n}{segundos} \PYG{o}{=} \PYG{n}{convertirASegundos}\PYG{p}{(}\PYG{n}{t1}\PYG{p}{)} \PYG{o}{+} \PYG{n}{convertirASegundos}\PYG{p}{(}\PYG{n}{t2}\PYG{p}{)}
+  \PYG{k}{return} \PYG{n}{crearHora}\PYG{p}{(}\PYG{n}{segundos}\PYG{p}{)}
+\end{Verbatim}

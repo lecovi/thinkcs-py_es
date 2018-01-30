@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{combatientes} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}guerra\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}hambruna\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}peste\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}muerte\PYGZdq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+s+s1}{\PYGZsq{}peste\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{combatientes}
+\PYG{g+go}{True}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+s+s1}{\PYGZsq{}corrupcion\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{combatientes}
+\PYG{g+go}{False}
+\end{Verbatim}

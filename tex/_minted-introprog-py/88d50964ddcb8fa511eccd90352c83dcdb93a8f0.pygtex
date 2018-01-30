@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Fraccion}\PYG{p}{:}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}cmp\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{otro}\PYG{p}{):}
+    \PYG{n}{dif} \PYG{o}{=} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{numerador}  \PYG{o}{*} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{denominador} \PYG{o}{\PYGZhy{}} \PYGZbs{}
+            \PYG{n}{otro}\PYG{o}{.}\PYG{n}{numerador} \PYG{o}{*} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{denominador}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{dif}
+\end{Verbatim}

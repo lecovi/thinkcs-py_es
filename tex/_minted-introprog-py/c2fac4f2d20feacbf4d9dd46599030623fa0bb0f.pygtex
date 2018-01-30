@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{c2} \PYG{o}{=} \PYG{n}{Carta}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{c2}\PYG{p}{)}
+\PYG{g+go}{3 de Diamantes}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{c2}\PYG{o}{.}\PYG{n}{listaFiguras}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])}
+\PYG{g+go}{Diamantes}
+\end{Verbatim}

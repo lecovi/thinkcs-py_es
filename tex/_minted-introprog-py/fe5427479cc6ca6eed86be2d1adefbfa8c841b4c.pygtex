@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{prefijos} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}JKLMNOPQ\PYGZdq{}}
+\PYG{n}{sufijo} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}ack\PYGZdq{}}
+
+\PYG{k}{for} \PYG{n}{letra} \PYG{o+ow}{in} \PYG{n}{prefijos}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{letra} \PYG{o}{+} \PYG{n}{sufijo}\PYG{p}{)}
+\end{Verbatim}

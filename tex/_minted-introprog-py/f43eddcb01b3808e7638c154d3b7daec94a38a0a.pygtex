@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} calcula el porcentaje de la hora que ha pasado}
+\PYG{n}{porcentaje} \PYG{o}{=} \PYG{p}{(}\PYG{n}{minuto} \PYG{o}{*} \PYG{l+m+mi}{100}\PYG{p}{)} \PYG{o}{/} \PYG{l+m+mi}{60}
+\end{Verbatim}

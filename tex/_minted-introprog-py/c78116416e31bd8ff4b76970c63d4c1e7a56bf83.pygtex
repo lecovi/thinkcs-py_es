@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cociente} \PYG{o}{=} \PYG{l+m+mi}{7} \PYG{o}{//} \PYG{l+m+mi}{3}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{cociente}\PYG{p}{)}
+\PYG{g+go}{2}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{residuo} \PYG{o}{=} \PYG{l+m+mi}{7} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{3}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{residuo}\PYG{p}{)}
+\PYG{g+go}{1}
+\end{Verbatim}

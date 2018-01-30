@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{agrandaRect}\PYG{p}{(}\PYG{n}{caja}\PYG{p}{,} \PYG{n}{dancho}\PYG{p}{,} \PYG{n}{daltura}\PYG{p}{)} \PYG{p}{:}
+  \PYG{k+kn}{import} \PYG{n+nn}{copy}
+  \PYG{n}{nuevaCaja} \PYG{o}{=} \PYG{n}{copy}\PYG{o}{.}\PYG{n}{deepcopy}\PYG{p}{(}\PYG{n}{caja}\PYG{p}{)}
+  \PYG{n}{nuevaCaja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{=} \PYG{n}{nuevaCaja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{+} \PYG{n}{dancho}
+  \PYG{n}{nuevaCaja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{=} \PYG{n}{nuevaCaja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{+} \PYG{n}{daltura}
+  \PYG{k}{return} \PYG{n}{nuevaCaja}
+\end{Verbatim}

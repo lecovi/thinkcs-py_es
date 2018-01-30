@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k+kn}{import} \PYG{n+nn}{copy}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p1} \PYG{o}{=} \PYG{n}{Punto}\PYG{p}{()}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p1}\PYG{o}{.}\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mi}{3}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p1}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{l+m+mi}{4}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p2} \PYG{o}{=} \PYG{n}{copy}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p1} \PYG{o}{==} \PYG{n}{p2}
+\PYG{g+go}{False}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mismoPunto}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,} \PYG{n}{p2}\PYG{p}{)}
+\PYG{g+go}{True}
+\end{Verbatim}

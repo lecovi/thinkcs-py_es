@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{fruta} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}banano\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{letra} \PYG{o}{=} \PYG{n}{fruta}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{letra}\PYG{p}{)}
+\end{Verbatim}

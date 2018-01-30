@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{tomaNumero} \PYG{p}{()}
+\PYG{g+go}{Elige un número: 17}
+\PYG{g+go}{ErrorNumeroMalo: 17 es un mal número}
+\end{Verbatim}

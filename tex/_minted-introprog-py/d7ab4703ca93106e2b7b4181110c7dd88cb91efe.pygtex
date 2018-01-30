@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mazo}\PYG{p}{:}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{barajar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{k+kn}{import} \PYG{n+nn}{random}
+    \PYG{n}{nCartas} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{nCartas}\PYG{p}{):}
+      \PYG{n}{j} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randrange}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,} \PYG{n}{nCartas}\PYG{p}{)}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{j}\PYG{p}{],} \PYGZbs{}
+                                       \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+\end{Verbatim}

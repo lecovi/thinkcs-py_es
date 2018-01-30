@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{es\PYGZus{}palindromo}\PYG{p}{(}\PYG{n}{s}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} es\PYGZus{}palindromo(\PYGZsq{}abba\PYGZsq{})}
+\PYG{l+s+sd}{      True}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} es\PYGZus{}palindromo(\PYGZsq{}abab\PYGZsq{})}
+\PYG{l+s+sd}{      False}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} es\PYGZus{}palindromo(\PYGZsq{}tenet\PYGZsq{})}
+\PYG{l+s+sd}{      True}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} es\PYGZus{}palindromo(\PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      False}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} es\PYGZus{}palindromo(\PYGZsq{}zorra arroz\PYGZsq{})}
+\PYG{l+s+sd}{      True}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

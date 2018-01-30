@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui1.py}
+\PYG{k}{class} \PYG{n+nc}{Triqui}\PYG{p}{(}\PYG{n}{GridLayout}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{):}
+        \PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{Triqui}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{add\PYGZus{}widget}\PYG{p}{(}\PYG{n}{Button}\PYG{p}{(}\PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{,}
+                        \PYG{n}{on\PYGZus{}press}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{boton\PYGZus{}presionado}\PYG{p}{))}
+
+    \PYG{k}{def} \PYG{n+nf}{boton\PYGZus{}presionado}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{w}\PYG{p}{):}
+        \PYG{k}{pass}
+\end{Verbatim}

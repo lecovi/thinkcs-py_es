@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{buscar}\PYG{p}{(}\PYG{n}{cad}\PYG{p}{,} \PYG{n}{c}\PYG{p}{):}
+  \PYG{n}{indice} \PYG{o}{=} \PYG{l+m+mi}{0}
+  \PYG{k}{while} \PYG{n}{indice} \PYG{o}{\PYGZlt{}} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{cad}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n}{cad}\PYG{p}{[}\PYG{n}{indice}\PYG{p}{]} \PYG{o}{==} \PYG{n}{c}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n}{indice}
+    \PYG{n}{indice} \PYG{o}{=} \PYG{n}{indice} \PYG{o}{+} \PYG{l+m+mi}{1}
+  \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mensaje} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Como le va, Doc?\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mensaje}
+\PYG{g+go}{\PYGZdq{}Como le va, Doc?\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{mensaje}\PYG{p}{)}
+\PYG{g+go}{Como le va, Doc?}
+\end{Verbatim}

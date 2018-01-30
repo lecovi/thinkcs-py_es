@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{convertirASegundos}\PYG{p}{(}\PYG{n}{t}\PYG{p}{):}
+  \PYG{n}{minutos} \PYG{o}{=} \PYG{n}{t}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{*} \PYG{l+m+mi}{60} \PYG{o}{+} \PYG{n}{t}\PYG{o}{.}\PYG{n}{minutos}
+  \PYG{n}{segundos} \PYG{o}{=} \PYG{n}{minutos} \PYG{o}{*} \PYG{l+m+mi}{60} \PYG{o}{+} \PYG{n}{t}\PYG{o}{.}\PYG{n}{segundos}
+  \PYG{k}{return} \PYG{n}{segundos}
+\end{Verbatim}

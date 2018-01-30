@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mi}{52}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{f}\PYG{o}{.}\PYG{n}{write} \PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{x}\PYG{p}{))}
+\end{Verbatim}

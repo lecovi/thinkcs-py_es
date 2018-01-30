@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Punto}\PYG{p}{:}
+  \PYG{c+c1}{\PYGZsh{} los métodos definidos previamente van aquí...}
+
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}add\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{otro}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{Punto}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x} \PYG{o}{+} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{x}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{+} \PYG{n}{otro}\PYG{o}{.}\PYG{n}{y}\PYG{p}{)}
+\end{Verbatim}

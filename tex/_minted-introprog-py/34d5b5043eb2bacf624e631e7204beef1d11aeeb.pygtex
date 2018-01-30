@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{limpio}\PYG{o}{.}\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{3.0}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{limpio}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{l+m+mf}{4.0}
+\end{Verbatim}

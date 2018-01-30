@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{horaActual}\PYG{o}{.}\PYG{n}{incrementar}\PYG{p}{(}\PYG{l+m+mi}{500}\PYG{p}{)}
+\end{Verbatim}

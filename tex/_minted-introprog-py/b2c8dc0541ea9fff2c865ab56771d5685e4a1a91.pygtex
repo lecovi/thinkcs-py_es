@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui7.py}
+
+\PYG{k}{def} \PYG{n+nf}{empate}\PYG{p}{(}\PYG{n}{tablero}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+        \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{):}
+            \PYG{k}{if} \PYG{n}{tablero}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]}\PYG{o}{==}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{:}
+                \PYG{k}{return} \PYG{n+nb+bp}{False}
+    \PYG{k}{return} \PYG{n+nb+bp}{True}
+\end{Verbatim}

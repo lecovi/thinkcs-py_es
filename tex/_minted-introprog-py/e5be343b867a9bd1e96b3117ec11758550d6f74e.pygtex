@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{pedro} \PYG{o}{=} \PYG{l+m+mi}{5}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{pedro}\PYG{p}{)}
+\PYG{n}{pedro} \PYG{o}{=} \PYG{l+m+mi}{7}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{pedro}\PYG{p}{)}
+\end{Verbatim}

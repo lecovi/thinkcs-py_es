@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Primera Linea.\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{nuevaLinea}\PYG{p}{()}
+\PYG{n}{nuevaLinea}\PYG{p}{()}
+\PYG{n}{nuevaLinea}\PYG{p}{()}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Segunda Linea.\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

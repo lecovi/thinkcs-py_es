@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{c2}\PYG{p}{)}
+\PYG{g+go}{3 de Rombos rojos}
+\end{Verbatim}

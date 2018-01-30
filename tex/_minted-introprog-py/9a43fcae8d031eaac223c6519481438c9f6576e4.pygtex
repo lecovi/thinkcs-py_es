@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{longitud} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{fruta}\PYG{p}{)}
+\PYG{n}{ultima} \PYG{o}{=} \PYG{n}{fruta}\PYG{p}{[}\PYG{n}{longitud}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}
+\end{Verbatim}

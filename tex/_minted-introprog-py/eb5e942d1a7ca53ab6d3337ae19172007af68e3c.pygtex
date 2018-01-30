@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{long}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{g+go}{1L}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{long}\PYG{p}{(}\PYG{l+m+mf}{3.9}\PYG{p}{)}
+\PYG{g+go}{3L}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{long}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}57\PYGZsq{}}\PYG{p}{)}
+\PYG{g+go}{57L}
+\end{Verbatim}

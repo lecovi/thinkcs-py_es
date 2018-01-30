@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} triqui0.py}
+\PYG{k+kn}{import} \PYG{n+nn}{kivy}
+\PYG{n}{kivy}\PYG{o}{.}\PYG{n}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}1.9.1\PYGZsq{}}\PYG{p}{)}
+\PYG{k+kn}{from} \PYG{n+nn}{kivy.app} \PYG{k+kn}{import} \PYG{n}{App}
+\PYG{k+kn}{from} \PYG{n+nn}{kivy.uix.gridlayout} \PYG{k+kn}{import} \PYG{n}{GridLayout}
+
+\PYG{k}{class} \PYG{n+nc}{Triqui}\PYG{p}{(}\PYG{n}{GridLayout}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{):}
+        \PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{Triqui}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+
+
+\PYG{k}{class} \PYG{n+nc}{Programa}\PYG{p}{(}\PYG{n}{App}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf}{build}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{title} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Triqui\PYGZsq{}}
+        \PYG{k}{return} \PYG{n}{Triqui}\PYG{p}{()}
+
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZsq{}}\PYG{p}{:}
+    \PYG{n}{Programa}\PYG{p}{()}\PYG{o}{.}\PYG{n}{run}\PYG{p}{()}
+\end{Verbatim}

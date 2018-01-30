@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{derechoyAlReves}\PYG{p}{(}\PYG{n}{l}\PYG{p}{):}
+  \PYG{k+kn}{import} \PYG{n+nn}{copy}
+  \PYG{n}{r} \PYG{o}{=} \PYG{n}{copy}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{l}\PYG{p}{)}
+  \PYG{n}{r}\PYG{o}{.}\PYG{n}{reverse}\PYG{p}{()}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{l}\PYG{p}{)} \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{r}\PYG{p}{))}
+\end{Verbatim}

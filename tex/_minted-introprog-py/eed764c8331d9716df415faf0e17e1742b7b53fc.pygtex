@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area}\PYG{p}{(}\PYG{n}{lado}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{} Calcula el area de un cuadrado}
+\PYG{l+s+sd}{        Parámetros:}
+\PYG{l+s+sd}{            radio: número}
+\PYG{l+s+sd}{        Pruebas:}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} area(1)}
+\PYG{l+s+sd}{        1}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{lado}\PYG{o}{**}\PYG{l+m+mi}{2}
+\end{Verbatim}

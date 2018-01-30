@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{numero} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{):}
+  \PYG{k}{if} \PYG{n}{numero} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{numero}\PYG{p}{)}
+
+\PYG{k}{for} \PYG{n}{fruta} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}banano\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}manzana\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}pera\PYGZdq{}}\PYG{p}{]:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Me gustaria comer \PYGZdq{}} \PYG{o}{+} \PYG{n}{fruta} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}s!\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

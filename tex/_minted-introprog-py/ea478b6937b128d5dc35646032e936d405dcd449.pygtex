@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{saludo} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Hola mundo!\PYGZdq{}}
+\PYG{n}{nuevoSaludo} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}J\PYGZsq{}} \PYG{o}{+} \PYG{n}{saludo}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{:]}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{nuevoSaludo}\PYG{p}{)}
+\end{Verbatim}
