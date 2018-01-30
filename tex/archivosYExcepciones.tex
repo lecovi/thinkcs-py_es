@@ -142,7 +142,7 @@ Para hacer una demostraciÃ³n, crearemos un archivo de texto con tres
 lÃ­neas de texto separadas por saltos de lÃ­nea:\inputencoding{latin9}
 \begin{lstlisting}
 >>> f = open("test.dat","w")
->>> f.write("línea uno\nlínea dos\nlínea tres\n")
+>>> f.write("lï¿½nea uno\nlï¿½nea dos\nlï¿½nea tres\n")
 >>> f.close()
 \end{lstlisting}
 \inputencoding{utf8}
@@ -151,7 +151,7 @@ el siguiente salto de lÃ­nea:\inputencoding{latin9}
 \begin{lstlisting}
 >>> f = open("test.dat","r")
 >>> print(f.readline())
-línea uno
+lï¿½nea uno
 
 >>>
 \end{lstlisting}
@@ -160,7 +160,7 @@ línea uno
 de cadenas:\inputencoding{latin9}
 \begin{lstlisting}
 >>> print(f.readlines())
-['línea dos\012', 'línea tres\012']
+['lï¿½nea dos\012', 'lï¿½nea tres\012']
 \end{lstlisting}
 \inputencoding{utf8}
 En este caso, la salida estÃ¡ en forma de lista, lo que significa que
@@ -442,8 +442,8 @@ IndexError: list index out of range
 O el acceso a una clave que no estÃ¡ en el diccionario:\inputencoding{latin9}
 \begin{lstlisting}
 >>> b = {}
->>> print(b['qué'])
-KeyError: qué
+>>> print(b['quï¿½'])
+KeyError: quï¿½
 \end{lstlisting}
 \inputencoding{utf8}
 En cada caso, el mensaje de error tiene dos partes: el tipo de error
@@ -461,11 +461,11 @@ Por ejemplo, podemos preguntar al usuario por el nombre de un archivo
 y luego intentar abrirlo. Si el archivo no existe, no queremos que
 el programa se aborte; queremos manejar la excepciÃ³n.\inputencoding{latin9}
 \begin{lstlisting}
-nombreArch = raw_input('Introduce un nombre de archivo: ')
+nombreArch = input('Introduce un nombre de archivo: ')
 try:
   f = open (nombreArch, "r")
 except:
-  print('No hay ningún archivo que se llame', nombreArch)
+  print('No hay ningï¿½n archivo que se llame', nombreArch)
 \end{lstlisting}
 \inputencoding{utf8}
 La sentencia \texttt{try} ejecuta las sentencias del primer bloque.
@@ -496,9 +496,9 @@ vÃ¡lida por cualquier razÃ³n, lanzamos una excepciÃ³n.\inputencoding{latin9}
 \begin{lstlisting}
 # -*- coding: utf-8 -*-
 def tomaNumero () :                 
-  x = input ('Elige un número: ')   
+  x = input ('Elige un nï¿½mero: ')   
   if x == 17 :
-    raise 'ErrorNumeroMalo', '17 es un mal número'
+    raise 'ErrorNumeroMalo', '17 es un mal nï¿½mero'
   return x
 \end{lstlisting}
 \inputencoding{utf8}
@@ -511,8 +511,8 @@ puede continuar; en caso contrario, Python imprime el mensaje de error
 y sale:\inputencoding{latin9}
 \begin{lstlisting}
 >>> tomaNumero ()
-Elige un número: 17
-ErrorNumeroMalo: 17 es un mal número
+Elige un nï¿½mero: 17
+ErrorNumeroMalo: 17 es un mal nï¿½mero
 \end{lstlisting}
 \inputencoding{utf8}
 El mensaje de error incluye el tipo de excepciÃ³n y la informaciÃ³n
