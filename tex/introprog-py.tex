@@ -88,14 +88,20 @@
 % Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 %
 
-
-\usepackage[text={5in,7in},centering,twoside,letterpaper]{geometry}
-
-\setlength{\marginparsep}{0in}
-\setlength{\marginparwidth}{0in}
-\setlength{\marginparpush}{0in}
+%
+%\usepackage[text={5in,7in},twoside,letterpaper]{geometry}
+%
+%\setlength{\marginparsep}{0in}
+%\setlength{\marginparwidth}{0in}
+%\setlength{\marginparpush}{0in}
 %\setlength{\hoffset}{-5pt}
 
+\usepackage{geometry}
+	\geometry{
+		twoside,
+		letterpaper,
+		footskip=35pt,
+	}
 
 \newcommand{\introprog}{\Title}
 %\addto\captionsspanish{\renewcommand{\indexname}{Índice analítico}}
@@ -118,6 +124,38 @@
 \newcommand{\blankpage}{\pagestyle{empty}\vspace*{1in}\newpage}
 
 
+\label{HEADER_AND_FOOTER}
+\usepackage{fancyhdr}         %
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[LE]{\leftmark} % Left even (left-side)
+\fancyhead[CE]{}
+\fancyhead[RE]{\thepage}
+\fancyhead[LO]{\thepage} % Left odd (right-side)
+\fancyhead[CO]{} 
+\fancyhead[RO]{\rightmark}
+
+\fancyfoot[LE]{\includegraphics[scale=0.05]{illustrations/mascota_azul_bitson-alpha.png}} % Left even (left-side)
+\fancyfoot[CE]{}
+\fancyfoot[RE]{}
+\fancyfoot[LO]{} % Left odd (right-side)
+\fancyfoot[CO]{}
+\fancyfoot[RO]{}
+\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	%		\fancyfoot[LE]{\rightmark} % Left even (left-side)
+	%		\fancyfoot[CE]{}
+	%		\fancyfoot[RE]{\thepage}
+	%		\fancyfoot[LO]{\PDFTitle} % Left odd (right-side)
+	%		\fancyfoot[CO]{}
+	%		\fancyfoot[RO]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+\fancyhfoffset[]{0.5cm} % Extendemos el ancho del encabezado y pie de página.
 
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
