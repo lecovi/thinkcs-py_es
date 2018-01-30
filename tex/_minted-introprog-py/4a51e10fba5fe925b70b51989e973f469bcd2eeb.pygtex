@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{l+m+mi}{20}\PYG{o}{+}\PYG{l+m+mi}{32}       \PYG{n}{hora}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}   \PYG{n}{hora}\PYG{o}{*}\PYG{l+m+mi}{60}\PYG{o}{+}\PYG{n}{minuto}
-\PYG{n}{minuto}\PYG{o}{/}\PYG{l+m+mi}{60}   \PYG{l+m+mi}{5}\PYG{o}{**}\PYG{l+m+mi}{2}     \PYG{p}{(}\PYG{l+m+mi}{5}\PYG{o}{+}\PYG{l+m+mi}{9}\PYG{p}{)}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{7}\PYG{p}{)}
-\end{Verbatim}

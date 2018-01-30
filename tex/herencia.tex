@@ -345,6 +345,8 @@ Como \texttt{\_\_init\_\_} se hereda de \texttt{JuegoDeCartas}, tendremos
 la garantía de que un objeto de tipo \texttt{JuegoSolterona} contendrá
 un mazo barajado:
 
+\pagebreak
+
 \begin{pythoncode}
 class JuegoSolterona(JuegoDeCartas):
   def jugar(self, nombres):
@@ -376,6 +378,9 @@ class JuegoSolterona(JuegoDeCartas):
     print("-------- Juego terminado")
     self.printManos()
 \end{pythoncode}
+
+\pagebreak
+
  Algunos de las etapas del juego se han separado en métodos. \texttt{eliminarParejas}
 recorre la lista de manos invocando \texttt{eliminarPareja} en cada
 una de ellas:

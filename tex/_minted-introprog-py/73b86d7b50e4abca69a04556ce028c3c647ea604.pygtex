@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{prompt} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Cuál es la velocidad una golondrina sin carga?}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{velocidad} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{prompt}\PYG{p}{)}
-\PYG{g+go}{Cuál es la velocidad una golondrina sin carga?}
-\PYG{g+go}{Qué quiere decir, una golondria Africana o Europea?}
-\PYG{g+gt}{Traceback (most recent call last):}
-\PYG{err}{File \PYGZdq{}\PYGZlt{}stdin\PYGZgt{}\PYGZdq{}, line 1, in \PYGZlt{}module\PYGZgt{}}
-\PYG{g+go}{ValueError: invalid literal for int() with base 10: \PYGZsq{}Qué quiere decir, una golondria Africana o Europea?\PYGZsq{}}
-\end{Verbatim}

@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{g+go}{prompt = \PYGZdq{}Cuál es la velocidad de una golondrina sin carga?\PYGZbs{}n\PYGZdq{}}
-\PYG{g+go}{velocidad = input(prompt)}
-\end{Verbatim}

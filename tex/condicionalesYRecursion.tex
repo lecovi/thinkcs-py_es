@@ -298,14 +298,15 @@ def imprimirLogaritmo(x):
   result = math.log(x)
   print("El logaritmo de ",  x ," es ", result)
 \end{pythoncode}
- La función \texttt{imprimirLogaritmo} toma un parámetro denominado
+
+La función \texttt{imprimirLogaritmo} toma un parámetro denominado
 \texttt{x}. Lo primero que hace es chequear si \texttt{x} es menor
 o igual a 0, caso en el que despliega un mensaje de error y luego
 usa a \texttt{return} para salir de la función. El flujo de ejecución
 inmediatamente retorna al punto donde se había llamado la función,
 y las líneas restantes de la función no se ejecutan.
 
-Recuerde que para usar una función del módulo matemático (math) hay
+Recuerde que para usar una función del módulo matemático (\texttt{math}) hay
 que importarlo previamente.
 
 \section{Recursión}
@@ -318,8 +319,6 @@ que una función también puede llamarse a sí misma. Al principio no
 parece algo útil, pero resulta ser una de las capacidades más interesantes
 y mágicas que un programa puede tener. Por ejemplo, observe la siguiente
 función:
-
-\pagebreak{}
 
 \begin{pythoncode}
 def conteo(n):
@@ -362,12 +361,12 @@ El \texttt{conteo} que recibió \texttt{n=3} retorna.
 
 Y el flujo de ejecución regresa a \texttt{\_\_main\_\_} (vaya viaje!).
 Así que, la salida total luce así:
-\begin{verbatim}
+\begin{pyconcode}
 3
 2
 1
 Despegue!
-\end{verbatim}
+\end{pyconcode}
 Como otro ejemplo, utilizaremos nuevamente las funciones \texttt{nuevaLinea}
 y \texttt{tresLineas}:
 
@@ -492,29 +491,30 @@ Arturo, Rey de los Bretones!
 \end{pyconcode}
 
 Si esperamos que la respuesta sea un entero, podemos usar la función
-\texttt{input}:
+\texttt{int} antes de usar la función \texttt{input}:
 
 \begin{pyconcode}
-prompt = "Cuál es la velocidad de una golondrina sin carga?\n"
-velocidad = input(prompt)
+>>> prompt = "Cuál es la velocidad de una golondrina sin carga?\n"
+>>> velocidad = int(input(prompt))
+Cuál es la velocidad de una golondrina sin carga?
+
 \end{pyconcode}
- Si el usuario digita una cadena de dígitos, éstos se convierten a
+Si el usuario digita una cadena de dígitos, éstos se convierten a
 un entero que se asigna a \texttt{velocidad}. Desafortunadamente,
-si el usuario digita una entrada que no representa un dígito, velocidad
-almacenará una cadena de texto.
+si el usuario digita una entrada que no representa un dígito, el programa
+lanzará un error.
+
+\pagebreak
 
 \begin{pyconcode}
->>> prompt = "Cuál es la velocidad una golondrina sin carga?\n"
 >>> velocidad = input(prompt)
 Cuál es la velocidad una golondrina sin carga?
-Qué quiere decir, una golondria Africana o Europea?
+Una golondria Africana o Europea?
 Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
-ValueError: invalid literal for int() with base 10: 'Qué quiere decir, una golondria Africana o Europea?'
+ValueError: invalid literal for int() with base 10: 'Una golondria Africana o Europea?'
 \end{pyconcode}
 
-
-Si la función \texttt{int} no puede convertir el valor ingresado, entonces lanzará un error.
 %Para evitar este error, es una buena idea usar \texttt{input}
 %para obtener una cadena y las funciones de conversión (int, float)
 %para transformarla en otros tipos.
@@ -588,9 +588,6 @@ def tabladeverdad(expresion):
             print("%-7s %-7s %-7s" % (p, q, eval(expresion)))
 \end{pythoncode}
 
-\begin{verbatim}
- 
-\end{verbatim}
 Pruébelo con el llamado \verb+tabladeverdad("p or q")+. Ahora ejecútelo
 con las siguientes expresiones: 
 \begin{enumerate}

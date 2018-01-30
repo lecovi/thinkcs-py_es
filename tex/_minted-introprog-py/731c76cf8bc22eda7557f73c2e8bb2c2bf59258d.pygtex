@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c+c1}{\PYGZsh{} triqui6.py}
-   \PYG{k}{def} \PYG{n+nf}{reset}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
-        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{children}\PYG{p}{:}
-            \PYG{n}{i}\PYG{o}{.}\PYG{n}{text} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}
-        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{turno} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}O\PYGZsq{}}
-\end{Verbatim}

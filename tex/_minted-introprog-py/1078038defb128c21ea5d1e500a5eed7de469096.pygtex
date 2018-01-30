@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{class} \PYG{n+nc}{Fraccion}\PYG{p}{:}
-  \PYG{o}{...}
-  \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}rmul\PYGZus{}\PYGZus{}} \PYG{o}{=} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}mul\PYGZus{}\PYGZus{}}
-\end{Verbatim}
