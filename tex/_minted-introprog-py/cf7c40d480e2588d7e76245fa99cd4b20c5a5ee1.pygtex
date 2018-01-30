@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{g+go}{False      await      else       import     pass}
-\PYG{g+go}{None       break      except     in         raise}
-\PYG{g+go}{True       class      finally    is         return}
-\PYG{g+go}{and        continue   for        lambda     try}
-\PYG{g+go}{as         def        from       nonlocal   while}
-\PYG{g+go}{assert     del        global     not        with}
-\PYG{g+go}{async      elif       if         or         yield}
-\end{Verbatim}

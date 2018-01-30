@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{def} \PYG{n+nf}{MDC} \PYG{p}{(}\PYG{n}{m}\PYG{p}{,} \PYG{n}{n}\PYG{p}{):}
-  \PYG{k}{if} \PYG{n}{m} \PYG{o}{\PYGZpc{}} \PYG{n}{n} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
-    \PYG{k}{return} \PYG{n}{n}
-  \PYG{k}{else}\PYG{p}{:}
-    \PYG{k}{return} \PYG{n}{MDC}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{m}\PYG{o}{\PYGZpc{}}\PYG{n}{n}\PYG{p}{)}
-\end{Verbatim}

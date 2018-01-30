@@ -1,20 +1,15 @@
 % !TEX TS-program = xelatex
 
-%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
 \documentclass[10pt,letterpaper,usenames,dvipsnames]{book}
 \renewcommand{\rmdefault}{ppl}
 \renewcommand{\sfdefault}{kurier}
 \renewcommand{\ttdefault}{cmtt}
 \renewcommand{\familydefault}{\rmdefault}
 \usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{1}
 \synctex=-1
 \usepackage{color}
-%\usepackage{babel}
-%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
 \usepackage{calc}
 \usepackage{textcomp}
@@ -24,14 +19,40 @@
 \usepackage{graphicx}
 \usepackage{setspace}
 \onehalfspacing
-\usepackage[unicode=true,
- bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=0,
- breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
- {hyperref}
-\hypersetup{pdftitle={Introducción a la programación con Python},
- pdfauthor={Andrés Becerra Sandoval},
- pdfsubject={programación de computadores},
- urlcolor=blue,linkcolor=black}
+\usepackage[
+	unicode=true,
+	bookmarks=true,
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=0,
+	breaklinks=false,
+	pdfborder={0 0 0},
+	pdfborderstyle={},
+	backref=false,
+	colorlinks=true]{hyperref}
+	\hypersetup{
+		pdftitle={Introducción a la programación con Python},
+		pdfauthor={Andrés Becerra Sandoval},
+		pdfsubject={programación de computadores},
+		urlcolor=blue,
+		linkcolor=black
+	}
+
+\label{MY_VARS}
+\def\AutorPrefijo{Prof.}
+\def\AutorNombre{Leandro E.}
+\def\AutorApellido{Colombo Viña}
+\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
+\def\AutorURL{http://leo.bitson.com.ar/}
+\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
+\def\AutorCargo{Profesor en Disciplinas Industriales - Técnico Superior en Informática Aplicada}
+\def\Title{Aprenda a pensar como un programador con Python 3}
+\def\PDFSubject{Adaptación de la traducción de la 2da edición}
+\def\Fecha{febrero de 2018}
+\def\Lugar{Ciudad Autónoma de Buenos Aires}
+\def\BitsonCoop{Cooperativa de trabajo bitson ltda.}
+\def\BitsonURL{https://bitson.group}
+\def\BitsonMail{info@bitson.group}
 
 \makeatletter
 
@@ -76,14 +97,14 @@
 %\setlength{\hoffset}{-5pt}
 
 
-\newcommand{\introprog}{Introducción a la programación con Python 2ed}
+\newcommand{\introprog}{\Title}
 %\addto\captionsspanish{\renewcommand{\indexname}{Índice analítico}}
 
 %\normalsize
 
 \title{\introprog}
-\author{Andrés Becerra Sandoval}
-\date{Mayo 2014}
+\author{\AutorNombreCompleto}
+\date{\Fecha}
 
 
 \newcommand{\beforefig}{\vspace{1.3\parskip}}
@@ -123,7 +144,7 @@
   % Color settings to match IDLE style
   keywordstyle=\color{Orange},       % core keywords,
   morekeywords={assert},
-  morekeywords=[2]{print,None,True,False,len,abs,id,type,input,raw_input,raise,open,range,str,int,float,self,super},
+  morekeywords=[2]{print,None,True,False,len,abs,id,type,input,raise,open,range,str,int,float,self,super},
   keywordstyle={[2]\color{purple}}, % built-ins
   %identifierstyle=\color{blue}, (in IDLE only for defining functions and classes is blue)
   stringstyle=\color{green},
@@ -141,19 +162,6 @@
 %\usepackage{listings}
 %\renewcommand{\pythoncodename}{Listado de c�digo}
 
-\label{MY_VARS}
-\def\AutorPrefijo{Prof.}
-\def\AutorNombre{Leandro E.}
-\def\AutorApellido{Colombo Viña}
-\def\AutorNombreCompleto{\AutorPrefijo\ \AutorNombre\ \AutorApellido}
-\def\AutorURL{http://leo.bitson.com.ar/}
-\def\AutorNombreLink{\href{\AutorURL}{\AutorNombreCompleto}}
-\def\AutorCargo{Profesor en Disciplinas Industriales - Técnico Superior en Informática Aplicada}
-\def\Title{Aprenda a pensar como un programador con Python 3}
-\def\PDFSubject{Adaptación de la traducción de la 2da edición}
-\def\Fecha{24 de enero de 2018}
-\def\Lugar{Ciudad Autónoma de Buenos Aires}
-
 \label{MY_PACKAGES}
 \input{lecv}
 \input{mintedopt}
@@ -165,35 +173,23 @@
 
 \normalsize
 
-\tableofcontents{}
+\tableofcontents{}\cleardoublepage{}
 
-\cleardoublepage{}
+\input{foreword.tex}\cleardoublepage{}
 
-\input{foreword.tex} \cleardoublepage{}
-
-\input{preface.tex}
-
-\cleardoublepage{}
+\input{preface.tex}\cleardoublepage{}
 
 \input{contrib.tex}\cleardoublepage{}
 
 \input{traduccion.tex}\cleardoublepage{}
 
-\mainmatter
+\mainmatter\cleardoublepage{}
 
-\cleardoublepage{}
+%\input{solucionProblemas.tex}\cleardoublepage{}
 
-\input{solucionProblemas.tex} 
+\input{elCaminoHaciaElPrograma.tex}\cleardoublepage{}
 
-\cleardoublepage{}
-
-\input{elCaminoHaciaElPrograma.tex} 
-
-\cleardoublepage{}
-
-\input{variablesExpresionesSentencias.tex}
-
-\cleardoublepage{}
+\input{variablesExpresionesSentencias.tex}\cleardoublepage{}
 
 \input{funciones.tex}\cleardoublepage{}
 
@@ -207,7 +203,7 @@
 
 \input{listas.tex}\cleardoublepage{}
 
-\input{interludioTriqui.tex}\cleardoublepage{}
+%\input{interludioTriqui.tex}\cleardoublepage{}
 
 \input{tuplas.tex}\cleardoublepage{}
 
@@ -221,13 +217,13 @@
 
 \input{clasesYMetodos.tex}\cleardoublepage{}
 
-\input{interludioFraccion.tex}\cleardoublepage{}
+%\input{interludioFraccion.tex}\cleardoublepage{}
 
 \input{conjuntosDeObjetos.tex}\cleardoublepage{}
 
 \input{herencia.tex}\cleardoublepage{}
 
-\input{interludioTriquiGUI.tex}\cleardoublepage{}
+%\input{interludioTriquiGUI.tex}\cleardoublepage{}
 
 
 \appendix

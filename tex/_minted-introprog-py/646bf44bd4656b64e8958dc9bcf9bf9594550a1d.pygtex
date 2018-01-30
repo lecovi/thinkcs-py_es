@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c+c1}{\PYGZsh{} triqui4.py}
-    \PYG{k}{def} \PYG{n+nf}{botones\PYGZus{}a\PYGZus{}matriz}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{tablero}\PYG{p}{):}
-        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{children}\PYG{p}{:}
-            \PYG{n}{f} \PYG{o}{=} \PYG{n}{i}\PYG{o}{.}\PYG{n}{fila}
-            \PYG{n}{c} \PYG{o}{=} \PYG{n}{i}\PYG{o}{.}\PYG{n}{columna}
-            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero}\PYG{p}{[}\PYG{n}{f}\PYG{p}{][}\PYG{n}{c}\PYG{p}{]}\PYG{o}{=}\PYG{n}{i}\PYG{o}{.}\PYG{n}{text}
-\end{Verbatim}

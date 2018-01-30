@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c+c1}{\PYGZsh{} triqui7.py}
-    \PYG{k}{def} \PYG{n+nf}{boton\PYGZus{}presionado}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{w}\PYG{p}{):}
-        \PYG{c+c1}{\PYGZsh{} Todo lo anterior igual}
-            \PYG{k}{if} \PYG{n}{empate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tablero}\PYG{p}{):}
-                \PYG{n}{MostrarMensaje}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Fin\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Empate!\PYGZdq{}}\PYG{p}{)}
-                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{()}
-\end{Verbatim}
