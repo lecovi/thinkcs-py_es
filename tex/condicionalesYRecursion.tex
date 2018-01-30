@@ -465,27 +465,27 @@ Los programas que hemos escrito son un poco toscos ya que no aceptan
 entrada de un usuario. S贸lo hacen la misma operaci贸n todo el tiempo.
 
 Python proporciona funciones primitivas que obtienen entrada desde
-el teclado. La m谩s sencilla se llama \texttt{raw\_input}. Cuando esta
+el teclado. La m谩s sencilla se llama \texttt{input}. Cuando esta
 funci贸n se llama el programa se detiene y espera a que el usuario
 digite algo. Cuando el usuario digita la tecla Enter o Intro, el programa
-retoma la ejecuci贸n y \texttt{raw\_input} retorna lo que el usuario
+retoma la ejecuci贸n y \texttt{input} retorna lo que el usuario
 digit贸 como una cadena (\texttt{string}):
 
 \inputencoding{latin9}\begin{lstlisting}
->>> entrada = raw_input ()
+>>> entrada = input()
 Que esta esperando?
 >>> print(entrada)
 Que esta esperando?
 \end{lstlisting}
-\inputencoding{utf8} Antes de llamar a \texttt{raw\_input} es una muy buena idea desplegar
+\inputencoding{utf8} Antes de llamar a \texttt{input} es una muy buena idea desplegar
 un mensaje dici茅ndole al usuario qu茅 digitar. Este mensaje se denomina
 indicador de entrada (\textbf{prompt} en ingl茅s). Podemos dar un argumento
-prompt a \texttt{raw\_input}:
+prompt a \texttt{input}:
 
 \index{prompt}
 
 \inputencoding{latin9}\begin{lstlisting}
->>> nombre = raw_input ("Cual es tu nombre? ")
+>>> nombre = input("Cual es tu nombre? ")
 Cual es tu nombre? Arturo, Rey de los Bretones!
 >>> print(nombre)
 Arturo, Rey de los Bretones!
@@ -495,7 +495,7 @@ Si esperamos que la respuesta sea un entero, podemos usar la funci贸n
 \texttt{input}:
 
 \inputencoding{latin9}\begin{lstlisting}
-prompt = "緾ual es la velocidad de una golondrina sin carga?\n"
+prompt = "锟紺ual es la velocidad de una golondrina sin carga?\n"
 velocidad = input(prompt)
 \end{lstlisting}
 \inputencoding{utf8} Si el usuario digita una cadena de d铆gitos, 茅stos se convierten a
@@ -504,14 +504,20 @@ si el usuario digita una entrada que no representa un d铆gito, velocidad
 almacenar谩 una cadena de texto.
 
 \inputencoding{latin9}\begin{lstlisting}
->>> prompt = "緾ual es la velocidad una golondrina sin carga?\n"
->>> velocidad = input (prompt)
-縌ue quiere decir, una golondria Africana o Europea?
+>>> prompt = "锟紺ual es la velocidad una golondrina sin carga?\n"
+>>> velocidad = input(prompt)
+锟紺ual es la velocidad una golondrina sin carga?
+锟絈ue quiere decir, una golondria Africana o Europea?
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '锟絈ue quiere decir, una golondria Africana o Europea?'
 \end{lstlisting}
 \inputencoding{utf8}
-Para evitar este error, es una buena idea usar \texttt{raw\_input}
-para obtener una cadena y las funciones de conversi贸n (int, float)
-para transformarla en otros tipos.
+
+Si la funci贸n \texttt{int} no puede convertir el valor ingresado, entonces lanzar谩 un error.
+%Para evitar este error, es una buena idea usar \texttt{input}
+%para obtener una cadena y las funciones de conversi贸n (int, float)
+%para transformarla en otros tipos.
 
 \section{Glosario}
 \begin{description}
