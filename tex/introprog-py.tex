@@ -1,14 +1,14 @@
 % !TEX TS-program = xelatex
 
-\documentclass[10pt,letterpaper,usenames,dvipsnames]{book}
-\renewcommand{\rmdefault}{ppl}
-\renewcommand{\sfdefault}{kurier}
-\renewcommand{\ttdefault}{cmtt}
-\renewcommand{\familydefault}{\rmdefault}
+\documentclass[10pt,a4paper,usenames,dvipsnames,openright]{book}
+%\renewcommand{\rmdefault}{ppl}
+%\renewcommand{\sfdefault}{kurier}
+%\renewcommand{\ttdefault}{cmtt}
+%\renewcommand{\familydefault}{\rmdefault}
 \usepackage[T1]{fontenc}
-\setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{1}
-\synctex=-1
+%\setcounter{secnumdepth}{3}
+%\setcounter{tocdepth}{1}
+%\synctex=-1
 \usepackage{color}
 
 \usepackage{calc}
@@ -19,24 +19,24 @@
 \usepackage{graphicx}
 \usepackage{setspace}
 \onehalfspacing
-\usepackage[
-	unicode=true,
-	bookmarks=true,
-	bookmarksnumbered=true,
-	bookmarksopen=true,
-	bookmarksopenlevel=0,
-	breaklinks=false,
-	pdfborder={0 0 0},
-	pdfborderstyle={},
-	backref=false,
-	colorlinks=true]{hyperref}
-	\hypersetup{
-		pdftitle={Introducción a la programación con Python},
-		pdfauthor={Andrés Becerra Sandoval},
-		pdfsubject={programación de computadores},
-		urlcolor=blue,
-		linkcolor=black
-	}
+%\usepackage[
+%	unicode=true,
+%	bookmarks=true,
+%	bookmarksnumbered=true,
+%	bookmarksopen=true,
+%	bookmarksopenlevel=0,
+%	breaklinks=false,
+%	pdfborder={0 0 0},
+%	pdfborderstyle={},
+%	backref=false,
+%	colorlinks=true]{hyperref}
+%	\hypersetup{
+%		pdftitle={Introducción a la programación con Python},
+%		pdfauthor={Andrés Becerra Sandoval},
+%		pdfsubject={programación de computadores},
+%		urlcolor=blue,
+%		linkcolor=black
+%	}
 
 \label{MY_VARS}
 \def\AutorPrefijo{Prof.}
@@ -57,14 +57,14 @@
 \makeatletter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
-\pdfpageheight\paperheight
-\pdfpagewidth\paperwidth
-
-\providecommand{\LyX}{\texorpdfstring%
-  {L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
-  {LyX}}
-%% Because html converters don't know tabularnewline
-\providecommand{\tabularnewline}{\\}
+%\pdfpageheight\paperheight
+%\pdfpagewidth\paperwidth
+%
+%\providecommand{\LyX}{\texorpdfstring%
+%  {L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+%  {LyX}}
+%%% Because html converters don't know tabularnewline
+%\providecommand{\tabularnewline}{\\}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
 % LyX source for the spanish traslation of the textbook ``How to think like a computer scientist''
@@ -119,9 +119,9 @@
 \newcommand{\beforeverb}{\vspace{0.6\parskip}}
 \newcommand{\afterverb}{\vspace{0.6\parskip}}
 
-\newcommand{\adjustpage}[1]{\enlargethispage{#1\baselineskip}}
-\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
-\newcommand{\blankpage}{\pagestyle{empty}\vspace*{1in}\newpage}
+%\newcommand{\adjustpage}[1]{\enlargethispage{#1\baselineskip}}
+%\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+%\newcommand{\blankpage}{\pagestyle{empty}\vspace*{1in}\newpage}
 
 
 \label{HEADER_AND_FOOTER}
@@ -211,67 +211,67 @@
 
 \normalsize
 
-\tableofcontents{}\cleardoublepage{}
+\tableofcontents{} 
 
-\input{foreword.tex}\cleardoublepage{}
+\input{foreword.tex} %\cleardoublepage{}
 
-\input{preface.tex}\cleardoublepage{}
+\input{preface.tex} %\cleardoublepage{}
 
-\input{contrib.tex}\cleardoublepage{}
+\input{contrib.tex} %\cleardoublepage{}
 
-\input{traduccion.tex}\cleardoublepage{}
+\input{traduccion.tex} %\cleardoublepage{}
 
-\mainmatter\cleardoublepage{}
+\mainmatter %\cleardoublepage{}
 
 %\input{solucionProblemas.tex}\cleardoublepage{}
 
-\input{elCaminoHaciaElPrograma.tex}\cleardoublepage{}
+\input{elCaminoHaciaElPrograma.tex} %\cleardoublepage{}
 
-\input{variablesExpresionesSentencias.tex}\cleardoublepage{}
+\input{variablesExpresionesSentencias.tex} %\cleardoublepage{}
 
-\input{funciones.tex}\cleardoublepage{}
+\input{funciones.tex} %\cleardoublepage{}
 
-\input{condicionalesYRecursion.tex}\cleardoublepage{}
+\input{condicionalesYRecursion.tex} %\cleardoublepage{}
 
-\input{funcionesFructiferas.tex}\cleardoublepage{}
+\input{funcionesFructiferas.tex} %\cleardoublepage{}
 
-\input{iteracion.tex}\cleardoublepage{}
+\input{iteracion.tex} %\cleardoublepage{}
 
-\input{cadenas.tex}\cleardoublepage{}
+\input{cadenas.tex} %\cleardoublepage{}
 
-\input{listas.tex}\cleardoublepage{}
+\input{listas.tex} %\cleardoublepage{}
 
 %\input{interludioTriqui.tex}\cleardoublepage{}
 
-\input{tuplas.tex}\cleardoublepage{}
+\input{tuplas.tex} %\cleardoublepage{}
 
-\input{diccionarios.tex}\cleardoublepage{}
+\input{diccionarios.tex} %\cleardoublepage{}
 
-\input{archivosYExcepciones.tex}\cleardoublepage{}
+\input{archivosYExcepciones.tex} %\cleardoublepage{}
 
-\input{clasesYObjetos.tex}\cleardoublepage{}
+\input{clasesYObjetos.tex} %\cleardoublepage{}
 
-\input{clasesYFunciones.tex}\cleardoublepage{}
+\input{clasesYFunciones.tex} %\cleardoublepage{}
 
-\input{clasesYMetodos.tex}\cleardoublepage{}
+\input{clasesYMetodos.tex} %\cleardoublepage{}
 
 %\input{interludioFraccion.tex}\cleardoublepage{}
 
-\input{conjuntosDeObjetos.tex}\cleardoublepage{}
+\input{conjuntosDeObjetos.tex} %\cleardoublepage{}
 
-\input{herencia.tex}\cleardoublepage{}
+\input{herencia.tex} %\cleardoublepage{}
 
 %\input{interludioTriquiGUI.tex}\cleardoublepage{}
 
 
 \appendix
-\input{depuracion.tex}\cleardoublepage{}
+\input{depuracion.tex} %\cleardoublepage{}
 
-\input{lecturasRecomendadas.tex}\cleardoublepage{}
+\input{lecturasRecomendadas.tex} %\cleardoublepage{}
 
-\input{fdl.tex}\cleardoublepage{}
+\input{fdl.tex} %\cleardoublepage{}
 
-\input{gfdles.tex}\cleardoublepage{}
+\input{gfdles.tex} %\cleardoublepage{}
 
 \printindex{}
 \end{document}
