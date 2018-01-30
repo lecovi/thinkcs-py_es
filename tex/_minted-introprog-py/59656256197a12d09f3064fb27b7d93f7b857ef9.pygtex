@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{ing\PYGZus{}a\PYGZus{}esp}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}two\PYGZsq{}}\PYG{p}{])}
+\PYG{g+go}{\PYGZsq{}dos\PYGZsq{}}
+\end{Verbatim}

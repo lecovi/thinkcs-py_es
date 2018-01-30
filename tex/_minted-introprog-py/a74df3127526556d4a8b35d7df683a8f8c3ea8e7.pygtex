@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{vocabulario} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}mejorar\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}castigar\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}derrocar\PYGZdq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{numeros} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{17}\PYG{p}{,} \PYG{l+m+mi}{123}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{vacia} \PYG{o}{=} \PYG{p}{[]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{vocabulario}\PYG{p}{,} \PYG{n}{numeros}\PYG{p}{,} \PYG{n}{vacia}\PYG{p}{)}
+\PYG{g+go}{[\PYGZdq{}mejorar\PYGZdq{}, \PYGZdq{}castigar\PYGZdq{}, \PYGZdq{}derrocar\PYGZdq{}] [17, 123] []}
+\end{Verbatim}

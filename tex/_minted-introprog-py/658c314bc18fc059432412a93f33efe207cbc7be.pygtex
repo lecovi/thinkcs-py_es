@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area2}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,} \PYG{n}{yc}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{yp}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{area}\PYG{p}{(}\PYG{n}{distancia}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,} \PYG{n}{yc}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{yp}\PYG{p}{))}
+\end{Verbatim}

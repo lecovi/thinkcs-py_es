@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{ManoSolterona}\PYG{p}{(}\PYG{n}{Mano}\PYG{p}{):}
+  \PYG{k}{def} \PYG{n+nf}{quitarPareja}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{n}{conteo} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{n}{cartasOriginales} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{[:]}
+    \PYG{k}{for} \PYG{n}{carta} \PYG{o+ow}{in} \PYG{n}{cartasOriginales}\PYG{p}{:}
+      \PYG{n}{m} \PYG{o}{=} \PYG{n}{Carta}\PYG{p}{(}\PYG{l+m+mi}{3} \PYG{o}{\PYGZhy{}} \PYG{n}{carta}\PYG{o}{.}\PYG{n}{figura}\PYG{p}{,} \PYG{n}{carta}\PYG{o}{.}\PYG{n}{valor}\PYG{p}{)}
+      \PYG{k}{if} \PYG{n}{pareja} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{:}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{o}{.}\PYG{n}{remove}\PYG{p}{(}\PYG{n}{carta}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{o}{.}\PYG{n}{remove}\PYG{p}{(}\PYG{n}{m}\PYG{p}{)}
+        \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Mano }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s2}{ se empareja con }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s2}{\PYGZdq{}} \PYG{o}{\PYGZpc{}} \PYGZbs{}
+              \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{name}\PYG{p}{,}\PYG{n}{carta}\PYG{p}{,}\PYG{n}{m}\PYG{p}{))}
+        \PYG{n}{cont} \PYG{o}{=} \PYG{n}{cont} \PYG{o}{+} \PYG{l+m+mi}{1}
+    \PYG{k}{return} \PYG{n}{cont}
+\end{Verbatim}

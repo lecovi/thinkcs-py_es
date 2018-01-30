@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area}\PYG{p}{(}\PYG{n}{lado}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{} Calcula el area de un cuadrado}
+\PYG{l+s+sd}{        Par�metros:}
+\PYG{l+s+sd}{            radio: n�mero}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{lado}\PYG{o}{**}\PYG{l+m+mi}{2}
+\end{Verbatim}

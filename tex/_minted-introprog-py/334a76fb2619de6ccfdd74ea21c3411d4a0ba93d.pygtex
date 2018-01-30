@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{cont} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{for} \PYG{n}{c} \PYG{o+ow}{in} \PYG{n}{fruta}\PYG{p}{:}
+  \PYG{k}{if} \PYG{n}{c} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{:}
+    \PYG{n}{cont} \PYG{o}{=} \PYG{n}{cont} \PYG{o}{+} \PYG{l+m+mi}{1}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{cont}\PYG{p}{)}
+\end{Verbatim}

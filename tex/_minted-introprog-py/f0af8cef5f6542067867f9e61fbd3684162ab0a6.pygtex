@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Carta}\PYG{p}{:}
+  \PYG{n}{listaFiguras} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Treboles\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Diamantes\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Corazones\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s+s2}{\PYGZdq{}Picas\PYGZdq{}}\PYG{p}{]}
+  \PYG{n}{listaValores} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}narf\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}As\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}2\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}3\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}4\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}5\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}6\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s+s2}{\PYGZdq{}7\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}8\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}9\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}10\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Jota\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Reina\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Rey\PYGZdq{}}\PYG{p}{]}
+
+  \PYG{c+c1}{\PYGZsh{} se omite el metodo init}
+
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{listaFiguras}\PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{valor}\PYG{p}{]} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{} de \PYGZdq{}} \PYG{o}{+}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{listaValores}\PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{figura}\PYG{p}{]}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mazo}\PYG{p}{:}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{imprimirMazo}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{carta} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{:}
+      \PYG{k}{print}\PYG{p}{(}\PYG{n}{carta}\PYG{p}{)}
+\end{Verbatim}

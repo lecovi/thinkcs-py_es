@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{cuenta}\PYG{p}{(}\PYG{n}{sub}\PYG{p}{,} \PYG{n}{s}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} cuenta(\PYGZsq{}is\PYGZsq{}, \PYGZsq{}Mississippi\PYGZsq{})}
+\PYG{l+s+sd}{      2}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} cuenta(\PYGZsq{}an\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      2}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} cuenta(\PYGZsq{}ana\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      2}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} cuenta(\PYGZsq{}nana\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      1}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} cuenta(\PYGZsq{}nanan\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      0}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

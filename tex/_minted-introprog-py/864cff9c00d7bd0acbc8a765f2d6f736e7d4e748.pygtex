@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{recurrir}\PYG{p}{():}
+  \PYG{n}{recurrir}\PYG{p}{()}
+\end{Verbatim}

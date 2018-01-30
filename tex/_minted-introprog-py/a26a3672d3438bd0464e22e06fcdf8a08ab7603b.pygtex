@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{agrandarRect}\PYG{p}{(}\PYG{n}{caja}\PYG{p}{,} \PYG{n}{dancho}\PYG{p}{,} \PYG{n}{daltura}\PYG{p}{)} \PYG{p}{:}
+  \PYG{n}{caja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{=} \PYG{n}{caja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{+} \PYG{n}{dancho}
+  \PYG{n}{caja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{=} \PYG{n}{caja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{+} \PYG{n}{daltura}
+\end{Verbatim}

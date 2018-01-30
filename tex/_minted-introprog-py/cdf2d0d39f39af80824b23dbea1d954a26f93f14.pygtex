@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{crearHora}\PYG{p}{(}\PYG{n}{segundos}\PYG{p}{):}
+  \PYG{n}{h} \PYG{o}{=} \PYG{n}{Hora}\PYG{p}{()}
+  \PYG{n}{h}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{n}{segundos}\PYG{o}{/}\PYG{l+m+mi}{3600}
+  \PYG{n}{segundos} \PYG{o}{=} \PYG{n}{segundos} \PYG{o}{\PYGZhy{}} \PYG{n}{h}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{*} \PYG{l+m+mi}{3600}
+  \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n}{segundos}\PYG{o}{/}\PYG{l+m+mi}{60}
+  \PYG{n}{segundos} \PYG{o}{=} \PYG{n}{segundos} \PYG{o}{\PYGZhy{}} \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{*} \PYG{l+m+mi}{60}
+  \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n}{segundos}
+  \PYG{k}{return} \PYG{n}{h}
+\end{Verbatim}

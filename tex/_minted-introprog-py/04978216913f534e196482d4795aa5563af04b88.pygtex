@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{imprimaDoble}\PYG{p}{(}\PYG{n}{pedro}\PYG{p}{):}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{pedro}\PYG{p}{,} \PYG{n}{pedro}\PYG{p}{)}
+\end{Verbatim}

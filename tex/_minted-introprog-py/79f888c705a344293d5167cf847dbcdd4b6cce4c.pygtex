@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{tomaNumero} \PYG{p}{()} \PYG{p}{:}
+  \PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{input} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Elige un número: \PYGZsq{}}\PYG{p}{)}
+  \PYG{k}{if} \PYG{n}{x} \PYG{o}{==} \PYG{l+m+mi}{17} \PYG{p}{:}
+    \PYG{k}{raise} \PYG{l+s+s1}{\PYGZsq{}ErrorNumeroMalo\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}17 es un mal número\PYGZsq{}}
+  \PYG{k}{return} \PYG{n}{x}
+\end{Verbatim}

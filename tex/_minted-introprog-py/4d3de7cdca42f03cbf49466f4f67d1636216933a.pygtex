@@ -1,0 +1,75 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k+kn}{import} \PYG{n+nn}{cartas}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{juego} \PYG{o}{=} \PYG{n}{cartas}\PYG{o}{.}\PYG{n}{JuegoSolterona}\PYG{p}{()}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{juego}\PYG{o}{.}\PYG{n}{jugar}\PYG{p}{([}\PYG{l+s+s2}{\PYGZdq{}Allen\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}Jeff\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}Chris\PYGZdq{}}\PYG{p}{])}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} Las cartas se han repartido}
+\PYG{g+go}{Mano Allen contiene}
+\PYG{g+go}{Rey de Corazones}
+\PYG{g+go}{ Jota de Treboles}
+\PYG{g+go}{  Reina de Picas}
+\PYG{g+go}{   Rey de Picas}
+\PYG{g+go}{    10 de Diamantes}
+
+\PYG{g+go}{Mano Jeff contiene}
+\PYG{g+go}{Reina de Corazones}
+\PYG{g+go}{ Jota de Picas}
+\PYG{g+go}{  Jota de Corazones}
+\PYG{g+go}{   Rey de Diamantes}
+\PYG{g+go}{    Reina de Diamantes}
+
+\PYG{g+go}{Mano Chris contiene}
+\PYG{g+go}{Jota de Diamantes}
+\PYG{g+go}{ Rey de Treboles}
+\PYG{g+go}{  10 de Picas}
+\PYG{g+go}{   10 de Corazones}
+\PYG{g+go}{    10 de Treboles}
+
+\PYG{g+go}{Mano Jeff: Reina de Corazones se empareja con Reina de}
+\PYG{g+go}{Diamantes}
+\PYG{g+go}{Mano Chris: 10 de Picas se empareja con 10 de Treboles}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}  Parejas eliminadas, comienza el juego}
+\PYG{g+go}{Mano Allen contiene}
+\PYG{g+go}{Rey de Corazones}
+\PYG{g+go}{ Jota de Treboles}
+\PYG{g+go}{  Reina de Picas}
+\PYG{g+go}{   Rey de Picas}
+\PYG{g+go}{    10 de Diamantes}
+
+\PYG{g+go}{Mano Jeff contiene}
+\PYG{g+go}{Jota de Picas}
+\PYG{g+go}{ Jota de Corazones}
+\PYG{g+go}{  Rey de Diamantes}
+
+\PYG{g+go}{Mano Chris contiene}
+\PYG{g+go}{Jota de Diamantes}
+\PYG{g+go}{ Rey de Treboles}
+\PYG{g+go}{  10 de Corazones}
+
+\PYG{g+go}{Mano Allen escogio Rey de Diamantes}
+\PYG{g+go}{Mano Allen: Rey de Corazones se empareja con Rey de}
+\PYG{g+go}{Diamantes}
+\PYG{g+go}{Mano Jeff escogio 10 de Corazones}
+\PYG{g+go}{Mano Chris escogio Jota de Treboles}
+\PYG{g+go}{Mano Allen escogio Jota de Corazones}
+\PYG{g+go}{Mano Jeff escogio Jota de Diamantes}
+\PYG{g+go}{Mano Chris escogio Reina de Picas}
+\PYG{g+go}{Mano Allen escogio Jota de Diamantes}
+\PYG{g+go}{Mano Allen: Jota de Corazones se empareja con Jota de}
+\PYG{g+go}{Diamantes}
+\PYG{g+go}{Mano Jeff escogio Rey de Treboles}
+\PYG{g+go}{Mano Chris escogio Rey de Picas}
+\PYG{g+go}{Mano Allen escogio 10 de Corazones}
+\PYG{g+go}{Mano Allen: 10 de Diamantes se empareja con 10 de Corazones}
+\PYG{g+go}{Mano Jeff escogio Reina de Picas}
+\PYG{g+go}{Mano Chris escogio Jota de Picas}
+\PYG{g+go}{Mano Chris: Jota de Treboles se empareja con Jota de Picas}
+\PYG{g+go}{Mano Jeff escogio Rey de Picas}
+\PYG{g+go}{Mano Jeff: Rey de Treboles se empareja con Rey de Picas}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} Game is Over}
+\PYG{g+go}{Mano Allen esta vacia}
+
+\PYG{g+go}{Mano Jeff contiene}
+\PYG{g+go}{Reina de Picas}
+
+\PYG{g+go}{Mano Chris esta vacia}
+\end{Verbatim}

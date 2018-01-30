@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{combatientes} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}guerra\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}hambruna\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}peste\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}muerte\PYGZdq{}}\PYG{p}{]}
+
+\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{while} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{combatientes}\PYG{p}{):}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{combatientes}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}
+  \PYG{n}{i} \PYG{o}{=} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}
+\end{Verbatim}

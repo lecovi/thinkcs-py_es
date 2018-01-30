@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mano}\PYG{p}{(}\PYG{n}{Mazo}\PYG{p}{):}
+  \PYG{k}{pass}
+\end{Verbatim}

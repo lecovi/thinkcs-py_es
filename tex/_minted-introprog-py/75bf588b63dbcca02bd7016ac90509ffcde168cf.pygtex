@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area2}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,} \PYG{n}{yc}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{yp}\PYG{p}{):}
+  \PYG{n}{radio} \PYG{o}{=} \PYG{n}{distancia}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,} \PYG{n}{yc}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{yp}\PYG{p}{)}
+  \PYG{n}{resultado} \PYG{o}{=} \PYG{n}{area}\PYG{p}{(}\PYG{n}{radio}\PYG{p}{)}
+  \PYG{k}{return} \PYG{n}{resultado}
+\end{Verbatim}

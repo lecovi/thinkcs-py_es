@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cuentaLetras} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{for} \PYG{n}{letra} \PYG{o+ow}{in} \PYG{l+s+s2}{\PYGZdq{}Mississippi\PYGZdq{}}\PYG{p}{:}
+\PYG{g+go}{      cuentaLetras[letra] = cuentaLetras.get(letra, 0)+1}
+
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cuentaLetras}
+\PYG{g+go}{\PYGZob{}\PYGZsq{}M\PYGZsq{}: 1, \PYGZsq{}s\PYGZsq{}: 4, \PYGZsq{}p\PYGZsq{}: 2, \PYGZsq{}i\PYGZsq{}: 4\PYGZcb{}}
+\end{Verbatim}

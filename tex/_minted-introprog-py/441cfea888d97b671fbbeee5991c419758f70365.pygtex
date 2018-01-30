@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{JuegoSolterona}\PYG{p}{(}\PYG{n}{JuegoDeCartas}\PYG{p}{):}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{jugarUnTurno}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{i}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{estaVacia}\PYG{p}{():}
+      \PYG{k}{return} \PYG{l+m+mi}{0}
+    \PYG{n}{vecino} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{encontrarVecino}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+    \PYG{n}{cartaEscogida} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{vecino}\PYG{p}{]}\PYG{o}{.}\PYG{n}{eliminarCarta}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{agregarCarta}\PYG{p}{(}\PYG{n}{cartaEscogida}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Mano\PYGZdq{}}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{nombre}\PYG{p}{,}
+          \PYG{l+s+s2}{\PYGZdq{}escogio\PYGZdq{}}\PYG{p}{,} \PYG{n}{cartaEscogida}\PYG{p}{)}
+    \PYG{n}{cont} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{eliminarParejas}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{barajar}\PYG{p}{()}
+    \PYG{k}{return} \PYG{n}{cont}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{m} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Oh, mundo cruel.\PYGZsq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{imprimaDoble}\PYG{p}{(}\PYG{n}{m}\PYG{p}{)}
+\PYG{g+go}{Oh, mundo cruel. Oh, mundo cruel.}
+\end{Verbatim}

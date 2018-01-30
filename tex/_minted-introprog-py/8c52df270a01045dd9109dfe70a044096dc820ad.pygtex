@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{nombre} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Cual es tu nombre? \PYGZdq{}}\PYG{p}{)}
+\PYG{g+go}{Cual es tu nombre? Arturo, Rey de los Bretones!}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{nombre}\PYG{p}{)}
+\PYG{g+go}{Arturo, Rey de los Bretones!}
+\end{Verbatim}

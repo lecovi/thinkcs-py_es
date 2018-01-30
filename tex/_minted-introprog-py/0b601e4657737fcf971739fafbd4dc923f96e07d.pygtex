@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{factorial} \PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+  \PYG{k}{if} \PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)} \PYG{o}{!=} \PYG{n+nb}{type}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Factorial solo esta definido para enteros.\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+  \PYG{k}{elif} \PYG{n}{n} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Factorial solo esta definido para positivos\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+  \PYG{k}{elif} \PYG{n}{n} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{k}{return} \PYG{l+m+mi}{1}
+  \PYG{k}{else}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n}{n} \PYG{o}{*} \PYG{n}{factorial}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+\end{Verbatim}

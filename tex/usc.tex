@@ -1,3 +1,4 @@
+% First page ---------------------------------------------------------------------------------
 \thispagestyle{empty} 
 
 \vfill{}
@@ -10,84 +11,94 @@
 \par\end{center}
 
 \begin{center}
-\textbf{\Large{}Andrés Becerra Sandoval}{\huge{} }
+\textbf{\Large{}\AutorNombreCompleto}{\huge{} }
 \par\end{center}{\huge \par}
 
 \vfill{}
 \begin{flushright}
 {\small{}Traducción y Adaptación del libro }\\
-{\small{}\flqq{}How to think like a computer scientist, learning
-with Python\frqq{}, }\\
+{\small{}``How to think like a computer scientist, learning with Python", }\\
 {\small{} escrito por: }\\
 {\small{} Allen Downey}\\
 {\small{} Jeffrey Elkner}\\
 {\small{} Chris Meyers}\\
+{\small{} traducido por: }\\
+{\small{} Andrés Becerra Sandoval }\\
 {\small{} } 
 \par\end{flushright}
 
 \vfill{}
 \begin{center}
-\includegraphics[scale=0.3]{illustrations/logo/usclogo} 
+\includegraphics[scale=0.3]{illustrations/logotipo-alpha.png} 
 \par\end{center}
 
 \begin{center}
-{\Large{}Facultad de Ingeniería} 
+{\Large{}\BitsonCoop} 
 \par\end{center}
 
 \vfill{}
 
+% end of First page ---------------------------------------------------------------------------------
+
+\newpage{}
 \newpage{}
 
+% version -------------------------------------------------------------------------------------------
+
 \thispagestyle{empty} \vfill{}
-\includegraphics[scale=0.3]{illustrations/logo/usclogo} \\
+\includegraphics[scale=0.3]{illustrations/logotipo-alpha.png} \\
 
 \parindent0pt {\tiny{}\ }{\tiny \par}
 
-{\scriptsize{}Rector: Carlos Andrés Perez.}\\
-{\scriptsize{} Vicerrector Académico: }\\
-{\scriptsize{} }{\scriptsize \par}
-
-{\scriptsize{}Facultad de Ingeniería}\\
-{\scriptsize{} Decano Académico: Jorge Antonio Silva Ph.D }\\
-{\scriptsize{}Directorr del departamento de Tecnologías de la información
-y la comunicación: Diego Duque}\\
-{\scriptsize \par}
+%{\scriptsize{}Rector: Carlos Andrés Perez.}\\
+%{\scriptsize{} Vicerrector Académico: }\\
+%{\scriptsize{} }{\scriptsize \par}
+%
+%{\scriptsize{}Facultad de Ingeniería}\\
+%{\scriptsize{} Decano Académico: Jorge Antonio Silva Ph.D }\\
+%{\scriptsize{}Directorr del departamento de Tecnologías de la información
+%y la comunicación: Diego Duque}\\
+%{\scriptsize \par}
 
 {\scriptsize{}Titulo: \introprog }\\
-{\scriptsize{} Titulo original: How to think like a computer scientist,
-learning with Python Autores: Allen Downey, Jeffrey Elkner, Chris
-Meyers }\\
-{\scriptsize{} Traducción y adaptación: Andrés Becerra Sandoval }\\
-{\scriptsize{} Colección: Libro}\\
+{\scriptsize{}Autor: \AutorNombreCompleto}
+{\scriptsize{}Titulo original: How to think like a computer scientist, learning with Python}\\
+{\scriptsize{}Autores: Allen Downey, Jeffrey Elkner, Chris Meyers }\\
+{\scriptsize{}Traducción y adaptación original: Andrés Becerra Sandoval }\\
+%{\scriptsize{} Colección: Libro}\\
 {\scriptsize \par}
 
-{\scriptsize{}ISBN: }\\
+{\scriptsize{}ISBN: N/A}\\
 {\scriptsize \par}
 
-{\scriptsize{}Coordinador Editorial: }\\
-{\scriptsize{} Email: @usc.edu.co}{\scriptsize \par}
-
-{\scriptsize{}© Derechos Reservados}\\
-{\scriptsize{} © Editorial USC}\\
-{\scriptsize \par}
+%{\scriptsize{}Coordinador Editorial: }\\
+%{\scriptsize{}Email: @usc.edu.co}{\scriptsize \par}
+%
+%{\scriptsize{}© Derechos Reservados}\\
+%{\scriptsize{}© Editorial USC}\\
+%{\scriptsize \par}
 
 {\scriptsize{}Correspondencia, suscripciones y solicitudes de canje:}\\
-{\scriptsize{} Calle }\\
-{\scriptsize{} Santiago de Cali, Valle del Cauca}\\
-{\scriptsize{} Universidad Santiago de Cali}\\
-{\scriptsize{} Facultad de Ingeniería}\\
-{\scriptsize{} Teléfonos: (57-2) Exts. - Fax }\\
-{\scriptsize{} Email: andres.becerra00@usc.edu.co }\\
+{\scriptsize{} Rivadavia 755, 3°15 }\\
+{\scriptsize{} Ciudad Autónoma de Buenos Aires, República Argentina}\\
+{\scriptsize{} \BitsonCoop}\\
+{\scriptsize{} \url{\BitsonURL}}\\
+{\scriptsize{} \texttt{\BitsonMail}}\\
+%{\scriptsize{} Teléfonos: (57-2) Exts. - Fax }\\
+%{\scriptsize{} Email: andres.becerra00@usc.edu.co }\\
 {\scriptsize \par}
 
 {\scriptsize{}Formato 17 x 25 cms}\\
 {\scriptsize{} % Diseño e Impresión: \\}{\scriptsize \par}
 
-{\scriptsize{}Diseño de Carátula: , basada en una imagen de Ken Manheimer
-}\\
-{\scriptsize{}\url{ http://myriadicity.net}}{\scriptsize \par}
+%{\scriptsize{}Diseño de Carátula:, basada en una imagen de Ken Manheimer}\\
+%{\scriptsize{}\url{ http://myriadicity.net}}{\scriptsize \par}
 
-{\scriptsize{}Impresión: 2017} \newpage{}
+{\scriptsize{} Impresión: \Fecha}
+
+% end of version -------------------------------------------------------------------------------------------
+
+\newpage{}
 
 \thispagestyle{empty} \vspace{0.25in}
 
@@ -105,21 +116,21 @@ La GNU Free Documentation License también está disponible a través
 de \url{www.gnu.org} o escribiendo a la Free Software Foundation,
 Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
 
-La forma original de este libro es código fuente \LyX{}\ y compilarlo
+La forma original de este libro es código fuente LyX %\LyX{}\ 
+y compilarlo
 tiene el efecto de generar un libro de texto en una representación
 independiente del dispositivo que puede ser convertida a otros formatos
 e imprimirse.
 
-El código fuente \LyX{}, \LaTeX{}, xfig para este libro y mas información
+El código fuente \LaTeX{}, xfig para este libro y mas información
 sobre este proyecto se encuentra en los sitios web:
 
-\url{https://github.com/abecerra/thinkcs-py_es}
+Repositorio: \url{https://github.com/lecovi/thinkcs-py_es}
 
-\url{   http://www.thinkpython.com}
+Sitio Web del Libro Original: \url{http://greenteapress.com/wp/think-python-2e/}
 
-Este libro ha sido preparado utilizando \LyX{}, \LaTeX{}\ y las
-figuras se han realizado con xfig. Todos estos son programas de código
-abierto, gratuito.
+Este libro ha sido preparado utilizando \LaTeX{}\ y las figuras se han realizado con xfig.
+Todos estos son programas de código abierto, gratuito.
 
 \vspace{0.25in}
 
@@ -136,13 +147,13 @@ Santiago de Cali, Editorial USC, 2017. \\
 \\
 Incluye referencias bibliográficas e índice.\\
 \\
-ISBN \\
+ISBN \textit{N/A}\\
 \\
-1. Programación (computadores electrónicos) – Metodología 2. Python
-(lenguaje de programación para computadores) I. Meyer, Chris II. Universidad
-Santiago de Cali III. How to think like a computer scientist: learning
-with python IV. Tít. \\
-\\
-
-SCDD 005.1 \hfill{} USC%
+%1. Programación (computadores electrónicos) – Metodología 2. Python
+%(lenguaje de programación para computadores) I. Meyer, Chris II. Universidad
+%Santiago de Cali III. How to think like a computer scientist: learning
+%with python IV. Tít. \\
+%\\
+%
+%SCDD 005.1 \hfill{} USC%
 \end{minipage}}

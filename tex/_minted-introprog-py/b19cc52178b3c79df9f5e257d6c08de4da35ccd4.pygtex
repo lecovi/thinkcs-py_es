@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{l+m+mi}{0} \PYG{o}{\PYGZlt{}} \PYG{n}{x}\PYG{p}{:}
+  \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{10}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}x es un digito positivo.\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

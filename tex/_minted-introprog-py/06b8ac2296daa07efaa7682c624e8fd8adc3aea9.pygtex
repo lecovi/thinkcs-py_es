@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{string}
+
+\PYG{k}{def} \PYG{n+nf}{esMinuscula}\PYG{p}{(}\PYG{n}{c}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{string}\PYG{o}{.}\PYG{n}{ascii\PYGZus{}lowercase}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{n}{c}\PYG{p}{)} \PYG{o}{!=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+\end{Verbatim}

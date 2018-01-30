@@ -1,0 +1,31 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{JuegoSolterona}\PYG{p}{(}\PYG{n}{JuegoDeCartas}\PYG{p}{):}
+  \PYG{k}{def} \PYG{n+nf}{jugar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{nombres}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} elimina la Reina de Treboles}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{mazo}\PYG{o}{.}\PYG{n}{eliminarCarta}\PYG{p}{(}\PYG{n}{Carta}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{12}\PYG{p}{))}
+
+    \PYG{c+c1}{\PYGZsh{} prepara una mano para cada jugador}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{nombre} \PYG{o+ow}{in} \PYG{n}{nombres} \PYG{p}{:}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{ManoJuegoSolterona}\PYG{p}{(}\PYG{n}{nombre}\PYG{p}{))}
+
+    \PYG{c+c1}{\PYGZsh{} reparte las  cartas}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{mazo}\PYG{o}{.}\PYG{n}{repartir}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} Cartas repartidas!\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{imprimirManos}\PYG{p}{()}
+
+    \PYG{c+c1}{\PYGZsh{} quitar parejas iniciales}
+    \PYG{n}{parejas} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{eliminarParejas}\PYG{p}{()}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} Parejas descartadas, comienza el juego\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{imprimirManos}\PYG{p}{()}
+
+    \PYG{c+c1}{\PYGZsh{} jugar hasta que las 50 cartas sean descartadas}
+    \PYG{n}{turno} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{n}{numManos} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{)}
+    \PYG{k}{while} \PYG{n}{parejas} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{25}\PYG{p}{:}
+      \PYG{n}{parejas} \PYG{o}{=} \PYG{n}{parejas}\PYG{o}{+}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{jugarUnTurno}\PYG{p}{(}\PYG{n}{turno}\PYG{p}{)}
+      \PYG{n}{turno} \PYG{o}{=} \PYG{p}{(}\PYG{n}{turno} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{\PYGZpc{}} \PYG{n}{numManos}
+
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} Juego terminado\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{printManos}\PYG{p}{()}
+\end{Verbatim}

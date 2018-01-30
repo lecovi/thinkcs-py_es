@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mensaje} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}¿Qué Onda?\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{17}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{pi} \PYG{o}{=} \PYG{l+m+mf}{3.14159}
+\end{Verbatim}

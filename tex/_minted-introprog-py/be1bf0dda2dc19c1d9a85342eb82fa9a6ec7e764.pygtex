@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{JuegoSolterona}\PYG{p}{(}\PYG{n}{JuegoDeCartas}\PYG{p}{):}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{encontrarVecino}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{i}\PYG{p}{):}
+    \PYG{n}{numManos} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{siguiente} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numManos}\PYG{p}{):}
+      \PYG{n}{vecino} \PYG{o}{=} \PYG{p}{(}\PYG{n}{i} \PYG{o}{+} \PYG{n}{siguiente}\PYG{p}{)} \PYG{o}{\PYGZpc{}} \PYG{n}{numManos}
+      \PYG{k}{if} \PYG{o+ow}{not} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{vecino}\PYG{p}{]}\PYG{o}{.}\PYG{n}{estaVacia}\PYG{p}{():}
+        \PYG{k}{return} \PYG{n}{vecino}
+\end{Verbatim}

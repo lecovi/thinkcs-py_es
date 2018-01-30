@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mazo}\PYG{p}{:}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{eliminarCarta}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{carta}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n}{carta} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{p}{:}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{o}{.}\PYG{n}{remove}\PYG{p}{(}\PYG{n}{carta}\PYG{p}{)}
+      \PYG{k}{return} \PYG{n+nb+bp}{True}
+    \PYG{k}{else}\PYG{p}{:}
+      \PYG{k}{return} \PYG{n+nb+bp}{True}
+\end{Verbatim}

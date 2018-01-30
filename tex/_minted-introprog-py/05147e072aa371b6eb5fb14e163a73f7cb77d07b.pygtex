@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{area}\PYG{p}{(}\PYG{n}{lado}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{} Calcula el area de un cuadrado}
+\PYG{l+s+sd}{        Parámetros:}
+\PYG{l+s+sd}{            radio: número}
+\PYG{l+s+sd}{        Pruebas:}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} area(1)}
+\PYG{l+s+sd}{        1}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} area(2)}
+\PYG{l+s+sd}{        4}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} area(4)}
+\PYG{l+s+sd}{        16}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} area(10)}
+\PYG{l+s+sd}{        100}
+
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{lado}\PYG{o}{**}\PYG{l+m+mi}{2}
+
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZsq{}}\PYG{p}{:}
+    \PYG{k+kn}{import} \PYG{n+nn}{doctest}
+    \PYG{n}{doctest}\PYG{o}{.}\PYG{n}{testmod}\PYG{p}{()}
+\end{Verbatim}

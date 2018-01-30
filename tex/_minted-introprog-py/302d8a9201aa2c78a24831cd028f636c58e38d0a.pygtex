@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{incrementar}\PYG{p}{(}\PYG{n}{h}\PYG{p}{,} \PYG{n}{segundos}\PYG{p}{):}
+  \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{+} \PYG{n}{segundos}
+
+  \PYG{k}{if} \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+    \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n}{h}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+    \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+  \PYG{k}{if} \PYG{n}{h}\PYG{o}{.}\PYG{n}{minuto} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+    \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n}{h}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+    \PYG{n}{h}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{n}{h}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+  \PYG{k}{return} \PYG{n}{h}
+\end{Verbatim}

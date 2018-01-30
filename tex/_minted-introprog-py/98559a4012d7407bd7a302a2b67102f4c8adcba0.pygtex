@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{juego} \PYG{o}{=} \PYG{n}{JuegoDeCartas}\PYG{p}{()}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mano} \PYG{o}{=} \PYG{n}{ManoSolterona}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}frank\PYGZdq{}}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{juego}\PYG{o}{.}\PYG{n}{mazo}\PYG{o}{.}\PYG{n}{repartir}\PYG{p}{([}\PYG{n}{mano}\PYG{p}{],} \PYG{l+m+mi}{13}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{mano}\PYG{p}{)}
+\PYG{g+go}{Mano frank contiene}
+\PYG{g+go}{As de Picas}
+\PYG{g+go}{ 2 de Diamantes}
+\PYG{g+go}{  7 de Picas}
+\PYG{g+go}{   8 de Treboles}
+\PYG{g+go}{    6 de Corazones}
+\PYG{g+go}{     8 de Picas}
+\PYG{g+go}{      7 de Treboles}
+\PYG{g+go}{       Reina de Treboles}
+\PYG{g+go}{        7 de Diamantes}
+\PYG{g+go}{         5 de Treboles}
+\PYG{g+go}{          Jota de Diamantes}
+\PYG{g+go}{           10 de Diamantes}
+\PYG{g+go}{            10 de Corazones}
+
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{mano}\PYG{o}{.}\PYG{n}{quitarPareja}\PYG{p}{()}
+\PYG{g+go}{Mano frank: 7 de Picas se empareja con 7 de Treboles}
+\PYG{g+go}{Mano frank: 8 de Picas se empareja con 8 de Treboles}
+\PYG{g+go}{Mano frank: 10 de Diamantes se empareja con 10 de Corazones}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{mano}\PYG{p}{)}
+\PYG{g+go}{Mano frank contiene}
+\PYG{g+go}{Ace de Picas}
+\PYG{g+go}{ 2 de Diamantes}
+\PYG{g+go}{  6 de Corazones}
+\PYG{g+go}{   Reina de Treboles}
+\PYG{g+go}{    7 de Diamantes}
+\PYG{g+go}{     5 de Treboles}
+\PYG{g+go}{      Jota de Diamantes}
+\end{Verbatim}

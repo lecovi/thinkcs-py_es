@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{limpio}\PYG{o}{.}\PYG{n}{y}\PYG{p}{)}
+\PYG{g+go}{4.0}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{x} \PYG{o}{=} \PYG{n}{limpio}\PYG{o}{.}\PYG{n}{x}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{g+go}{3.0}
+\end{Verbatim}

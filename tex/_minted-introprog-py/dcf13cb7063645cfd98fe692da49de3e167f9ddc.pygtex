@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{anteriores} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi+il}{1L}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi+il}{1L}\PYG{p}{\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{fibonacci}\PYG{p}{(}\PYG{l+m+mi}{50}\PYG{p}{)}
+\PYG{g+go}{20365011074L}
+\end{Verbatim}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{math}
+
+\PYG{k}{def} \PYG{n+nf}{imprimirLogaritmo}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+  \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Numeros positivos solamente. Por favor\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{return}
+
+  \PYG{n}{result} \PYG{o}{=} \PYG{n}{math}\PYG{o}{.}\PYG{n}{log}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}El logaritmo de \PYGZdq{}}\PYG{p}{,}  \PYG{n}{x} \PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{} es \PYGZdq{}}\PYG{p}{,} \PYG{n}{result}\PYG{p}{)}
+\end{Verbatim}

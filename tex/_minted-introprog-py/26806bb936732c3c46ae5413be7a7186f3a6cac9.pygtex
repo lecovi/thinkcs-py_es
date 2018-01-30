@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{tarifas} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}maria\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mf}{6.23}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}jose\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mf}{5.45}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}jesus\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mf}{4.25}\PYG{p}{\PYGZcb{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{informe} \PYG{p}{(}\PYG{n}{tarifas}\PYG{p}{)}
+\PYG{g+go}{jose                         5.45}
+\PYG{g+go}{jesus                        4.25}
+\PYG{g+go}{maria                        6.23}
+\end{Verbatim}

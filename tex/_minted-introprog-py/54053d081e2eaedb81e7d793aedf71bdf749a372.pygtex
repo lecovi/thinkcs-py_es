@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{resultado} \PYG{o}{=} \PYG{n}{area}\PYG{p}{(}\PYG{n}{radio}\PYG{p}{)}
+\PYG{k}{return} \PYG{n}{resultado}
+\end{Verbatim}

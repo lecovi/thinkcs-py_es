@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{fruta} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}banano\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}manzana\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}pera\PYGZdq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{fruta}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}mandarina\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{fruta}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}naranja\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{fruta}\PYG{p}{)}
+\PYG{g+go}{[\PYGZsq{}mandarina\PYGZsq{}, \PYGZsq{}manzana\PYGZsq{}, \PYGZsq{}naranja\PYGZsq{}]}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}
+\PYG{k}{while} \PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{6}\PYG{p}{:}
+  \PYG{n}{imprimaMultiplos}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+  \PYG{n}{i} \PYG{o}{=} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}
+\end{Verbatim}

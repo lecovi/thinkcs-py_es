@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{tupla}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}A\PYGZsq{}}
+\PYG{g+go}{TypeError: object doesn\PYGZsq{}t support item assignment}
+\end{Verbatim}

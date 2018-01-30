@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{mismoPunto}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,} \PYG{n}{p2}\PYG{p}{)} \PYG{p}{:}
+  \PYG{k}{return} \PYG{p}{(}\PYG{n}{p1}\PYG{o}{.}\PYG{n}{x} \PYG{o}{==} \PYG{n}{p2}\PYG{o}{.}\PYG{n}{x}\PYG{p}{)} \PYG{o+ow}{and} \PYG{p}{(}\PYG{n}{p1}\PYG{o}{.}\PYG{n}{y} \PYG{o}{==} \PYG{n}{p2}\PYG{o}{.}\PYG{n}{y}\PYG{p}{)}
+\end{Verbatim}

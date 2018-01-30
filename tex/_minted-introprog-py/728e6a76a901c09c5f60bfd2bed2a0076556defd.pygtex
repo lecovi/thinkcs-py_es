@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{del} \PYG{n}{inventario}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}peras\PYGZsq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{inventario}\PYG{p}{)}
+\PYG{g+go}{\PYGZob{}\PYGZsq{}naranjas\PYGZsq{}: 525, \PYGZsq{}manzanas\PYGZsq{}: 430, \PYGZsq{}bananas\PYGZsq{}: 312\PYGZcb{}}
+\end{Verbatim}

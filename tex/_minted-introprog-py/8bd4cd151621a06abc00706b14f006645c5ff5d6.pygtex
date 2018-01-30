@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Número de minutos desde media noche: \PYGZdq{}}\PYG{p}{,}  \PYGZbs{}
+  \PYG{n}{hora}\PYG{o}{*}\PYG{l+m+mi}{60}\PYG{o}{+}\PYG{n}{minuto}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{distancia}\PYG{p}{(}\PYG{n}{x1}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{,} \PYG{n}{x2}\PYG{p}{,} \PYG{n}{y2}\PYG{p}{):}
+  \PYG{n}{dx} \PYG{o}{=} \PYG{n}{x2} \PYG{o}{\PYGZhy{}} \PYG{n}{x1}
+  \PYG{n}{dy} \PYG{o}{=} \PYG{n}{y2} \PYG{o}{\PYGZhy{}} \PYG{n}{y1}
+  \PYG{n}{discuadrado} \PYG{o}{=} \PYG{n}{dx}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{dy}\PYG{o}{**}\PYG{l+m+mi}{2}
+  \PYG{n}{resultado} \PYG{o}{=} \PYG{n}{math}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{discuadrado}\PYG{p}{)}
+  \PYG{k}{return} \PYG{n}{resultado}
+\end{Verbatim}

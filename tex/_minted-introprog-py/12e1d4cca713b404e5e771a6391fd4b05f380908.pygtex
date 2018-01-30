@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{numRegiones} \PYG{o}{=} \PYG{l+m+mi}{8}
+\PYG{n}{Regiones} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{*} \PYG{n}{numRegiones}
+\PYG{n}{ancho} \PYG{o}{=} \PYG{l+m+mf}{1.0} \PYG{o}{/} \PYG{n}{numRegiones}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{numRegiones}\PYG{p}{):}
+  \PYG{n}{inf} \PYG{o}{=} \PYG{n}{i} \PYG{o}{*} \PYG{n}{ancho}
+  \PYG{n}{sup} \PYG{o}{=} \PYG{n}{inf} \PYG{o}{+} \PYG{n}{ancho}
+  \PYG{n}{Regiones}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{enRegion}\PYG{p}{(}\PYG{n}{lista}\PYG{p}{,} \PYG{n}{inf}\PYG{p}{,} \PYG{n}{sup}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{Regiones}\PYG{p}{)}
+\end{Verbatim}

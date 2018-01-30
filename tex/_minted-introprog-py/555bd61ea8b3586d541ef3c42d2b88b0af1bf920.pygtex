@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{distancia}\PYG{p}{(}\PYG{n}{x1}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{,} \PYG{n}{x2}\PYG{p}{,} \PYG{n}{y2}\PYG{p}{):}
+  \PYG{n}{dx} \PYG{o}{=} \PYG{n}{x2} \PYG{o}{\PYGZhy{}} \PYG{n}{x1}
+  \PYG{n}{dy} \PYG{o}{=} \PYG{n}{y2} \PYG{o}{\PYGZhy{}} \PYG{n}{y1}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}dx es\PYGZdq{}}\PYG{p}{,} \PYG{n}{dx}\PYG{p}{)}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}dy es\PYGZdq{}}\PYG{p}{,} \PYG{n}{dy}\PYG{p}{)}
+  \PYG{k}{return} \PYG{l+m+mf}{0.0}
+\end{Verbatim}

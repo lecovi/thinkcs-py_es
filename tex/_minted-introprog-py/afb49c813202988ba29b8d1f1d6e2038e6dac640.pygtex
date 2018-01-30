@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{tiempo} \PYG{o}{=} \PYG{n}{Hora}\PYG{p}{()}
+\PYG{n}{tiempo}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{l+m+mi}{11}
+\PYG{n}{tiempo}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{l+m+mi}{59}
+\PYG{n}{tiempo}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{l+m+mi}{30}
+\end{Verbatim}

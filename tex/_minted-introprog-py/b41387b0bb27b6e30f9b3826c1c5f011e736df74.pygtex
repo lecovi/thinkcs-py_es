@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cancion} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}La vida es un ratico...\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{n}{cancion}\PYG{p}{)}
+\PYG{g+go}{[\PYGZsq{}La\PYGZsq{}, \PYGZsq{}vida\PYGZsq{}, \PYGZsq{}es\PYGZsq{}, \PYGZsq{}un\PYGZsq{}, \PYGZsq{}ratico...\PYGZsq{}]}
+\end{Verbatim}

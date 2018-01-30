@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{palabra} \PYG{o}{\PYGZlt{}} \PYG{l+s+s2}{\PYGZdq{}banana\PYGZdq{}}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Su palabra,\PYGZdq{}} \PYG{o}{+} \PYG{n}{palabra} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, va antes que banana.\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{elif} \PYG{n}{palabra} \PYG{o}{\PYGZgt{}} \PYG{l+s+s2}{\PYGZdq{}banana\PYGZdq{}}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Su palabra,\PYGZdq{}} \PYG{o}{+} \PYG{n}{palabra} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, va despu�s de banana.\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}No hay banana!\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

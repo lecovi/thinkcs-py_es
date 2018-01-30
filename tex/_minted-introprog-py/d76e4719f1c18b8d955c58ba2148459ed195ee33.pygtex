@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{=} \PYG{n}{caja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{+} \PYG{l+m+mi}{50}
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{=} \PYG{n}{caja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{+} \PYG{l+m+mi}{100}
+\end{Verbatim}

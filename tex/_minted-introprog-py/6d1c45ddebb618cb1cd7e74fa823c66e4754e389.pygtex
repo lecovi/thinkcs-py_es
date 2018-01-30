@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{agregarCarta}\PYG{p}{(} \PYGZbs{}
+  \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{encontrarVecino}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)]}\PYG{o}{.}\PYG{n}{eliminarCarta}\PYG{p}{())}
+ \PYG{n}{Esto} \PYG{n}{puede} \PYG{n}{reescribirse} \PYG{n}{como}\PYG{p}{:}
+
+\PYG{n}{vecino} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{encontrarVecino} \PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+\PYG{n}{cartaEscogida} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{vecino}\PYG{p}{]}\PYG{o}{.}\PYG{n}{eliminarCarta}\PYG{p}{()}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{manos}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{agregarCarta}\PYG{p}{(}\PYG{n}{cartaEscogida}\PYG{p}{)}
+\end{Verbatim}

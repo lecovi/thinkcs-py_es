@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }  \PYG{n}{f} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}/usr/share/dict/words\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}r\PYGZdq{}}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }  \PYG{k}{print}\PYG{p}{(}\PYG{n}{f}\PYG{o}{.}\PYG{n}{readline}\PYG{p}{())}
+\PYG{g+go}{Aarhus}
+\end{Verbatim}

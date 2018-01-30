@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}e\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}f\PYGZsq{}}\PYG{p}{]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{]}
+\PYG{g+go}{[\PYGZsq{}b\PYGZsq{}, \PYGZsq{}c\PYGZsq{}]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista}\PYG{p}{[:}\PYG{l+m+mi}{4}\PYG{p}{]}
+\PYG{g+go}{[\PYGZsq{}a\PYGZsq{}, \PYGZsq{}b\PYGZsq{}, \PYGZsq{}c\PYGZsq{}, \PYGZsq{}d\PYGZsq{}]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{:]}
+\PYG{g+go}{[\PYGZsq{}d\PYGZsq{}, \PYGZsq{}e\PYGZsq{}, \PYGZsq{}f\PYGZsq{}]}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lista}\PYG{p}{[:]}
+\PYG{g+go}{[\PYGZsq{}a\PYGZsq{}, \PYGZsq{}b\PYGZsq{}, \PYGZsq{}c\PYGZsq{}, \PYGZsq{}d\PYGZsq{}, \PYGZsq{}e\PYGZsq{}, \PYGZsq{}f\PYGZsq{}]}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mano}\PYG{p}{(}\PYG{n}{Mazo}\PYG{p}{):}
+  \PYG{o}{...}
+  \PYG{k}{def} \PYG{n+nf}{agregarCarta}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{carta}\PYG{p}{)} \PYG{p}{:}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{carta}\PYG{p}{)}
+\end{Verbatim}

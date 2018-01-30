@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{VARIABLE} \PYG{o+ow}{in} \PYG{n}{LISTA}\PYG{p}{:}
+  \PYG{n}{CUERPO}
+\end{Verbatim}

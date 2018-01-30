@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{fruta} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}banano\PYGZdq{}}
+\PYG{n}{bienCocinada} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{} pan con nueces\PYGZdq{}}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{fruta} \PYG{o}{+} \PYG{n}{bienCocinada}\PYG{p}{)}
+\end{Verbatim}

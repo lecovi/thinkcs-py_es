@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Mazo}\PYG{p}{:}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{figura} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{):}
+      \PYG{k}{for} \PYG{n}{valor} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{14}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cartas}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{Carta}\PYG{p}{(}\PYG{n}{figura}\PYG{p}{,} \PYG{n}{valor}\PYG{p}{))}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{indice} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{while} \PYG{n}{indice} \PYG{o}{\PYGZlt{}} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{fruta}\PYG{p}{):}
+  \PYG{n}{letra} \PYG{o}{=} \PYG{n}{fruta}\PYG{p}{[}\PYG{n}{indice}\PYG{p}{]}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{letra}\PYG{p}{)}
+  \PYG{n}{indice} \PYG{o}{=} \PYG{n}{indice} \PYG{o}{+} \PYG{l+m+mi}{1}
+\end{Verbatim}

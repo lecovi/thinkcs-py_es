@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{NOMBRE}\PYG{p}{(} \PYG{n}{LISTA} \PYG{n}{DE} \PYG{n}{PARAMETROS} \PYG{p}{):}
+  \PYG{n}{SENTENCIAS}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cantar1} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Pie Jesu domine, \PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{cantar2} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Dona eis requiem.\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{concatenarDoble}\PYG{p}{(}\PYG{n}{cantar1}\PYG{p}{,} \PYG{n}{cantar2}\PYG{p}{)}
+\PYG{g+go}{Pie Jesu domine, Dona eis requiem. Pie Jesu domine, Dona}
+\PYG{g+go}{eis requiem.}
+\end{Verbatim}

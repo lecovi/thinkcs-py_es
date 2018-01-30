@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{caja} \PYG{o}{=} \PYG{n}{Rectangulo}\PYG{p}{()}
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{=} \PYG{l+m+mf}{100.0}
+\PYG{n}{caja}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{=} \PYG{l+m+mf}{200.0}
+\end{Verbatim}

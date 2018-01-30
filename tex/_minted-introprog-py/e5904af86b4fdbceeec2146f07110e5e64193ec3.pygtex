@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Hora}\PYG{p}{:}
+  \PYG{c+c1}{\PYGZsh{} Las definiciones anteriores van aquí...}
+
+  \PYG{k}{def} \PYG{n+nf}{incrementar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{segundos}\PYG{p}{):}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{+} \PYG{n}{segundos}
+
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{segundos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+    \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{60}\PYG{p}{:}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{minutos} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}
+      \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{hora} \PYG{o}{+} \PYG{l+m+mi}{1}
+
+    \PYG{k}{return} \PYG{n+nb+bp}{self}
+\end{Verbatim}

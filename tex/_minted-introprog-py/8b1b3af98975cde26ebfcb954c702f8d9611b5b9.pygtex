@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{imprimaMultiplos}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{tope}\PYG{p}{):}
+  \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}
+  \PYG{k}{while} \PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{n}{tope}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{n}\PYG{o}{*}\PYG{n}{i}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{i} \PYG{o}{=} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}
+  \PYG{k}{print}\PYG{p}{()}
+
+\PYG{k}{def} \PYG{n+nf}{imprimaTabla}\PYG{p}{(}\PYG{n}{tope}\PYG{p}{):}
+  \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}
+  \PYG{k}{while} \PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{n}{tope}\PYG{p}{:}
+    \PYG{n}{imprimaMultiplos}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,} \PYG{n}{tope}\PYG{p}{)}
+    \PYG{n}{i} \PYG{o}{=} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}
+\end{Verbatim}

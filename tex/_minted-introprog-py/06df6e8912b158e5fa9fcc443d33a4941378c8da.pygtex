@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{type}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}17\PYGZdq{}}\PYG{p}{)}
+\PYG{g+go}{str}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n+nb}{type}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}3.2\PYGZdq{}}\PYG{p}{)}
+\PYG{g+go}{str}
+\end{Verbatim}

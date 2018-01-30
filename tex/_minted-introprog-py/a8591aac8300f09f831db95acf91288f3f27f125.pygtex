@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{matriz}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}
+\PYG{g+go}{[4, 5, 6]}
+\end{Verbatim}

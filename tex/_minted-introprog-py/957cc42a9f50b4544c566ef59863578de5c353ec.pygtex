@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b} \PYG{o}{=} \PYG{n}{Rectangulo}\PYG{p}{()}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b}\PYG{o}{.}\PYG{n}{ancho} \PYG{o}{=} \PYG{l+m+mf}{100.0}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b}\PYG{o}{.}\PYG{n}{altura} \PYG{o}{=} \PYG{l+m+mf}{200.0}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b}\PYG{o}{.}\PYG{n}{esquina} \PYG{o}{=} \PYG{n}{Punto}\PYG{p}{()}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b}\PYG{o}{.}\PYG{n}{esquina}\PYG{o}{.}\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{b}\PYG{o}{.}\PYG{n}{esquina}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{agrandarRect}\PYG{p}{(}\PYG{n}{b}\PYG{p}{,} \PYG{l+m+mi}{50}\PYG{p}{,} \PYG{l+m+mi}{100}\PYG{p}{)}
+\end{Verbatim}

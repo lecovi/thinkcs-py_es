@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{radio} \PYG{o}{=} \PYG{n}{distancia}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,} \PYG{n}{yc}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{yp}\PYG{p}{)}
+\end{Verbatim}

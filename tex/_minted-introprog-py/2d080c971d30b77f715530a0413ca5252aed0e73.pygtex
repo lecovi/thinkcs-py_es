@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+m+mi}{5} \PYG{o}{==} \PYG{l+m+mi}{5}
+\PYG{g+go}{True}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+m+mi}{5} \PYG{o}{==} \PYG{l+m+mi}{6}
+\PYG{g+go}{False}
+\end{Verbatim}

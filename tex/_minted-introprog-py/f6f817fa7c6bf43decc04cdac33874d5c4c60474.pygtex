@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p2} \PYG{o}{=} \PYG{n}{p1}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{p1} \PYG{o}{==} \PYG{n}{p2}
+\PYG{g+go}{True}
+\end{Verbatim}

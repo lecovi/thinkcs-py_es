@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{f} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}test.dat\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}w\PYGZdq{}}\PYG{p}{)}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{k}{print}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}
+\PYG{g+go}{\PYGZlt{}open file \PYGZsq{}test.dat\PYGZsq{}, mode \PYGZsq{}w\PYGZsq{} at fe820\PYGZgt{}}
+\end{Verbatim}

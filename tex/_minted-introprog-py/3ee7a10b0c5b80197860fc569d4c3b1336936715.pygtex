@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{elimina\PYGZus{}todo}\PYG{p}{(}\PYG{n}{sub}\PYG{p}{,} \PYG{n}{s}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}todo(\PYGZsq{}an\PYGZsq{}, \PYGZsq{}banana\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}ba\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}todo(\PYGZsq{}cic\PYGZsq{}, \PYGZsq{}bicicleta\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}bileta\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}todo(\PYGZsq{}iss\PYGZsq{}, \PYGZsq{}Mississippi\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}Mippi\PYGZsq{}}
+\PYG{l+s+sd}{      \PYGZgt{}\PYGZgt{}\PYGZgt{} elimina\PYGZus{}todo(\PYGZsq{}huevos\PYGZsq{}, \PYGZsq{}bicicleta\PYGZsq{})}
+\PYG{l+s+sd}{      \PYGZsq{}bicicleta\PYGZsq{}}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

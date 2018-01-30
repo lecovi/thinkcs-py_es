@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{n}{y}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}es menor que\PYGZdq{}}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)}
+\PYG{k}{elif} \PYG{n}{x} \PYG{o}{\PYGZgt{}} \PYG{n}{y}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}es mayor que\PYGZdq{}}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+  \PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}y\PYGZdq{}}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}son iguales\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}
